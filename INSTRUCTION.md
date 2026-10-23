@@ -11,3 +11,5 @@ ollama pull qwen3.5:4b
 
 # 対話スクリプトの起動
 python3 ollama.py
+
+test
