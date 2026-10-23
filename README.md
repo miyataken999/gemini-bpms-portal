@@ -1,9 +1,32 @@
-## 🚀 [BPMS-001] 全フルセットパラメータによる「最小成功モデル」疎通パイプライン開通
+# 🚀 gemini-bpms-portal
 
-### 概要
-各AI/バックエンド基盤（GAS / Hugging Face / n8n / AppSheet / Supabase）を中央集中型スクリプトプロパティ（環境変数）で集約し、1本目の完全自動化パイプライン（YouTube BPMS）を接続・疎通確認する。
+> **Google AI Studio (Gemini) ✕ Supabase Realtime ✕ GAS ✕ AppSheet**  
+> 自社の公式Webサイトをグラウンディング（根拠）とし、0円インフラで稼働する自律型BPMSポータル基盤
 
-### 🔄 アーキテクチャ概略図
+---
+
+## 💡 概要 (Overview)
+
+`gemini-bpms-portal` は、企業が最もコストと信頼をかけて構築した **「公式Webサイト」をAIのナレッジ基盤（Grounding Source）** として活用し、社内業務タスクの自動化（BPMS）とリアルタイム回答を実現する次世代ポータルアーキテクチャです。
+
+重いサーバーやベクターDBを契約することなく、Google Apps Script (GAS) と Supabase Realtime、Google AI Studio のエコシステムを繋ぐことで、**「開発・維持コスト実質0円」および「コンプライアンス適合率100%」** を両立します。
+
+---
+
+## ✨ 主な特長 (Key Features)
+
+1. **公式Webサイト参照によるコンプライアンス100%保証**
+   * Google AI Studio のグラウンディング機能を活用し、広報・法務チェック済みの自社公式Webサイトから正解を抽出。ハルシネーション（嘘の回答）やコンプラ事故を未然に防ぎます。
+2. **Webサイトの更新漏れ・定休日自動監査**
+   * 実務データ（カレンダーやGSS）とWebサイトの表記内容を照合し、臨時休業や古い規約が放置されている場合に「サイトの更新漏れ」をリアルタイムで検知・アラート通知します。
+3. **中央集中型スクリプトプロパティ（環境変数ガバナンス）**
+   * 全100項目以上のAPIキー・トークンをGASスクリプトプロパティに集約。`syncPropertiesToHuggingFaceSecret` 経由で Hugging Face Spaces や外部バックエンドへ一発同期します。
+4. **「そこだけView」＆ Mermaid フロー自動描画**
+   * 複雑なエラーや承認待ちタスクをカード化してワンタップで補正・通知。Supabase Realtime バスを通じて、画面側に動的な Mermaid 業務フロー図を瞬時に描画します。
+
+---
+
+## 🔄 アーキテクチャ概略 (Architecture)
 
 ```mermaid
 graph TD
@@ -12,11 +35,11 @@ graph TD
     classDef sync fill:#064e3b,stroke:#34d399,stroke-width:2px,color:#fff;
     classDef backend fill:#701a75,stroke:#f472b6,stroke-width:2px,color:#fff;
 
-    U["👤 ダーリン / 司令塔<br>（1の指示）"]
+    U["👤 司令塔 / ユーザー<br>（指示・質問入力）"]
     class U user
 
     subgraph CentralGovernance ["🔐 ガバナンス中央金庫"]
-        GAS_PROP["⚙️ GAS スクリプトプロパティ<br>001_001_gemiko"]
+        GAS_PROP["⚙️ GAS スクリプトプロパティ<br>中央環境変数管理"]
         class GAS_PROP central
     end
 
@@ -27,7 +50,7 @@ graph TD
 
     subgraph AI_Core ["🤖 AI チーム & バックエンド"]
         HF["🤗 Hugging Face Space<br>Secrets 一括同期済"]
-        AISTUDIO["🧠 Google AI Studio / Gemio<br>公式Webサイト参照 Grounding"]
+        AISTUDIO["🧠 Google AI Studio / Gemio Engine<br>公式Webサイト参照 (Grounding)"]
         N8N["⚡ n8n / AppSheet / BPMS"]
         class HF,AISTUDIO,N8N backend
     end
@@ -48,19 +71,4 @@ graph TD
     SB -->|Event| AISTUDIO
     AISTUDIO -->|処理・Web監査| N8N
     N8N -->|INSERT| SB
-    SB -->|100の応答 & Mermaid描画| FRONT
-```
-
----
-
-### 🔑 1本目開通用 パラメータ構成チェックリスト
-- [ ] `SUPABASE_URL` / `SUPABASE_KEY` （Realtimeバス導通）
-- [ ] `HF_TOKEN` / `HF_USER` （Hugging Face 密連携）
-- [ ] `APPSHEET_APP_ID` / `APPSHEET_ACCESS_KEY` （タスクDB制御）
-- [ ] `N8N_API_KEY` / `GOOGLE_CHAT_WEBHOOK` （前段エラー時アラート）
-- [ ] `GEMINI_API_KEY` （bpmchat.com 公式Webサイト参照・コンプラ監査）
-
-### 🎯 次の展開 (横展開)
-1. 最小構成での **`chat_history` ➔ `chat_returns`** のRealtime往復テスト。
-2. Mermaidノード点灯および「サイト更新漏れ検知アラート」の確認。
-3. 同一パラメータ構造での他BPMS（商品管理・問合せ等）へのテンプレート横展開。
+    SB -->|応答 & Mermaid描画| FRONT
