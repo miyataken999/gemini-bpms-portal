@@ -1,0 +1,59 @@
+pip install supabase
+python3 supabase_agent.py
+
+
+---
+
+### 💡 Codespaces / リポジトリへの作成手順
+
+ターミナルで以下のコマンドをサクッと打てば一瞬でファイル作成完了だよ！
+
+```bash
+touch AGENT.md INSTRUCTION.md
+
+Supabase Realtime と Python を連携するスクリプト `supabase_agent.py` を作成してください。
+
+【要件】
+1. Supabase の `chat_history` テーブルへの INSERT（新規メッセージ）を Realtime (WebSocket) で監視・検知すること。
+2. 受信したメッセージを引数として、Ollama CLI (`ollama run qwen3.5:4b`) を subprocess で呼び出し、AIの回答テキストを取得すること。
+3. 取得した回答を Supabase の `chat_returns` テーブルへ INSERT してリアルタイム返答すること。
+4. `supabase-py` ライブラリを使用し、エラーハンドリング（try-except）を含めること。
+5. そのまま実行可能な完全な Python コードを出力すること。
+
+
+cat << 'EOF' > Makefile
+PYTHON := python3
+PIP := pip3
+MODEL_NAME := qwen3.5:4b
+
+.PHONY: all help setup install pull-model run-cli run-agent clean
+
+help:
+	@echo "=================================================="
+	@echo "🚀 Gemi & BPMS Local Operations Command List"
+	@echo "=================================================="
+	@echo " make setup       : 依存パッケージ一括インストール"
+	@echo " make pull-model  : 推奨モデル (qwen3.5:4b) を取得"
+	@echo " make run-cli     : 超軽量対話ターミナル (ollama.py) 起動"
+	@echo " make run-agent   : Supabase ポーリング自動応答 (supabase_agent.py) 起動"
+	@echo " make clean       : キャッシュ削除"
+	@echo "=================================================="
+
+setup: install pull-model
+
+install:
+	$(PIP) install --upgrade pip
+	$(PIP) install supabase requests python-dotenv
+
+pull-model:
+	ollama pull $(MODEL_NAME)
+
+run-cli:
+	$(PYTHON) ollama.py
+
+run-agent:
+	$(PYTHON) supabase_agent.py
+
+clean:
+	find . -type d -name "__pycache__" -exec rm -rf {} +
+EOF
