@@ -1,0 +1,4480 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-print" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="left"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="top_c2" data-pageid="{$pageid}"	{$cell_top_c2}
+	class=" r-ori-vert			col-md-12
+	
+">
+		 
+		<h2 data-itemtype="print_header" data-itemid="print_header" {$item_print_header} data-pageid="{$pageid}" >{$pagetitlelabel TASK print}</h2>
+	 
+		{BEGIN printtabheader}
+<span data-itemtype="print_subheader" data-itemid="print_subheader" {$item_print_subheader} data-pageid="{$pageid}" >
+{$printtabheader_text}
+</span>
+{END printtabheader}
+		</div>					</div>
+			</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+		{BEGIN firstAboveGridCell}
+		 
+		<span data-itemtype="print_pages" data-itemid="print_pages" {$item_print_pages} data-pageid="{$pageid}" >
+	{$print_pages_labelprint_pages}
+</span>			{END firstAboveGridCell}	
+	</div>					</div>
+			</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+{BEGIN message_block}
+<div data-grid-message data-pageid="{$pageid}" class="alert {$message_class}" role="alert" {$grid_message_attrs}>{$message}</div>
+{END message_block}<table data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" class=" table table-condensed table-striped table-bordered r-horizontal-grid  rnr-b-grid rnr-gridtable"
+	cellpadding="0"
+	data-body-height="1"
+>
+						<thead>
+			{BEGIN grid_header}
+			
+																									<tr {$rowattrs} {$row_grid_0} class="{$rowclass}
+									{$gridHeader_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_headcell_field}
+	<th
+	
+	{$cell_grid_headcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$PRO_UID_class}	"
+
+			data-field="PRO_UID"
+	
+	data-cellId="grid_headcell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN PRO_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field66" {$item_simple_grid_field66} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="PRO_UID" data-fieldname="PRO_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK PRO_UID }</span>
+			</span>
+	</span>
+{END PRO_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field}
+									{BEGIN cellblock_grid_headcell_field1}
+	<th
+	
+	{$cell_grid_headcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_UID_class}	"
+
+			data-field="TAS_UID"
+	
+	data-cellId="grid_headcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field67" {$item_simple_grid_field67} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_UID" data-fieldname="TAS_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_UID }</span>
+			</span>
+	</span>
+{END TAS_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field1}
+									{BEGIN cellblock_grid_headcell_field2}
+	<th
+	
+	{$cell_grid_headcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ID_class}	"
+
+			data-field="TAS_ID"
+	
+	data-cellId="grid_headcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field68" {$item_simple_grid_field68} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ID" data-fieldname="TAS_ID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ID }</span>
+			</span>
+	</span>
+{END TAS_ID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field2}
+									{BEGIN cellblock_grid_headcell_field3}
+	<th
+	
+	{$cell_grid_headcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TITLE_class}	"
+
+			data-field="TAS_TITLE"
+	
+	data-cellId="grid_headcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TITLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field69" {$item_simple_grid_field69} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TITLE" data-fieldname="TAS_TITLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TITLE }</span>
+			</span>
+	</span>
+{END TAS_TITLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field3}
+									{BEGIN cellblock_grid_headcell_field4}
+	<th
+	
+	{$cell_grid_headcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DESCRIPTION_class}	"
+
+			data-field="TAS_DESCRIPTION"
+	
+	data-cellId="grid_headcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DESCRIPTION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field70" {$item_simple_grid_field70} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DESCRIPTION" data-fieldname="TAS_DESCRIPTION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DESCRIPTION }</span>
+			</span>
+	</span>
+{END TAS_DESCRIPTION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field4}
+									{BEGIN cellblock_grid_headcell_field5}
+	<th
+	
+	{$cell_grid_headcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_TITLE_class}	"
+
+			data-field="TAS_DEF_TITLE"
+	
+	data-cellId="grid_headcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_TITLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field71" {$item_simple_grid_field71} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_TITLE" data-fieldname="TAS_DEF_TITLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DEF_TITLE }</span>
+			</span>
+	</span>
+{END TAS_DEF_TITLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field5}
+									{BEGIN cellblock_grid_headcell_field6}
+	<th
+	
+	{$cell_grid_headcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_SUBJECT_MESSAGE_class}	"
+
+			data-field="TAS_DEF_SUBJECT_MESSAGE"
+	
+	data-cellId="grid_headcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_SUBJECT_MESSAGE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field72" {$item_simple_grid_field72} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_SUBJECT_MESSAGE" data-fieldname="TAS_DEF_SUBJECT_MESSAGE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DEF_SUBJECT_MESSAGE }</span>
+			</span>
+	</span>
+{END TAS_DEF_SUBJECT_MESSAGE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field6}
+									{BEGIN cellblock_grid_headcell_field7}
+	<th
+	
+	{$cell_grid_headcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_PROC_CODE_class}	"
+
+			data-field="TAS_DEF_PROC_CODE"
+	
+	data-cellId="grid_headcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_PROC_CODE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field73" {$item_simple_grid_field73} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_PROC_CODE" data-fieldname="TAS_DEF_PROC_CODE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DEF_PROC_CODE }</span>
+			</span>
+	</span>
+{END TAS_DEF_PROC_CODE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field7}
+									{BEGIN cellblock_grid_headcell_field8}
+	<th
+	
+	{$cell_grid_headcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_MESSAGE_class}	"
+
+			data-field="TAS_DEF_MESSAGE"
+	
+	data-cellId="grid_headcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_MESSAGE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field74" {$item_simple_grid_field74} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_MESSAGE" data-fieldname="TAS_DEF_MESSAGE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DEF_MESSAGE }</span>
+			</span>
+	</span>
+{END TAS_DEF_MESSAGE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field8}
+									{BEGIN cellblock_grid_headcell_field9}
+	<th
+	
+	{$cell_grid_headcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_DESCRIPTION_class}	"
+
+			data-field="TAS_DEF_DESCRIPTION"
+	
+	data-cellId="grid_headcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_DESCRIPTION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field75" {$item_simple_grid_field75} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_DESCRIPTION" data-fieldname="TAS_DEF_DESCRIPTION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DEF_DESCRIPTION }</span>
+			</span>
+	</span>
+{END TAS_DEF_DESCRIPTION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field9}
+									{BEGIN cellblock_grid_headcell_field10}
+	<th
+	
+	{$cell_grid_headcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_class}	"
+
+			data-field="TAS_TYPE"
+	
+	data-cellId="grid_headcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TYPE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field76" {$item_simple_grid_field76} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TYPE" data-fieldname="TAS_TYPE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TYPE }</span>
+			</span>
+	</span>
+{END TAS_TYPE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field10}
+									{BEGIN cellblock_grid_headcell_field11}
+	<th
+	
+	{$cell_grid_headcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DURATION_class}	"
+
+			data-field="TAS_DURATION"
+	
+	data-cellId="grid_headcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DURATION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field77" {$item_simple_grid_field77} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DURATION" data-fieldname="TAS_DURATION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DURATION }</span>
+			</span>
+	</span>
+{END TAS_DURATION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field11}
+									{BEGIN cellblock_grid_headcell_field12}
+	<th
+	
+	{$cell_grid_headcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DELAY_TYPE_class}	"
+
+			data-field="TAS_DELAY_TYPE"
+	
+	data-cellId="grid_headcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DELAY_TYPE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field78" {$item_simple_grid_field78} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DELAY_TYPE" data-fieldname="TAS_DELAY_TYPE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DELAY_TYPE }</span>
+			</span>
+	</span>
+{END TAS_DELAY_TYPE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field12}
+									{BEGIN cellblock_grid_headcell_field13}
+	<th
+	
+	{$cell_grid_headcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TEMPORIZER_class}	"
+
+			data-field="TAS_TEMPORIZER"
+	
+	data-cellId="grid_headcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TEMPORIZER_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field79" {$item_simple_grid_field79} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TEMPORIZER" data-fieldname="TAS_TEMPORIZER" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TEMPORIZER }</span>
+			</span>
+	</span>
+{END TAS_TEMPORIZER_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field13}
+									{BEGIN cellblock_grid_headcell_field14}
+	<th
+	
+	{$cell_grid_headcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_DAY_class}	"
+
+			data-field="TAS_TYPE_DAY"
+	
+	data-cellId="grid_headcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TYPE_DAY_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field80" {$item_simple_grid_field80} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TYPE_DAY" data-fieldname="TAS_TYPE_DAY" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TYPE_DAY }</span>
+			</span>
+	</span>
+{END TAS_TYPE_DAY_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field14}
+									{BEGIN cellblock_grid_headcell_field15}
+	<th
+	
+	{$cell_grid_headcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TIMEUNIT_class}	"
+
+			data-field="TAS_TIMEUNIT"
+	
+	data-cellId="grid_headcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TIMEUNIT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field81" {$item_simple_grid_field81} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TIMEUNIT" data-fieldname="TAS_TIMEUNIT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TIMEUNIT }</span>
+			</span>
+	</span>
+{END TAS_TIMEUNIT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field15}
+									{BEGIN cellblock_grid_headcell_field16}
+	<th
+	
+	{$cell_grid_headcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ALERT_class}	"
+
+			data-field="TAS_ALERT"
+	
+	data-cellId="grid_headcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ALERT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field82" {$item_simple_grid_field82} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ALERT" data-fieldname="TAS_ALERT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ALERT }</span>
+			</span>
+	</span>
+{END TAS_ALERT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field16}
+									{BEGIN cellblock_grid_headcell_field17}
+	<th
+	
+	{$cell_grid_headcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_PRIORITY_VARIABLE_class}	"
+
+			data-field="TAS_PRIORITY_VARIABLE"
+	
+	data-cellId="grid_headcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_PRIORITY_VARIABLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field83" {$item_simple_grid_field83} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_PRIORITY_VARIABLE" data-fieldname="TAS_PRIORITY_VARIABLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_PRIORITY_VARIABLE }</span>
+			</span>
+	</span>
+{END TAS_PRIORITY_VARIABLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field17}
+									{BEGIN cellblock_grid_headcell_field18}
+	<th
+	
+	{$cell_grid_headcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_TYPE_class}	"
+
+			data-field="TAS_ASSIGN_TYPE"
+	
+	data-cellId="grid_headcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_TYPE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field84" {$item_simple_grid_field84} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_TYPE" data-fieldname="TAS_ASSIGN_TYPE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ASSIGN_TYPE }</span>
+			</span>
+	</span>
+{END TAS_ASSIGN_TYPE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field18}
+									{BEGIN cellblock_grid_headcell_field19}
+	<th
+	
+	{$cell_grid_headcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_VARIABLE_class}	"
+
+			data-field="TAS_ASSIGN_VARIABLE"
+	
+	data-cellId="grid_headcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_VARIABLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field85" {$item_simple_grid_field85} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_VARIABLE" data-fieldname="TAS_ASSIGN_VARIABLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ASSIGN_VARIABLE }</span>
+			</span>
+	</span>
+{END TAS_ASSIGN_VARIABLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field19}
+									{BEGIN cellblock_grid_headcell_field20}
+	<th
+	
+	{$cell_grid_headcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_GROUP_VARIABLE_class}	"
+
+			data-field="TAS_GROUP_VARIABLE"
+	
+	data-cellId="grid_headcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_GROUP_VARIABLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field86" {$item_simple_grid_field86} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_GROUP_VARIABLE" data-fieldname="TAS_GROUP_VARIABLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_GROUP_VARIABLE }</span>
+			</span>
+	</span>
+{END TAS_GROUP_VARIABLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field20}
+									{BEGIN cellblock_grid_headcell_field21}
+	<th
+	
+	{$cell_grid_headcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_INSTANCE_VARIABLE_class}	"
+
+			data-field="TAS_MI_INSTANCE_VARIABLE"
+	
+	data-cellId="grid_headcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_MI_INSTANCE_VARIABLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field87" {$item_simple_grid_field87} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_MI_INSTANCE_VARIABLE" data-fieldname="TAS_MI_INSTANCE_VARIABLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_MI_INSTANCE_VARIABLE }</span>
+			</span>
+	</span>
+{END TAS_MI_INSTANCE_VARIABLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field21}
+									{BEGIN cellblock_grid_headcell_field22}
+	<th
+	
+	{$cell_grid_headcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_COMPLETE_VARIABLE_class}	"
+
+			data-field="TAS_MI_COMPLETE_VARIABLE"
+	
+	data-cellId="grid_headcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_MI_COMPLETE_VARIABLE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field88" {$item_simple_grid_field88} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_MI_COMPLETE_VARIABLE" data-fieldname="TAS_MI_COMPLETE_VARIABLE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_MI_COMPLETE_VARIABLE }</span>
+			</span>
+	</span>
+{END TAS_MI_COMPLETE_VARIABLE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field22}
+									{BEGIN cellblock_grid_headcell_field23}
+	<th
+	
+	{$cell_grid_headcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_class}	"
+
+			data-field="TAS_ASSIGN_LOCATION"
+	
+	data-cellId="grid_headcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_LOCATION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field89" {$item_simple_grid_field89} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_LOCATION" data-fieldname="TAS_ASSIGN_LOCATION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ASSIGN_LOCATION }</span>
+			</span>
+	</span>
+{END TAS_ASSIGN_LOCATION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field23}
+									{BEGIN cellblock_grid_headcell_field24}
+	<th
+	
+	{$cell_grid_headcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_ADHOC_class}	"
+
+			data-field="TAS_ASSIGN_LOCATION_ADHOC"
+	
+	data-cellId="grid_headcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_LOCATION_ADHOC_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field90" {$item_simple_grid_field90} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_LOCATION_ADHOC" data-fieldname="TAS_ASSIGN_LOCATION_ADHOC" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_ASSIGN_LOCATION_ADHOC }</span>
+			</span>
+	</span>
+{END TAS_ASSIGN_LOCATION_ADHOC_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field24}
+									{BEGIN cellblock_grid_headcell_field25}
+	<th
+	
+	{$cell_grid_headcell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TRANSFER_FLY_class}	"
+
+			data-field="TAS_TRANSFER_FLY"
+	
+	data-cellId="grid_headcell_field25" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TRANSFER_FLY_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field91" {$item_simple_grid_field91} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TRANSFER_FLY" data-fieldname="TAS_TRANSFER_FLY" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TRANSFER_FLY }</span>
+			</span>
+	</span>
+{END TAS_TRANSFER_FLY_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field25}
+									{BEGIN cellblock_grid_headcell_field26}
+	<th
+	
+	{$cell_grid_headcell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_LAST_ASSIGNED_class}	"
+
+			data-field="TAS_LAST_ASSIGNED"
+	
+	data-cellId="grid_headcell_field26" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_LAST_ASSIGNED_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field92" {$item_simple_grid_field92} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_LAST_ASSIGNED" data-fieldname="TAS_LAST_ASSIGNED" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_LAST_ASSIGNED }</span>
+			</span>
+	</span>
+{END TAS_LAST_ASSIGNED_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field26}
+									{BEGIN cellblock_grid_headcell_field27}
+	<th
+	
+	{$cell_grid_headcell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_USER_class}	"
+
+			data-field="TAS_USER"
+	
+	data-cellId="grid_headcell_field27" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_USER_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field93" {$item_simple_grid_field93} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_USER" data-fieldname="TAS_USER" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_USER }</span>
+			</span>
+	</span>
+{END TAS_USER_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field27}
+									{BEGIN cellblock_grid_headcell_field28}
+	<th
+	
+	{$cell_grid_headcell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_UPLOAD_class}	"
+
+			data-field="TAS_CAN_UPLOAD"
+	
+	data-cellId="grid_headcell_field28" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_UPLOAD_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field94" {$item_simple_grid_field94} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_UPLOAD" data-fieldname="TAS_CAN_UPLOAD" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_CAN_UPLOAD }</span>
+			</span>
+	</span>
+{END TAS_CAN_UPLOAD_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field28}
+									{BEGIN cellblock_grid_headcell_field29}
+	<th
+	
+	{$cell_grid_headcell_field29}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_UPLOAD_class}	"
+
+			data-field="TAS_VIEW_UPLOAD"
+	
+	data-cellId="grid_headcell_field29" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_VIEW_UPLOAD_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field95" {$item_simple_grid_field95} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_VIEW_UPLOAD" data-fieldname="TAS_VIEW_UPLOAD" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_VIEW_UPLOAD }</span>
+			</span>
+	</span>
+{END TAS_VIEW_UPLOAD_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field29}
+									{BEGIN cellblock_grid_headcell_field30}
+	<th
+	
+	{$cell_grid_headcell_field30}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_ADDITIONAL_DOCUMENTATION_class}	"
+
+			data-field="TAS_VIEW_ADDITIONAL_DOCUMENTATION"
+	
+	data-cellId="grid_headcell_field30" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_VIEW_ADDITIONAL_DOCUMENTATION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field96" {$item_simple_grid_field96} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_VIEW_ADDITIONAL_DOCUMENTATION" data-fieldname="TAS_VIEW_ADDITIONAL_DOCUMENTATION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_VIEW_ADDITIONAL_DOCUMENTATION }</span>
+			</span>
+	</span>
+{END TAS_VIEW_ADDITIONAL_DOCUMENTATION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field30}
+									{BEGIN cellblock_grid_headcell_field31}
+	<th
+	
+	{$cell_grid_headcell_field31}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_CANCEL_class}	"
+
+			data-field="TAS_CAN_CANCEL"
+	
+	data-cellId="grid_headcell_field31" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_CANCEL_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field97" {$item_simple_grid_field97} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_CANCEL" data-fieldname="TAS_CAN_CANCEL" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_CAN_CANCEL }</span>
+			</span>
+	</span>
+{END TAS_CAN_CANCEL_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field31}
+									{BEGIN cellblock_grid_headcell_field32}
+	<th
+	
+	{$cell_grid_headcell_field32}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OWNER_APP_class}	"
+
+			data-field="TAS_OWNER_APP"
+	
+	data-cellId="grid_headcell_field32" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_OWNER_APP_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field98" {$item_simple_grid_field98} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_OWNER_APP" data-fieldname="TAS_OWNER_APP" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_OWNER_APP }</span>
+			</span>
+	</span>
+{END TAS_OWNER_APP_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field32}
+									{BEGIN cellblock_grid_headcell_field33}
+	<th
+	
+	{$cell_grid_headcell_field33}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$STG_UID_class}	"
+
+			data-field="STG_UID"
+	
+	data-cellId="grid_headcell_field33" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN STG_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field99" {$item_simple_grid_field99} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="STG_UID" data-fieldname="STG_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK STG_UID }</span>
+			</span>
+	</span>
+{END STG_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field33}
+									{BEGIN cellblock_grid_headcell_field34}
+	<th
+	
+	{$cell_grid_headcell_field34}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_PAUSE_class}	"
+
+			data-field="TAS_CAN_PAUSE"
+	
+	data-cellId="grid_headcell_field34" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_PAUSE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field100" {$item_simple_grid_field100} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_PAUSE" data-fieldname="TAS_CAN_PAUSE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_CAN_PAUSE }</span>
+			</span>
+	</span>
+{END TAS_CAN_PAUSE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field34}
+									{BEGIN cellblock_grid_headcell_field35}
+	<th
+	
+	{$cell_grid_headcell_field35}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_SEND_MESSAGE_class}	"
+
+			data-field="TAS_CAN_SEND_MESSAGE"
+	
+	data-cellId="grid_headcell_field35" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_SEND_MESSAGE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field101" {$item_simple_grid_field101} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_SEND_MESSAGE" data-fieldname="TAS_CAN_SEND_MESSAGE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_CAN_SEND_MESSAGE }</span>
+			</span>
+	</span>
+{END TAS_CAN_SEND_MESSAGE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field35}
+									{BEGIN cellblock_grid_headcell_field36}
+	<th
+	
+	{$cell_grid_headcell_field36}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_DELETE_DOCS_class}	"
+
+			data-field="TAS_CAN_DELETE_DOCS"
+	
+	data-cellId="grid_headcell_field36" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_DELETE_DOCS_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field102" {$item_simple_grid_field102} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_DELETE_DOCS" data-fieldname="TAS_CAN_DELETE_DOCS" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_CAN_DELETE_DOCS }</span>
+			</span>
+	</span>
+{END TAS_CAN_DELETE_DOCS_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field36}
+									{BEGIN cellblock_grid_headcell_field37}
+	<th
+	
+	{$cell_grid_headcell_field37}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELF_SERVICE_class}	"
+
+			data-field="TAS_SELF_SERVICE"
+	
+	data-cellId="grid_headcell_field37" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELF_SERVICE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field103" {$item_simple_grid_field103} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELF_SERVICE" data-fieldname="TAS_SELF_SERVICE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELF_SERVICE }</span>
+			</span>
+	</span>
+{END TAS_SELF_SERVICE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field37}
+									{BEGIN cellblock_grid_headcell_field38}
+	<th
+	
+	{$cell_grid_headcell_field38}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_START_class}	"
+
+			data-field="TAS_START"
+	
+	data-cellId="grid_headcell_field38" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_START_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field104" {$item_simple_grid_field104} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_START" data-fieldname="TAS_START" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_START }</span>
+			</span>
+	</span>
+{END TAS_START_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field38}
+									{BEGIN cellblock_grid_headcell_field39}
+	<th
+	
+	{$cell_grid_headcell_field39}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TO_LAST_USER_class}	"
+
+			data-field="TAS_TO_LAST_USER"
+	
+	data-cellId="grid_headcell_field39" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TO_LAST_USER_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field105" {$item_simple_grid_field105} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TO_LAST_USER" data-fieldname="TAS_TO_LAST_USER" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_TO_LAST_USER }</span>
+			</span>
+	</span>
+{END TAS_TO_LAST_USER_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field39}
+									{BEGIN cellblock_grid_headcell_field40}
+	<th
+	
+	{$cell_grid_headcell_field40}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SEND_LAST_EMAIL_class}	"
+
+			data-field="TAS_SEND_LAST_EMAIL"
+	
+	data-cellId="grid_headcell_field40" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SEND_LAST_EMAIL_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field106" {$item_simple_grid_field106} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SEND_LAST_EMAIL" data-fieldname="TAS_SEND_LAST_EMAIL" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SEND_LAST_EMAIL }</span>
+			</span>
+	</span>
+{END TAS_SEND_LAST_EMAIL_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field40}
+									{BEGIN cellblock_grid_headcell_field41}
+	<th
+	
+	{$cell_grid_headcell_field41}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_class}	"
+
+			data-field="TAS_DERIVATION"
+	
+	data-cellId="grid_headcell_field41" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DERIVATION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field107" {$item_simple_grid_field107} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DERIVATION" data-fieldname="TAS_DERIVATION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DERIVATION }</span>
+			</span>
+	</span>
+{END TAS_DERIVATION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field41}
+									{BEGIN cellblock_grid_headcell_field42}
+	<th
+	
+	{$cell_grid_headcell_field42}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSX_class}	"
+
+			data-field="TAS_POSX"
+	
+	data-cellId="grid_headcell_field42" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_POSX_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field108" {$item_simple_grid_field108} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_POSX" data-fieldname="TAS_POSX" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_POSX }</span>
+			</span>
+	</span>
+{END TAS_POSX_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field42}
+									{BEGIN cellblock_grid_headcell_field43}
+	<th
+	
+	{$cell_grid_headcell_field43}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSY_class}	"
+
+			data-field="TAS_POSY"
+	
+	data-cellId="grid_headcell_field43" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_POSY_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field109" {$item_simple_grid_field109} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_POSY" data-fieldname="TAS_POSY" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_POSY }</span>
+			</span>
+	</span>
+{END TAS_POSY_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field43}
+									{BEGIN cellblock_grid_headcell_field44}
+	<th
+	
+	{$cell_grid_headcell_field44}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_WIDTH_class}	"
+
+			data-field="TAS_WIDTH"
+	
+	data-cellId="grid_headcell_field44" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_WIDTH_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field110" {$item_simple_grid_field110} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_WIDTH" data-fieldname="TAS_WIDTH" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_WIDTH }</span>
+			</span>
+	</span>
+{END TAS_WIDTH_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field44}
+									{BEGIN cellblock_grid_headcell_field45}
+	<th
+	
+	{$cell_grid_headcell_field45}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_HEIGHT_class}	"
+
+			data-field="TAS_HEIGHT"
+	
+	data-cellId="grid_headcell_field45" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_HEIGHT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field111" {$item_simple_grid_field111} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_HEIGHT" data-fieldname="TAS_HEIGHT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_HEIGHT }</span>
+			</span>
+	</span>
+{END TAS_HEIGHT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field45}
+									{BEGIN cellblock_grid_headcell_field46}
+	<th
+	
+	{$cell_grid_headcell_field46}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_COLOR_class}	"
+
+			data-field="TAS_COLOR"
+	
+	data-cellId="grid_headcell_field46" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_COLOR_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field112" {$item_simple_grid_field112} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_COLOR" data-fieldname="TAS_COLOR" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_COLOR }</span>
+			</span>
+	</span>
+{END TAS_COLOR_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field46}
+									{BEGIN cellblock_grid_headcell_field47}
+	<th
+	
+	{$cell_grid_headcell_field47}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EVN_UID_class}	"
+
+			data-field="TAS_EVN_UID"
+	
+	data-cellId="grid_headcell_field47" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_EVN_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field113" {$item_simple_grid_field113} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_EVN_UID" data-fieldname="TAS_EVN_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_EVN_UID }</span>
+			</span>
+	</span>
+{END TAS_EVN_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field47}
+									{BEGIN cellblock_grid_headcell_field48}
+	<th
+	
+	{$cell_grid_headcell_field48}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_BOUNDARY_class}	"
+
+			data-field="TAS_BOUNDARY"
+	
+	data-cellId="grid_headcell_field48" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_BOUNDARY_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field114" {$item_simple_grid_field114} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_BOUNDARY" data-fieldname="TAS_BOUNDARY" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_BOUNDARY }</span>
+			</span>
+	</span>
+{END TAS_BOUNDARY_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field48}
+									{BEGIN cellblock_grid_headcell_field49}
+	<th
+	
+	{$cell_grid_headcell_field49}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_SCREEN_TPL_class}	"
+
+			data-field="TAS_DERIVATION_SCREEN_TPL"
+	
+	data-cellId="grid_headcell_field49" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DERIVATION_SCREEN_TPL_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field115" {$item_simple_grid_field115} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DERIVATION_SCREEN_TPL" data-fieldname="TAS_DERIVATION_SCREEN_TPL" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_DERIVATION_SCREEN_TPL }</span>
+			</span>
+	</span>
+{END TAS_DERIVATION_SCREEN_TPL_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field49}
+									{BEGIN cellblock_grid_headcell_field50}
+	<th
+	
+	{$cell_grid_headcell_field50}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIMEOUT_class}	"
+
+			data-field="TAS_SELFSERVICE_TIMEOUT"
+	
+	data-cellId="grid_headcell_field50" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIMEOUT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field116" {$item_simple_grid_field116} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIMEOUT" data-fieldname="TAS_SELFSERVICE_TIMEOUT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELFSERVICE_TIMEOUT }</span>
+			</span>
+	</span>
+{END TAS_SELFSERVICE_TIMEOUT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field50}
+									{BEGIN cellblock_grid_headcell_field51}
+	<th
+	
+	{$cell_grid_headcell_field51}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_class}	"
+
+			data-field="TAS_SELFSERVICE_TIME"
+	
+	data-cellId="grid_headcell_field51" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIME_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field117" {$item_simple_grid_field117} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIME" data-fieldname="TAS_SELFSERVICE_TIME" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELFSERVICE_TIME }</span>
+			</span>
+	</span>
+{END TAS_SELFSERVICE_TIME_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field51}
+									{BEGIN cellblock_grid_headcell_field52}
+	<th
+	
+	{$cell_grid_headcell_field52}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_UNIT_class}	"
+
+			data-field="TAS_SELFSERVICE_TIME_UNIT"
+	
+	data-cellId="grid_headcell_field52" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIME_UNIT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field118" {$item_simple_grid_field118} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIME_UNIT" data-fieldname="TAS_SELFSERVICE_TIME_UNIT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELFSERVICE_TIME_UNIT }</span>
+			</span>
+	</span>
+{END TAS_SELFSERVICE_TIME_UNIT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field52}
+									{BEGIN cellblock_grid_headcell_field53}
+	<th
+	
+	{$cell_grid_headcell_field53}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TRIGGER_UID_class}	"
+
+			data-field="TAS_SELFSERVICE_TRIGGER_UID"
+	
+	data-cellId="grid_headcell_field53" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TRIGGER_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field119" {$item_simple_grid_field119} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TRIGGER_UID" data-fieldname="TAS_SELFSERVICE_TRIGGER_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELFSERVICE_TRIGGER_UID }</span>
+			</span>
+	</span>
+{END TAS_SELFSERVICE_TRIGGER_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field53}
+									{BEGIN cellblock_grid_headcell_field54}
+	<th
+	
+	{$cell_grid_headcell_field54}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_EXECUTION_class}	"
+
+			data-field="TAS_SELFSERVICE_EXECUTION"
+	
+	data-cellId="grid_headcell_field54" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_EXECUTION_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field120" {$item_simple_grid_field120} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_EXECUTION" data-fieldname="TAS_SELFSERVICE_EXECUTION" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_SELFSERVICE_EXECUTION }</span>
+			</span>
+	</span>
+{END TAS_SELFSERVICE_EXECUTION_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field54}
+									{BEGIN cellblock_grid_headcell_field55}
+	<th
+	
+	{$cell_grid_headcell_field55}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_NOT_EMAIL_FROM_FORMAT_class}	"
+
+			data-field="TAS_NOT_EMAIL_FROM_FORMAT"
+	
+	data-cellId="grid_headcell_field55" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_NOT_EMAIL_FROM_FORMAT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field121" {$item_simple_grid_field121} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_NOT_EMAIL_FROM_FORMAT" data-fieldname="TAS_NOT_EMAIL_FROM_FORMAT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_NOT_EMAIL_FROM_FORMAT }</span>
+			</span>
+	</span>
+{END TAS_NOT_EMAIL_FROM_FORMAT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field55}
+									{BEGIN cellblock_grid_headcell_field56}
+	<th
+	
+	{$cell_grid_headcell_field56}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OFFLINE_class}	"
+
+			data-field="TAS_OFFLINE"
+	
+	data-cellId="grid_headcell_field56" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_OFFLINE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field122" {$item_simple_grid_field122} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_OFFLINE" data-fieldname="TAS_OFFLINE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_OFFLINE }</span>
+			</span>
+	</span>
+{END TAS_OFFLINE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field56}
+									{BEGIN cellblock_grid_headcell_field57}
+	<th
+	
+	{$cell_grid_headcell_field57}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EMAIL_SERVER_UID_class}	"
+
+			data-field="TAS_EMAIL_SERVER_UID"
+	
+	data-cellId="grid_headcell_field57" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_EMAIL_SERVER_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field123" {$item_simple_grid_field123} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_EMAIL_SERVER_UID" data-fieldname="TAS_EMAIL_SERVER_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_EMAIL_SERVER_UID }</span>
+			</span>
+	</span>
+{END TAS_EMAIL_SERVER_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field57}
+									{BEGIN cellblock_grid_headcell_field58}
+	<th
+	
+	{$cell_grid_headcell_field58}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_AUTO_ROOT_class}	"
+
+			data-field="TAS_AUTO_ROOT"
+	
+	data-cellId="grid_headcell_field58" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_AUTO_ROOT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field124" {$item_simple_grid_field124} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_AUTO_ROOT" data-fieldname="TAS_AUTO_ROOT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_AUTO_ROOT }</span>
+			</span>
+	</span>
+{END TAS_AUTO_ROOT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field58}
+									{BEGIN cellblock_grid_headcell_field59}
+	<th
+	
+	{$cell_grid_headcell_field59}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SERVER_UID_class}	"
+
+			data-field="TAS_RECEIVE_SERVER_UID"
+	
+	data-cellId="grid_headcell_field59" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_SERVER_UID_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field125" {$item_simple_grid_field125} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_SERVER_UID" data-fieldname="TAS_RECEIVE_SERVER_UID" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_SERVER_UID }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_SERVER_UID_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field59}
+									{BEGIN cellblock_grid_headcell_field60}
+	<th
+	
+	{$cell_grid_headcell_field60}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_LAST_EMAIL_class}	"
+
+			data-field="TAS_RECEIVE_LAST_EMAIL"
+	
+	data-cellId="grid_headcell_field60" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_LAST_EMAIL_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field126" {$item_simple_grid_field126} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_LAST_EMAIL" data-fieldname="TAS_RECEIVE_LAST_EMAIL" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_LAST_EMAIL }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_LAST_EMAIL_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field60}
+									{BEGIN cellblock_grid_headcell_field61}
+	<th
+	
+	{$cell_grid_headcell_field61}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_EMAIL_FROM_FORMAT_class}	"
+
+			data-field="TAS_RECEIVE_EMAIL_FROM_FORMAT"
+	
+	data-cellId="grid_headcell_field61" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_EMAIL_FROM_FORMAT_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field127" {$item_simple_grid_field127} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_EMAIL_FROM_FORMAT" data-fieldname="TAS_RECEIVE_EMAIL_FROM_FORMAT" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_EMAIL_FROM_FORMAT }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_EMAIL_FROM_FORMAT_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field61}
+									{BEGIN cellblock_grid_headcell_field62}
+	<th
+	
+	{$cell_grid_headcell_field62}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TYPE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE_TYPE"
+	
+	data-cellId="grid_headcell_field62" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_TYPE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field128" {$item_simple_grid_field128} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE_TYPE" data-fieldname="TAS_RECEIVE_MESSAGE_TYPE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_MESSAGE_TYPE }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_MESSAGE_TYPE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field62}
+									{BEGIN cellblock_grid_headcell_field63}
+	<th
+	
+	{$cell_grid_headcell_field63}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TEMPLATE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE_TEMPLATE"
+	
+	data-cellId="grid_headcell_field63" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_TEMPLATE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field129" {$item_simple_grid_field129} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE_TEMPLATE" data-fieldname="TAS_RECEIVE_MESSAGE_TEMPLATE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_MESSAGE_TEMPLATE }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_MESSAGE_TEMPLATE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field63}
+									{BEGIN cellblock_grid_headcell_field64}
+	<th
+	
+	{$cell_grid_headcell_field64}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SUBJECT_MESSAGE_class}	"
+
+			data-field="TAS_RECEIVE_SUBJECT_MESSAGE"
+	
+	data-cellId="grid_headcell_field64" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_SUBJECT_MESSAGE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field130" {$item_simple_grid_field130} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_SUBJECT_MESSAGE" data-fieldname="TAS_RECEIVE_SUBJECT_MESSAGE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_SUBJECT_MESSAGE }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_SUBJECT_MESSAGE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field64}
+									{BEGIN cellblock_grid_headcell_field65}
+	<th
+	
+	{$cell_grid_headcell_field65}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE"
+	
+	data-cellId="grid_headcell_field65" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_fieldheadercolumn}
+<span 
+	data-itemtype="grid_field_label" data-itemid="simple_grid_field131" {$item_simple_grid_field131} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE" data-fieldname="TAS_RECEIVE_MESSAGE" 
+
+	
+	
+	>
+	<span class="text-label">
+		<span>{$label TASK TAS_RECEIVE_MESSAGE }</span>
+			</span>
+	</span>
+{END TAS_RECEIVE_MESSAGE_fieldheadercolumn}
+
+	
+	</th>
+	{END cellblock_grid_headcell_field65}
+							</tr>
+															
+					{END grid_header}
+			</thead>
+															{BEGIN grid_row}
+					<tbody>
+							
+																														<tr {$rowattrs} {$row_grid_1} class="{$rowclass}
+				
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_cell_field}
+	<td
+	
+	{$cell_grid_cell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$PRO_UID_class}	"
+
+			data-field="PRO_UID"
+	
+	data-cellId="grid_cell_field" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN PRO_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field" {$item_simple_grid_field} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="PRO_UID" data-fieldname="PRO_UID" data-default-width >
+{$PRO_UID_value}
+</span>
+{END PRO_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field}
+									{BEGIN cellblock_grid_cell_field1}
+	<td
+	
+	{$cell_grid_cell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_UID_class}	"
+
+			data-field="TAS_UID"
+	
+	data-cellId="grid_cell_field1" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field1" {$item_simple_grid_field1} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_UID" data-fieldname="TAS_UID" data-default-width >
+{$TAS_UID_value}
+</span>
+{END TAS_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field1}
+									{BEGIN cellblock_grid_cell_field2}
+	<td
+	
+	{$cell_grid_cell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ID_class}	"
+
+			data-field="TAS_ID"
+	
+	data-cellId="grid_cell_field2" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field2" {$item_simple_grid_field2} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ID" data-fieldname="TAS_ID" data-default-width >
+{$TAS_ID_value}
+</span>
+{END TAS_ID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field2}
+									{BEGIN cellblock_grid_cell_field3}
+	<td
+	
+	{$cell_grid_cell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TITLE_class}	"
+
+			data-field="TAS_TITLE"
+	
+	data-cellId="grid_cell_field3" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TITLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field3" {$item_simple_grid_field3} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TITLE" data-fieldname="TAS_TITLE" data-default-width >
+{$TAS_TITLE_value}
+</span>
+{END TAS_TITLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field3}
+									{BEGIN cellblock_grid_cell_field4}
+	<td
+	
+	{$cell_grid_cell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DESCRIPTION_class}	"
+
+			data-field="TAS_DESCRIPTION"
+	
+	data-cellId="grid_cell_field4" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DESCRIPTION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field4" {$item_simple_grid_field4} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DESCRIPTION" data-fieldname="TAS_DESCRIPTION" data-default-width >
+{$TAS_DESCRIPTION_value}
+</span>
+{END TAS_DESCRIPTION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field4}
+									{BEGIN cellblock_grid_cell_field5}
+	<td
+	
+	{$cell_grid_cell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_TITLE_class}	"
+
+			data-field="TAS_DEF_TITLE"
+	
+	data-cellId="grid_cell_field5" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_TITLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field5" {$item_simple_grid_field5} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_TITLE" data-fieldname="TAS_DEF_TITLE" data-default-width >
+{$TAS_DEF_TITLE_value}
+</span>
+{END TAS_DEF_TITLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field5}
+									{BEGIN cellblock_grid_cell_field6}
+	<td
+	
+	{$cell_grid_cell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_SUBJECT_MESSAGE_class}	"
+
+			data-field="TAS_DEF_SUBJECT_MESSAGE"
+	
+	data-cellId="grid_cell_field6" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_SUBJECT_MESSAGE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field6" {$item_simple_grid_field6} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_SUBJECT_MESSAGE" data-fieldname="TAS_DEF_SUBJECT_MESSAGE" data-default-width >
+{$TAS_DEF_SUBJECT_MESSAGE_value}
+</span>
+{END TAS_DEF_SUBJECT_MESSAGE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field6}
+									{BEGIN cellblock_grid_cell_field7}
+	<td
+	
+	{$cell_grid_cell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_PROC_CODE_class}	"
+
+			data-field="TAS_DEF_PROC_CODE"
+	
+	data-cellId="grid_cell_field7" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_PROC_CODE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field7" {$item_simple_grid_field7} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_PROC_CODE" data-fieldname="TAS_DEF_PROC_CODE" data-default-width >
+{$TAS_DEF_PROC_CODE_value}
+</span>
+{END TAS_DEF_PROC_CODE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field7}
+									{BEGIN cellblock_grid_cell_field8}
+	<td
+	
+	{$cell_grid_cell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_MESSAGE_class}	"
+
+			data-field="TAS_DEF_MESSAGE"
+	
+	data-cellId="grid_cell_field8" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_MESSAGE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field8" {$item_simple_grid_field8} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_MESSAGE" data-fieldname="TAS_DEF_MESSAGE" data-default-width >
+{$TAS_DEF_MESSAGE_value}
+</span>
+{END TAS_DEF_MESSAGE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field8}
+									{BEGIN cellblock_grid_cell_field9}
+	<td
+	
+	{$cell_grid_cell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_DESCRIPTION_class}	"
+
+			data-field="TAS_DEF_DESCRIPTION"
+	
+	data-cellId="grid_cell_field9" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DEF_DESCRIPTION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field9" {$item_simple_grid_field9} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DEF_DESCRIPTION" data-fieldname="TAS_DEF_DESCRIPTION" data-default-width >
+{$TAS_DEF_DESCRIPTION_value}
+</span>
+{END TAS_DEF_DESCRIPTION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field9}
+									{BEGIN cellblock_grid_cell_field10}
+	<td
+	
+	{$cell_grid_cell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_class}	"
+
+			data-field="TAS_TYPE"
+	
+	data-cellId="grid_cell_field10" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TYPE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field10" {$item_simple_grid_field10} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TYPE" data-fieldname="TAS_TYPE" data-default-width >
+{$TAS_TYPE_value}
+</span>
+{END TAS_TYPE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field10}
+									{BEGIN cellblock_grid_cell_field11}
+	<td
+	
+	{$cell_grid_cell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DURATION_class}	"
+
+			data-field="TAS_DURATION"
+	
+	data-cellId="grid_cell_field11" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DURATION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field11" {$item_simple_grid_field11} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DURATION" data-fieldname="TAS_DURATION" data-default-width >
+{$TAS_DURATION_value}
+</span>
+{END TAS_DURATION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field11}
+									{BEGIN cellblock_grid_cell_field12}
+	<td
+	
+	{$cell_grid_cell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DELAY_TYPE_class}	"
+
+			data-field="TAS_DELAY_TYPE"
+	
+	data-cellId="grid_cell_field12" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DELAY_TYPE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field12" {$item_simple_grid_field12} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DELAY_TYPE" data-fieldname="TAS_DELAY_TYPE" data-default-width >
+{$TAS_DELAY_TYPE_value}
+</span>
+{END TAS_DELAY_TYPE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field12}
+									{BEGIN cellblock_grid_cell_field13}
+	<td
+	
+	{$cell_grid_cell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TEMPORIZER_class}	"
+
+			data-field="TAS_TEMPORIZER"
+	
+	data-cellId="grid_cell_field13" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TEMPORIZER_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field13" {$item_simple_grid_field13} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TEMPORIZER" data-fieldname="TAS_TEMPORIZER" data-default-width >
+{$TAS_TEMPORIZER_value}
+</span>
+{END TAS_TEMPORIZER_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field13}
+									{BEGIN cellblock_grid_cell_field14}
+	<td
+	
+	{$cell_grid_cell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_DAY_class}	"
+
+			data-field="TAS_TYPE_DAY"
+	
+	data-cellId="grid_cell_field14" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TYPE_DAY_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field14" {$item_simple_grid_field14} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TYPE_DAY" data-fieldname="TAS_TYPE_DAY" data-default-width >
+{$TAS_TYPE_DAY_value}
+</span>
+{END TAS_TYPE_DAY_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field14}
+									{BEGIN cellblock_grid_cell_field15}
+	<td
+	
+	{$cell_grid_cell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TIMEUNIT_class}	"
+
+			data-field="TAS_TIMEUNIT"
+	
+	data-cellId="grid_cell_field15" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TIMEUNIT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field15" {$item_simple_grid_field15} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TIMEUNIT" data-fieldname="TAS_TIMEUNIT" data-default-width >
+{$TAS_TIMEUNIT_value}
+</span>
+{END TAS_TIMEUNIT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field15}
+									{BEGIN cellblock_grid_cell_field16}
+	<td
+	
+	{$cell_grid_cell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ALERT_class}	"
+
+			data-field="TAS_ALERT"
+	
+	data-cellId="grid_cell_field16" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ALERT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field16" {$item_simple_grid_field16} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ALERT" data-fieldname="TAS_ALERT" data-default-width >
+{$TAS_ALERT_value}
+</span>
+{END TAS_ALERT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field16}
+									{BEGIN cellblock_grid_cell_field17}
+	<td
+	
+	{$cell_grid_cell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_PRIORITY_VARIABLE_class}	"
+
+			data-field="TAS_PRIORITY_VARIABLE"
+	
+	data-cellId="grid_cell_field17" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_PRIORITY_VARIABLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field17" {$item_simple_grid_field17} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_PRIORITY_VARIABLE" data-fieldname="TAS_PRIORITY_VARIABLE" data-default-width >
+{$TAS_PRIORITY_VARIABLE_value}
+</span>
+{END TAS_PRIORITY_VARIABLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field17}
+									{BEGIN cellblock_grid_cell_field18}
+	<td
+	
+	{$cell_grid_cell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_TYPE_class}	"
+
+			data-field="TAS_ASSIGN_TYPE"
+	
+	data-cellId="grid_cell_field18" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_TYPE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field18" {$item_simple_grid_field18} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_TYPE" data-fieldname="TAS_ASSIGN_TYPE" data-default-width >
+{$TAS_ASSIGN_TYPE_value}
+</span>
+{END TAS_ASSIGN_TYPE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field18}
+									{BEGIN cellblock_grid_cell_field19}
+	<td
+	
+	{$cell_grid_cell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_VARIABLE_class}	"
+
+			data-field="TAS_ASSIGN_VARIABLE"
+	
+	data-cellId="grid_cell_field19" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_VARIABLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field19" {$item_simple_grid_field19} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_VARIABLE" data-fieldname="TAS_ASSIGN_VARIABLE" data-default-width >
+{$TAS_ASSIGN_VARIABLE_value}
+</span>
+{END TAS_ASSIGN_VARIABLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field19}
+									{BEGIN cellblock_grid_cell_field20}
+	<td
+	
+	{$cell_grid_cell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_GROUP_VARIABLE_class}	"
+
+			data-field="TAS_GROUP_VARIABLE"
+	
+	data-cellId="grid_cell_field20" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_GROUP_VARIABLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field20" {$item_simple_grid_field20} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_GROUP_VARIABLE" data-fieldname="TAS_GROUP_VARIABLE" data-default-width >
+{$TAS_GROUP_VARIABLE_value}
+</span>
+{END TAS_GROUP_VARIABLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field20}
+									{BEGIN cellblock_grid_cell_field21}
+	<td
+	
+	{$cell_grid_cell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_INSTANCE_VARIABLE_class}	"
+
+			data-field="TAS_MI_INSTANCE_VARIABLE"
+	
+	data-cellId="grid_cell_field21" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_MI_INSTANCE_VARIABLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field21" {$item_simple_grid_field21} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_MI_INSTANCE_VARIABLE" data-fieldname="TAS_MI_INSTANCE_VARIABLE" data-default-width >
+{$TAS_MI_INSTANCE_VARIABLE_value}
+</span>
+{END TAS_MI_INSTANCE_VARIABLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field21}
+									{BEGIN cellblock_grid_cell_field22}
+	<td
+	
+	{$cell_grid_cell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_COMPLETE_VARIABLE_class}	"
+
+			data-field="TAS_MI_COMPLETE_VARIABLE"
+	
+	data-cellId="grid_cell_field22" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_MI_COMPLETE_VARIABLE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field22" {$item_simple_grid_field22} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_MI_COMPLETE_VARIABLE" data-fieldname="TAS_MI_COMPLETE_VARIABLE" data-default-width >
+{$TAS_MI_COMPLETE_VARIABLE_value}
+</span>
+{END TAS_MI_COMPLETE_VARIABLE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field22}
+									{BEGIN cellblock_grid_cell_field23}
+	<td
+	
+	{$cell_grid_cell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_class}	"
+
+			data-field="TAS_ASSIGN_LOCATION"
+	
+	data-cellId="grid_cell_field23" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_LOCATION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field23" {$item_simple_grid_field23} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_LOCATION" data-fieldname="TAS_ASSIGN_LOCATION" data-default-width >
+{$TAS_ASSIGN_LOCATION_value}
+</span>
+{END TAS_ASSIGN_LOCATION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field23}
+									{BEGIN cellblock_grid_cell_field24}
+	<td
+	
+	{$cell_grid_cell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_ADHOC_class}	"
+
+			data-field="TAS_ASSIGN_LOCATION_ADHOC"
+	
+	data-cellId="grid_cell_field24" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_ASSIGN_LOCATION_ADHOC_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field24" {$item_simple_grid_field24} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_ASSIGN_LOCATION_ADHOC" data-fieldname="TAS_ASSIGN_LOCATION_ADHOC" data-default-width >
+{$TAS_ASSIGN_LOCATION_ADHOC_value}
+</span>
+{END TAS_ASSIGN_LOCATION_ADHOC_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field24}
+									{BEGIN cellblock_grid_cell_field25}
+	<td
+	
+	{$cell_grid_cell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TRANSFER_FLY_class}	"
+
+			data-field="TAS_TRANSFER_FLY"
+	
+	data-cellId="grid_cell_field25" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TRANSFER_FLY_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field25" {$item_simple_grid_field25} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TRANSFER_FLY" data-fieldname="TAS_TRANSFER_FLY" data-default-width >
+{$TAS_TRANSFER_FLY_value}
+</span>
+{END TAS_TRANSFER_FLY_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field25}
+									{BEGIN cellblock_grid_cell_field26}
+	<td
+	
+	{$cell_grid_cell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_LAST_ASSIGNED_class}	"
+
+			data-field="TAS_LAST_ASSIGNED"
+	
+	data-cellId="grid_cell_field26" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_LAST_ASSIGNED_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field26" {$item_simple_grid_field26} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_LAST_ASSIGNED" data-fieldname="TAS_LAST_ASSIGNED" data-default-width >
+{$TAS_LAST_ASSIGNED_value}
+</span>
+{END TAS_LAST_ASSIGNED_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field26}
+									{BEGIN cellblock_grid_cell_field27}
+	<td
+	
+	{$cell_grid_cell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_USER_class}	"
+
+			data-field="TAS_USER"
+	
+	data-cellId="grid_cell_field27" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_USER_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field27" {$item_simple_grid_field27} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_USER" data-fieldname="TAS_USER" data-default-width >
+{$TAS_USER_value}
+</span>
+{END TAS_USER_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field27}
+									{BEGIN cellblock_grid_cell_field28}
+	<td
+	
+	{$cell_grid_cell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_UPLOAD_class}	"
+
+			data-field="TAS_CAN_UPLOAD"
+	
+	data-cellId="grid_cell_field28" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_UPLOAD_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field28" {$item_simple_grid_field28} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_UPLOAD" data-fieldname="TAS_CAN_UPLOAD" data-default-width >
+{$TAS_CAN_UPLOAD_value}
+</span>
+{END TAS_CAN_UPLOAD_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field28}
+									{BEGIN cellblock_grid_cell_field29}
+	<td
+	
+	{$cell_grid_cell_field29}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_UPLOAD_class}	"
+
+			data-field="TAS_VIEW_UPLOAD"
+	
+	data-cellId="grid_cell_field29" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_VIEW_UPLOAD_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field29" {$item_simple_grid_field29} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_VIEW_UPLOAD" data-fieldname="TAS_VIEW_UPLOAD" data-default-width >
+{$TAS_VIEW_UPLOAD_value}
+</span>
+{END TAS_VIEW_UPLOAD_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field29}
+									{BEGIN cellblock_grid_cell_field30}
+	<td
+	
+	{$cell_grid_cell_field30}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_ADDITIONAL_DOCUMENTATION_class}	"
+
+			data-field="TAS_VIEW_ADDITIONAL_DOCUMENTATION"
+	
+	data-cellId="grid_cell_field30" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_VIEW_ADDITIONAL_DOCUMENTATION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field30" {$item_simple_grid_field30} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_VIEW_ADDITIONAL_DOCUMENTATION" data-fieldname="TAS_VIEW_ADDITIONAL_DOCUMENTATION" data-default-width >
+{$TAS_VIEW_ADDITIONAL_DOCUMENTATION_value}
+</span>
+{END TAS_VIEW_ADDITIONAL_DOCUMENTATION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field30}
+									{BEGIN cellblock_grid_cell_field31}
+	<td
+	
+	{$cell_grid_cell_field31}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_CANCEL_class}	"
+
+			data-field="TAS_CAN_CANCEL"
+	
+	data-cellId="grid_cell_field31" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_CANCEL_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field31" {$item_simple_grid_field31} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_CANCEL" data-fieldname="TAS_CAN_CANCEL" data-default-width >
+{$TAS_CAN_CANCEL_value}
+</span>
+{END TAS_CAN_CANCEL_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field31}
+									{BEGIN cellblock_grid_cell_field32}
+	<td
+	
+	{$cell_grid_cell_field32}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OWNER_APP_class}	"
+
+			data-field="TAS_OWNER_APP"
+	
+	data-cellId="grid_cell_field32" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_OWNER_APP_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field32" {$item_simple_grid_field32} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_OWNER_APP" data-fieldname="TAS_OWNER_APP" data-default-width >
+{$TAS_OWNER_APP_value}
+</span>
+{END TAS_OWNER_APP_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field32}
+									{BEGIN cellblock_grid_cell_field33}
+	<td
+	
+	{$cell_grid_cell_field33}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$STG_UID_class}	"
+
+			data-field="STG_UID"
+	
+	data-cellId="grid_cell_field33" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN STG_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field33" {$item_simple_grid_field33} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="STG_UID" data-fieldname="STG_UID" data-default-width >
+{$STG_UID_value}
+</span>
+{END STG_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field33}
+									{BEGIN cellblock_grid_cell_field34}
+	<td
+	
+	{$cell_grid_cell_field34}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_PAUSE_class}	"
+
+			data-field="TAS_CAN_PAUSE"
+	
+	data-cellId="grid_cell_field34" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_PAUSE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field34" {$item_simple_grid_field34} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_PAUSE" data-fieldname="TAS_CAN_PAUSE" data-default-width >
+{$TAS_CAN_PAUSE_value}
+</span>
+{END TAS_CAN_PAUSE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field34}
+									{BEGIN cellblock_grid_cell_field35}
+	<td
+	
+	{$cell_grid_cell_field35}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_SEND_MESSAGE_class}	"
+
+			data-field="TAS_CAN_SEND_MESSAGE"
+	
+	data-cellId="grid_cell_field35" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_SEND_MESSAGE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field35" {$item_simple_grid_field35} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_SEND_MESSAGE" data-fieldname="TAS_CAN_SEND_MESSAGE" data-default-width >
+{$TAS_CAN_SEND_MESSAGE_value}
+</span>
+{END TAS_CAN_SEND_MESSAGE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field35}
+									{BEGIN cellblock_grid_cell_field36}
+	<td
+	
+	{$cell_grid_cell_field36}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_DELETE_DOCS_class}	"
+
+			data-field="TAS_CAN_DELETE_DOCS"
+	
+	data-cellId="grid_cell_field36" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_CAN_DELETE_DOCS_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field36" {$item_simple_grid_field36} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_CAN_DELETE_DOCS" data-fieldname="TAS_CAN_DELETE_DOCS" data-default-width >
+{$TAS_CAN_DELETE_DOCS_value}
+</span>
+{END TAS_CAN_DELETE_DOCS_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field36}
+									{BEGIN cellblock_grid_cell_field37}
+	<td
+	
+	{$cell_grid_cell_field37}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELF_SERVICE_class}	"
+
+			data-field="TAS_SELF_SERVICE"
+	
+	data-cellId="grid_cell_field37" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELF_SERVICE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field37" {$item_simple_grid_field37} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELF_SERVICE" data-fieldname="TAS_SELF_SERVICE" data-default-width >
+{$TAS_SELF_SERVICE_value}
+</span>
+{END TAS_SELF_SERVICE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field37}
+									{BEGIN cellblock_grid_cell_field38}
+	<td
+	
+	{$cell_grid_cell_field38}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_START_class}	"
+
+			data-field="TAS_START"
+	
+	data-cellId="grid_cell_field38" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_START_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field38" {$item_simple_grid_field38} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_START" data-fieldname="TAS_START" data-default-width >
+{$TAS_START_value}
+</span>
+{END TAS_START_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field38}
+									{BEGIN cellblock_grid_cell_field39}
+	<td
+	
+	{$cell_grid_cell_field39}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TO_LAST_USER_class}	"
+
+			data-field="TAS_TO_LAST_USER"
+	
+	data-cellId="grid_cell_field39" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_TO_LAST_USER_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field39" {$item_simple_grid_field39} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_TO_LAST_USER" data-fieldname="TAS_TO_LAST_USER" data-default-width >
+{$TAS_TO_LAST_USER_value}
+</span>
+{END TAS_TO_LAST_USER_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field39}
+									{BEGIN cellblock_grid_cell_field40}
+	<td
+	
+	{$cell_grid_cell_field40}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SEND_LAST_EMAIL_class}	"
+
+			data-field="TAS_SEND_LAST_EMAIL"
+	
+	data-cellId="grid_cell_field40" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SEND_LAST_EMAIL_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field40" {$item_simple_grid_field40} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SEND_LAST_EMAIL" data-fieldname="TAS_SEND_LAST_EMAIL" data-default-width >
+{$TAS_SEND_LAST_EMAIL_value}
+</span>
+{END TAS_SEND_LAST_EMAIL_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field40}
+									{BEGIN cellblock_grid_cell_field41}
+	<td
+	
+	{$cell_grid_cell_field41}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_class}	"
+
+			data-field="TAS_DERIVATION"
+	
+	data-cellId="grid_cell_field41" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DERIVATION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field41" {$item_simple_grid_field41} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DERIVATION" data-fieldname="TAS_DERIVATION" data-default-width >
+{$TAS_DERIVATION_value}
+</span>
+{END TAS_DERIVATION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field41}
+									{BEGIN cellblock_grid_cell_field42}
+	<td
+	
+	{$cell_grid_cell_field42}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSX_class}	"
+
+			data-field="TAS_POSX"
+	
+	data-cellId="grid_cell_field42" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_POSX_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field42" {$item_simple_grid_field42} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_POSX" data-fieldname="TAS_POSX" data-default-width >
+{$TAS_POSX_value}
+</span>
+{END TAS_POSX_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field42}
+									{BEGIN cellblock_grid_cell_field43}
+	<td
+	
+	{$cell_grid_cell_field43}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSY_class}	"
+
+			data-field="TAS_POSY"
+	
+	data-cellId="grid_cell_field43" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_POSY_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field43" {$item_simple_grid_field43} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_POSY" data-fieldname="TAS_POSY" data-default-width >
+{$TAS_POSY_value}
+</span>
+{END TAS_POSY_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field43}
+									{BEGIN cellblock_grid_cell_field44}
+	<td
+	
+	{$cell_grid_cell_field44}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_WIDTH_class}	"
+
+			data-field="TAS_WIDTH"
+	
+	data-cellId="grid_cell_field44" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_WIDTH_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field44" {$item_simple_grid_field44} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_WIDTH" data-fieldname="TAS_WIDTH" data-default-width >
+{$TAS_WIDTH_value}
+</span>
+{END TAS_WIDTH_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field44}
+									{BEGIN cellblock_grid_cell_field45}
+	<td
+	
+	{$cell_grid_cell_field45}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_HEIGHT_class}	"
+
+			data-field="TAS_HEIGHT"
+	
+	data-cellId="grid_cell_field45" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_HEIGHT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field45" {$item_simple_grid_field45} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_HEIGHT" data-fieldname="TAS_HEIGHT" data-default-width >
+{$TAS_HEIGHT_value}
+</span>
+{END TAS_HEIGHT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field45}
+									{BEGIN cellblock_grid_cell_field46}
+	<td
+	
+	{$cell_grid_cell_field46}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_COLOR_class}	"
+
+			data-field="TAS_COLOR"
+	
+	data-cellId="grid_cell_field46" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_COLOR_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field46" {$item_simple_grid_field46} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_COLOR" data-fieldname="TAS_COLOR" data-default-width >
+{$TAS_COLOR_value}
+</span>
+{END TAS_COLOR_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field46}
+									{BEGIN cellblock_grid_cell_field47}
+	<td
+	
+	{$cell_grid_cell_field47}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EVN_UID_class}	"
+
+			data-field="TAS_EVN_UID"
+	
+	data-cellId="grid_cell_field47" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_EVN_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field47" {$item_simple_grid_field47} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_EVN_UID" data-fieldname="TAS_EVN_UID" data-default-width >
+{$TAS_EVN_UID_value}
+</span>
+{END TAS_EVN_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field47}
+									{BEGIN cellblock_grid_cell_field48}
+	<td
+	
+	{$cell_grid_cell_field48}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_BOUNDARY_class}	"
+
+			data-field="TAS_BOUNDARY"
+	
+	data-cellId="grid_cell_field48" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_BOUNDARY_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field48" {$item_simple_grid_field48} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_BOUNDARY" data-fieldname="TAS_BOUNDARY" data-default-width >
+{$TAS_BOUNDARY_value}
+</span>
+{END TAS_BOUNDARY_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field48}
+									{BEGIN cellblock_grid_cell_field49}
+	<td
+	
+	{$cell_grid_cell_field49}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_SCREEN_TPL_class}	"
+
+			data-field="TAS_DERIVATION_SCREEN_TPL"
+	
+	data-cellId="grid_cell_field49" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_DERIVATION_SCREEN_TPL_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field49" {$item_simple_grid_field49} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_DERIVATION_SCREEN_TPL" data-fieldname="TAS_DERIVATION_SCREEN_TPL" data-default-width >
+{$TAS_DERIVATION_SCREEN_TPL_value}
+</span>
+{END TAS_DERIVATION_SCREEN_TPL_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field49}
+									{BEGIN cellblock_grid_cell_field50}
+	<td
+	
+	{$cell_grid_cell_field50}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIMEOUT_class}	"
+
+			data-field="TAS_SELFSERVICE_TIMEOUT"
+	
+	data-cellId="grid_cell_field50" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIMEOUT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field50" {$item_simple_grid_field50} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIMEOUT" data-fieldname="TAS_SELFSERVICE_TIMEOUT" data-default-width >
+{$TAS_SELFSERVICE_TIMEOUT_value}
+</span>
+{END TAS_SELFSERVICE_TIMEOUT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field50}
+									{BEGIN cellblock_grid_cell_field51}
+	<td
+	
+	{$cell_grid_cell_field51}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_class}	"
+
+			data-field="TAS_SELFSERVICE_TIME"
+	
+	data-cellId="grid_cell_field51" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIME_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field51" {$item_simple_grid_field51} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIME" data-fieldname="TAS_SELFSERVICE_TIME" data-default-width >
+{$TAS_SELFSERVICE_TIME_value}
+</span>
+{END TAS_SELFSERVICE_TIME_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field51}
+									{BEGIN cellblock_grid_cell_field52}
+	<td
+	
+	{$cell_grid_cell_field52}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_UNIT_class}	"
+
+			data-field="TAS_SELFSERVICE_TIME_UNIT"
+	
+	data-cellId="grid_cell_field52" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TIME_UNIT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field52" {$item_simple_grid_field52} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TIME_UNIT" data-fieldname="TAS_SELFSERVICE_TIME_UNIT" data-default-width >
+{$TAS_SELFSERVICE_TIME_UNIT_value}
+</span>
+{END TAS_SELFSERVICE_TIME_UNIT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field52}
+									{BEGIN cellblock_grid_cell_field53}
+	<td
+	
+	{$cell_grid_cell_field53}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TRIGGER_UID_class}	"
+
+			data-field="TAS_SELFSERVICE_TRIGGER_UID"
+	
+	data-cellId="grid_cell_field53" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_TRIGGER_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field53" {$item_simple_grid_field53} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_TRIGGER_UID" data-fieldname="TAS_SELFSERVICE_TRIGGER_UID" data-default-width >
+{$TAS_SELFSERVICE_TRIGGER_UID_value}
+</span>
+{END TAS_SELFSERVICE_TRIGGER_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field53}
+									{BEGIN cellblock_grid_cell_field54}
+	<td
+	
+	{$cell_grid_cell_field54}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_EXECUTION_class}	"
+
+			data-field="TAS_SELFSERVICE_EXECUTION"
+	
+	data-cellId="grid_cell_field54" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_SELFSERVICE_EXECUTION_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field54" {$item_simple_grid_field54} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_SELFSERVICE_EXECUTION" data-fieldname="TAS_SELFSERVICE_EXECUTION" data-default-width >
+{$TAS_SELFSERVICE_EXECUTION_value}
+</span>
+{END TAS_SELFSERVICE_EXECUTION_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field54}
+									{BEGIN cellblock_grid_cell_field55}
+	<td
+	
+	{$cell_grid_cell_field55}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_NOT_EMAIL_FROM_FORMAT_class}	"
+
+			data-field="TAS_NOT_EMAIL_FROM_FORMAT"
+	
+	data-cellId="grid_cell_field55" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_NOT_EMAIL_FROM_FORMAT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field55" {$item_simple_grid_field55} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_NOT_EMAIL_FROM_FORMAT" data-fieldname="TAS_NOT_EMAIL_FROM_FORMAT" data-default-width >
+{$TAS_NOT_EMAIL_FROM_FORMAT_value}
+</span>
+{END TAS_NOT_EMAIL_FROM_FORMAT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field55}
+									{BEGIN cellblock_grid_cell_field56}
+	<td
+	
+	{$cell_grid_cell_field56}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OFFLINE_class}	"
+
+			data-field="TAS_OFFLINE"
+	
+	data-cellId="grid_cell_field56" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_OFFLINE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field56" {$item_simple_grid_field56} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_OFFLINE" data-fieldname="TAS_OFFLINE" data-default-width >
+{$TAS_OFFLINE_value}
+</span>
+{END TAS_OFFLINE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field56}
+									{BEGIN cellblock_grid_cell_field57}
+	<td
+	
+	{$cell_grid_cell_field57}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EMAIL_SERVER_UID_class}	"
+
+			data-field="TAS_EMAIL_SERVER_UID"
+	
+	data-cellId="grid_cell_field57" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_EMAIL_SERVER_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field57" {$item_simple_grid_field57} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_EMAIL_SERVER_UID" data-fieldname="TAS_EMAIL_SERVER_UID" data-default-width >
+{$TAS_EMAIL_SERVER_UID_value}
+</span>
+{END TAS_EMAIL_SERVER_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field57}
+									{BEGIN cellblock_grid_cell_field58}
+	<td
+	
+	{$cell_grid_cell_field58}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_AUTO_ROOT_class}	"
+
+			data-field="TAS_AUTO_ROOT"
+	
+	data-cellId="grid_cell_field58" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_AUTO_ROOT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field58" {$item_simple_grid_field58} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_AUTO_ROOT" data-fieldname="TAS_AUTO_ROOT" data-default-width >
+{$TAS_AUTO_ROOT_value}
+</span>
+{END TAS_AUTO_ROOT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field58}
+									{BEGIN cellblock_grid_cell_field59}
+	<td
+	
+	{$cell_grid_cell_field59}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SERVER_UID_class}	"
+
+			data-field="TAS_RECEIVE_SERVER_UID"
+	
+	data-cellId="grid_cell_field59" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_SERVER_UID_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field59" {$item_simple_grid_field59} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_SERVER_UID" data-fieldname="TAS_RECEIVE_SERVER_UID" data-default-width >
+{$TAS_RECEIVE_SERVER_UID_value}
+</span>
+{END TAS_RECEIVE_SERVER_UID_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field59}
+									{BEGIN cellblock_grid_cell_field60}
+	<td
+	
+	{$cell_grid_cell_field60}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_LAST_EMAIL_class}	"
+
+			data-field="TAS_RECEIVE_LAST_EMAIL"
+	
+	data-cellId="grid_cell_field60" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_LAST_EMAIL_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field60" {$item_simple_grid_field60} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_LAST_EMAIL" data-fieldname="TAS_RECEIVE_LAST_EMAIL" data-default-width >
+{$TAS_RECEIVE_LAST_EMAIL_value}
+</span>
+{END TAS_RECEIVE_LAST_EMAIL_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field60}
+									{BEGIN cellblock_grid_cell_field61}
+	<td
+	
+	{$cell_grid_cell_field61}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_EMAIL_FROM_FORMAT_class}	"
+
+			data-field="TAS_RECEIVE_EMAIL_FROM_FORMAT"
+	
+	data-cellId="grid_cell_field61" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_EMAIL_FROM_FORMAT_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field61" {$item_simple_grid_field61} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_EMAIL_FROM_FORMAT" data-fieldname="TAS_RECEIVE_EMAIL_FROM_FORMAT" data-default-width >
+{$TAS_RECEIVE_EMAIL_FROM_FORMAT_value}
+</span>
+{END TAS_RECEIVE_EMAIL_FROM_FORMAT_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field61}
+									{BEGIN cellblock_grid_cell_field62}
+	<td
+	
+	{$cell_grid_cell_field62}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TYPE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE_TYPE"
+	
+	data-cellId="grid_cell_field62" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_TYPE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field62" {$item_simple_grid_field62} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE_TYPE" data-fieldname="TAS_RECEIVE_MESSAGE_TYPE" data-default-width >
+{$TAS_RECEIVE_MESSAGE_TYPE_value}
+</span>
+{END TAS_RECEIVE_MESSAGE_TYPE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field62}
+									{BEGIN cellblock_grid_cell_field63}
+	<td
+	
+	{$cell_grid_cell_field63}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TEMPLATE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE_TEMPLATE"
+	
+	data-cellId="grid_cell_field63" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_TEMPLATE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field63" {$item_simple_grid_field63} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE_TEMPLATE" data-fieldname="TAS_RECEIVE_MESSAGE_TEMPLATE" data-default-width >
+{$TAS_RECEIVE_MESSAGE_TEMPLATE_value}
+</span>
+{END TAS_RECEIVE_MESSAGE_TEMPLATE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field63}
+									{BEGIN cellblock_grid_cell_field64}
+	<td
+	
+	{$cell_grid_cell_field64}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SUBJECT_MESSAGE_class}	"
+
+			data-field="TAS_RECEIVE_SUBJECT_MESSAGE"
+	
+	data-cellId="grid_cell_field64" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_SUBJECT_MESSAGE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field64" {$item_simple_grid_field64} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_SUBJECT_MESSAGE" data-fieldname="TAS_RECEIVE_SUBJECT_MESSAGE" data-default-width >
+{$TAS_RECEIVE_SUBJECT_MESSAGE_value}
+</span>
+{END TAS_RECEIVE_SUBJECT_MESSAGE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field64}
+									{BEGIN cellblock_grid_cell_field65}
+	<td
+	
+	{$cell_grid_cell_field65}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_class}	"
+
+			data-field="TAS_RECEIVE_MESSAGE"
+	
+	data-cellId="grid_cell_field65" data-pageid="{$pageid}" data-record-id="{$recId}"	
+	>
+
+	 
+		{BEGIN TAS_RECEIVE_MESSAGE_fieldcolumn}
+<span data-itemtype="grid_field" data-itemid="simple_grid_field65" {$item_simple_grid_field65} data-pageid="{$pageid}" data-record-id="{$recId}" data-field="TAS_RECEIVE_MESSAGE" data-fieldname="TAS_RECEIVE_MESSAGE" data-default-width >
+{$TAS_RECEIVE_MESSAGE_value}
+</span>
+{END TAS_RECEIVE_MESSAGE_fieldcolumn}	
+	</td>
+	{END cellblock_grid_cell_field65}
+							</tr>
+										
+											</tbody>
+					{END grid_row}
+													<tfoot>
+			
+																																			<tr {$rowattrs} {$row_grid_2} class="{$rowclass}
+									{$gridFooter_class}
+					
+								r-gridrow
+							">
+									{BEGIN cellblock_grid_footcell_field}
+	<td
+	
+	{$cell_grid_footcell_field}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$PRO_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field}
+									{BEGIN cellblock_grid_footcell_field1}
+	<td
+	
+	{$cell_grid_footcell_field1}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field1" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field1}
+									{BEGIN cellblock_grid_footcell_field2}
+	<td
+	
+	{$cell_grid_footcell_field2}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ID_class}	"
+
+	
+	data-cellId="grid_footcell_field2" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field2}
+									{BEGIN cellblock_grid_footcell_field3}
+	<td
+	
+	{$cell_grid_footcell_field3}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TITLE_class}	"
+
+	
+	data-cellId="grid_footcell_field3" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field3}
+									{BEGIN cellblock_grid_footcell_field4}
+	<td
+	
+	{$cell_grid_footcell_field4}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DESCRIPTION_class}	"
+
+	
+	data-cellId="grid_footcell_field4" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field4}
+									{BEGIN cellblock_grid_footcell_field5}
+	<td
+	
+	{$cell_grid_footcell_field5}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_TITLE_class}	"
+
+	
+	data-cellId="grid_footcell_field5" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field5}
+									{BEGIN cellblock_grid_footcell_field6}
+	<td
+	
+	{$cell_grid_footcell_field6}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_SUBJECT_MESSAGE_class}	"
+
+	
+	data-cellId="grid_footcell_field6" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field6}
+									{BEGIN cellblock_grid_footcell_field7}
+	<td
+	
+	{$cell_grid_footcell_field7}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_PROC_CODE_class}	"
+
+	
+	data-cellId="grid_footcell_field7" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field7}
+									{BEGIN cellblock_grid_footcell_field8}
+	<td
+	
+	{$cell_grid_footcell_field8}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_MESSAGE_class}	"
+
+	
+	data-cellId="grid_footcell_field8" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field8}
+									{BEGIN cellblock_grid_footcell_field9}
+	<td
+	
+	{$cell_grid_footcell_field9}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DEF_DESCRIPTION_class}	"
+
+	
+	data-cellId="grid_footcell_field9" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field9}
+									{BEGIN cellblock_grid_footcell_field10}
+	<td
+	
+	{$cell_grid_footcell_field10}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_class}	"
+
+	
+	data-cellId="grid_footcell_field10" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field10}
+									{BEGIN cellblock_grid_footcell_field11}
+	<td
+	
+	{$cell_grid_footcell_field11}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DURATION_class}	"
+
+	
+	data-cellId="grid_footcell_field11" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field11}
+									{BEGIN cellblock_grid_footcell_field12}
+	<td
+	
+	{$cell_grid_footcell_field12}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DELAY_TYPE_class}	"
+
+	
+	data-cellId="grid_footcell_field12" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field12}
+									{BEGIN cellblock_grid_footcell_field13}
+	<td
+	
+	{$cell_grid_footcell_field13}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TEMPORIZER_class}	"
+
+	
+	data-cellId="grid_footcell_field13" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field13}
+									{BEGIN cellblock_grid_footcell_field14}
+	<td
+	
+	{$cell_grid_footcell_field14}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TYPE_DAY_class}	"
+
+	
+	data-cellId="grid_footcell_field14" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field14}
+									{BEGIN cellblock_grid_footcell_field15}
+	<td
+	
+	{$cell_grid_footcell_field15}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TIMEUNIT_class}	"
+
+	
+	data-cellId="grid_footcell_field15" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field15}
+									{BEGIN cellblock_grid_footcell_field16}
+	<td
+	
+	{$cell_grid_footcell_field16}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ALERT_class}	"
+
+	
+	data-cellId="grid_footcell_field16" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field16}
+									{BEGIN cellblock_grid_footcell_field17}
+	<td
+	
+	{$cell_grid_footcell_field17}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_PRIORITY_VARIABLE_class}	"
+
+	
+	data-cellId="grid_footcell_field17" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field17}
+									{BEGIN cellblock_grid_footcell_field18}
+	<td
+	
+	{$cell_grid_footcell_field18}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_TYPE_class}	"
+
+	
+	data-cellId="grid_footcell_field18" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field18}
+									{BEGIN cellblock_grid_footcell_field19}
+	<td
+	
+	{$cell_grid_footcell_field19}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_VARIABLE_class}	"
+
+	
+	data-cellId="grid_footcell_field19" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field19}
+									{BEGIN cellblock_grid_footcell_field20}
+	<td
+	
+	{$cell_grid_footcell_field20}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_GROUP_VARIABLE_class}	"
+
+	
+	data-cellId="grid_footcell_field20" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field20}
+									{BEGIN cellblock_grid_footcell_field21}
+	<td
+	
+	{$cell_grid_footcell_field21}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_INSTANCE_VARIABLE_class}	"
+
+	
+	data-cellId="grid_footcell_field21" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field21}
+									{BEGIN cellblock_grid_footcell_field22}
+	<td
+	
+	{$cell_grid_footcell_field22}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_MI_COMPLETE_VARIABLE_class}	"
+
+	
+	data-cellId="grid_footcell_field22" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field22}
+									{BEGIN cellblock_grid_footcell_field23}
+	<td
+	
+	{$cell_grid_footcell_field23}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_class}	"
+
+	
+	data-cellId="grid_footcell_field23" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field23}
+									{BEGIN cellblock_grid_footcell_field24}
+	<td
+	
+	{$cell_grid_footcell_field24}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_ASSIGN_LOCATION_ADHOC_class}	"
+
+	
+	data-cellId="grid_footcell_field24" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field24}
+									{BEGIN cellblock_grid_footcell_field25}
+	<td
+	
+	{$cell_grid_footcell_field25}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TRANSFER_FLY_class}	"
+
+	
+	data-cellId="grid_footcell_field25" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field25}
+									{BEGIN cellblock_grid_footcell_field26}
+	<td
+	
+	{$cell_grid_footcell_field26}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_LAST_ASSIGNED_class}	"
+
+	
+	data-cellId="grid_footcell_field26" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field26}
+									{BEGIN cellblock_grid_footcell_field27}
+	<td
+	
+	{$cell_grid_footcell_field27}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_USER_class}	"
+
+	
+	data-cellId="grid_footcell_field27" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field27}
+									{BEGIN cellblock_grid_footcell_field28}
+	<td
+	
+	{$cell_grid_footcell_field28}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_UPLOAD_class}	"
+
+	
+	data-cellId="grid_footcell_field28" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field28}
+									{BEGIN cellblock_grid_footcell_field29}
+	<td
+	
+	{$cell_grid_footcell_field29}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_UPLOAD_class}	"
+
+	
+	data-cellId="grid_footcell_field29" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field29}
+									{BEGIN cellblock_grid_footcell_field30}
+	<td
+	
+	{$cell_grid_footcell_field30}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_VIEW_ADDITIONAL_DOCUMENTATION_class}	"
+
+	
+	data-cellId="grid_footcell_field30" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field30}
+									{BEGIN cellblock_grid_footcell_field31}
+	<td
+	
+	{$cell_grid_footcell_field31}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_CANCEL_class}	"
+
+	
+	data-cellId="grid_footcell_field31" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field31}
+									{BEGIN cellblock_grid_footcell_field32}
+	<td
+	
+	{$cell_grid_footcell_field32}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OWNER_APP_class}	"
+
+	
+	data-cellId="grid_footcell_field32" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field32}
+									{BEGIN cellblock_grid_footcell_field33}
+	<td
+	
+	{$cell_grid_footcell_field33}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$STG_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field33" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field33}
+									{BEGIN cellblock_grid_footcell_field34}
+	<td
+	
+	{$cell_grid_footcell_field34}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_PAUSE_class}	"
+
+	
+	data-cellId="grid_footcell_field34" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field34}
+									{BEGIN cellblock_grid_footcell_field35}
+	<td
+	
+	{$cell_grid_footcell_field35}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_SEND_MESSAGE_class}	"
+
+	
+	data-cellId="grid_footcell_field35" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field35}
+									{BEGIN cellblock_grid_footcell_field36}
+	<td
+	
+	{$cell_grid_footcell_field36}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_CAN_DELETE_DOCS_class}	"
+
+	
+	data-cellId="grid_footcell_field36" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field36}
+									{BEGIN cellblock_grid_footcell_field37}
+	<td
+	
+	{$cell_grid_footcell_field37}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELF_SERVICE_class}	"
+
+	
+	data-cellId="grid_footcell_field37" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field37}
+									{BEGIN cellblock_grid_footcell_field38}
+	<td
+	
+	{$cell_grid_footcell_field38}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_START_class}	"
+
+	
+	data-cellId="grid_footcell_field38" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field38}
+									{BEGIN cellblock_grid_footcell_field39}
+	<td
+	
+	{$cell_grid_footcell_field39}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_TO_LAST_USER_class}	"
+
+	
+	data-cellId="grid_footcell_field39" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field39}
+									{BEGIN cellblock_grid_footcell_field40}
+	<td
+	
+	{$cell_grid_footcell_field40}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SEND_LAST_EMAIL_class}	"
+
+	
+	data-cellId="grid_footcell_field40" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field40}
+									{BEGIN cellblock_grid_footcell_field41}
+	<td
+	
+	{$cell_grid_footcell_field41}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_class}	"
+
+	
+	data-cellId="grid_footcell_field41" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field41}
+									{BEGIN cellblock_grid_footcell_field42}
+	<td
+	
+	{$cell_grid_footcell_field42}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSX_class}	"
+
+	
+	data-cellId="grid_footcell_field42" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field42}
+									{BEGIN cellblock_grid_footcell_field43}
+	<td
+	
+	{$cell_grid_footcell_field43}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_POSY_class}	"
+
+	
+	data-cellId="grid_footcell_field43" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field43}
+									{BEGIN cellblock_grid_footcell_field44}
+	<td
+	
+	{$cell_grid_footcell_field44}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_WIDTH_class}	"
+
+	
+	data-cellId="grid_footcell_field44" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field44}
+									{BEGIN cellblock_grid_footcell_field45}
+	<td
+	
+	{$cell_grid_footcell_field45}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_HEIGHT_class}	"
+
+	
+	data-cellId="grid_footcell_field45" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field45}
+									{BEGIN cellblock_grid_footcell_field46}
+	<td
+	
+	{$cell_grid_footcell_field46}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_COLOR_class}	"
+
+	
+	data-cellId="grid_footcell_field46" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field46}
+									{BEGIN cellblock_grid_footcell_field47}
+	<td
+	
+	{$cell_grid_footcell_field47}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EVN_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field47" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field47}
+									{BEGIN cellblock_grid_footcell_field48}
+	<td
+	
+	{$cell_grid_footcell_field48}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_BOUNDARY_class}	"
+
+	
+	data-cellId="grid_footcell_field48" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field48}
+									{BEGIN cellblock_grid_footcell_field49}
+	<td
+	
+	{$cell_grid_footcell_field49}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_DERIVATION_SCREEN_TPL_class}	"
+
+	
+	data-cellId="grid_footcell_field49" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field49}
+									{BEGIN cellblock_grid_footcell_field50}
+	<td
+	
+	{$cell_grid_footcell_field50}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIMEOUT_class}	"
+
+	
+	data-cellId="grid_footcell_field50" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field50}
+									{BEGIN cellblock_grid_footcell_field51}
+	<td
+	
+	{$cell_grid_footcell_field51}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_class}	"
+
+	
+	data-cellId="grid_footcell_field51" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field51}
+									{BEGIN cellblock_grid_footcell_field52}
+	<td
+	
+	{$cell_grid_footcell_field52}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TIME_UNIT_class}	"
+
+	
+	data-cellId="grid_footcell_field52" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field52}
+									{BEGIN cellblock_grid_footcell_field53}
+	<td
+	
+	{$cell_grid_footcell_field53}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_TRIGGER_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field53" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field53}
+									{BEGIN cellblock_grid_footcell_field54}
+	<td
+	
+	{$cell_grid_footcell_field54}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_SELFSERVICE_EXECUTION_class}	"
+
+	
+	data-cellId="grid_footcell_field54" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field54}
+									{BEGIN cellblock_grid_footcell_field55}
+	<td
+	
+	{$cell_grid_footcell_field55}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_NOT_EMAIL_FROM_FORMAT_class}	"
+
+	
+	data-cellId="grid_footcell_field55" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field55}
+									{BEGIN cellblock_grid_footcell_field56}
+	<td
+	
+	{$cell_grid_footcell_field56}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_OFFLINE_class}	"
+
+	
+	data-cellId="grid_footcell_field56" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field56}
+									{BEGIN cellblock_grid_footcell_field57}
+	<td
+	
+	{$cell_grid_footcell_field57}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_EMAIL_SERVER_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field57" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field57}
+									{BEGIN cellblock_grid_footcell_field58}
+	<td
+	
+	{$cell_grid_footcell_field58}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_AUTO_ROOT_class}	"
+
+	
+	data-cellId="grid_footcell_field58" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field58}
+									{BEGIN cellblock_grid_footcell_field59}
+	<td
+	
+	{$cell_grid_footcell_field59}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SERVER_UID_class}	"
+
+	
+	data-cellId="grid_footcell_field59" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field59}
+									{BEGIN cellblock_grid_footcell_field60}
+	<td
+	
+	{$cell_grid_footcell_field60}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_LAST_EMAIL_class}	"
+
+	
+	data-cellId="grid_footcell_field60" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field60}
+									{BEGIN cellblock_grid_footcell_field61}
+	<td
+	
+	{$cell_grid_footcell_field61}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_EMAIL_FROM_FORMAT_class}	"
+
+	
+	data-cellId="grid_footcell_field61" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field61}
+									{BEGIN cellblock_grid_footcell_field62}
+	<td
+	
+	{$cell_grid_footcell_field62}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TYPE_class}	"
+
+	
+	data-cellId="grid_footcell_field62" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field62}
+									{BEGIN cellblock_grid_footcell_field63}
+	<td
+	
+	{$cell_grid_footcell_field63}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_TEMPLATE_class}	"
+
+	
+	data-cellId="grid_footcell_field63" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field63}
+									{BEGIN cellblock_grid_footcell_field64}
+	<td
+	
+	{$cell_grid_footcell_field64}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_SUBJECT_MESSAGE_class}	"
+
+	
+	data-cellId="grid_footcell_field64" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field64}
+									{BEGIN cellblock_grid_footcell_field65}
+	<td
+	
+	{$cell_grid_footcell_field65}
+	{$recordattrs}
+	class="
+		 r-ori-vert		 {$TAS_RECEIVE_MESSAGE_class}	"
+
+	
+	data-cellId="grid_footcell_field65" data-pageid="{$pageid}" data-record-id="{$recId}" data-page="TASK_print"	
+	>
+
+	
+	</td>
+	{END cellblock_grid_footcell_field65}
+							</tr>
+					
+					</tfoot>
+				</table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}" >		
+	 
+				<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class=" r-ori-vert			col-md-12
+	
+">
+			</div>					</div>
+			</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

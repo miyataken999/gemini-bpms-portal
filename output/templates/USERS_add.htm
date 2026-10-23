@@ -1,0 +1,957 @@
+<!doctype html>
+<html  {$html_attrs}>
+	<head>
+						<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{$pagetitle}</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<base href="{$projectPath}">
+		{BEGIN styleCSSFiles}
+<link REL="stylesheet" href="{$stylepath}" type="text/css">
+{END styleCSSFiles}
+			
+	</head>
+
+	<body class="{$stylename} function-add" >
+	{BEGIN body}
+		{$header}
+		<style>
+			{$containerCss}
+		</style>
+		{$locking}
+		<div class="r-small-page" 
+			data-body-align="center"
+			data-body-width="standard"
+		>
+							{BEGIN top_block}
+<div class="r-form" data-location="top" id="form_top_{$pageid}" data-makeup="small" {$form_top} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="top_c1" data-pageid="{$pageid}"	{$cell_top_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		<h2 data-itemtype="add_header" data-itemid="add_header" {$item_add_header} data-pageid="{$pageid}" >{$pagetitlelabel USERS add}</h2>
+	</div>					</div>
+	</div>		
+{END top_block}
+									{BEGIN above-grid_block}
+<div class="r-form" data-location="above-grid" id="form_above-grid_{$pageid}" data-makeup="small" {$form_above-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="above-grid_c1" data-pageid="{$pageid}"	{$cell_above-grid_c1}
+	class=" r-ori-vert			col-md-12
+	">
+	 
+		{BEGIN message_block}
+<div data-itemtype="add_message" data-itemid="add_message" {$item_add_message} data-pageid="{$pageid}" class="alert {$message_class}" role="alert">
+<h5>{$message}</h5>
+<div>
+{BEGIN message_back_button}
+		
+	<button class="btn btn-sm btn-default" {$backbutton_attrs}>{mlang_message BACK_TO_LIST}</button>
+	{END message_back_button}
+{BEGIN view_page_button}
+	<button class="btn btn-sm btn-default" {$view_page_button_attrs}>{mlang_message VIEW}</button>
+{END view_page_button}
+{BEGIN edit_page_button}
+	<button class="btn btn-sm btn-default" {$edit_page_button_attrs}>{mlang_message EDIT}</button>
+{END edit_page_button}
+</div>
+</div>
+{END message_block}	</div>					</div>
+	</div>		
+{END above-grid_block}
+									{BEGIN grid_block}
+
+
+
+
+ 
+	 
+												<table 
+	data-body-align="center"
+	data-location="grid" id="form_grid_{$pageid}" data-makeup="small" {$form_grid} data-pageid="{$pageid}" 
+	class="r-edit-form" cellpadding="0" cellspacing="0" 
+	{$grid_hiddenattr} 
+		data-form-width="1"
+		
+		data-v-width="4"
+	>
+	<tbody>
+										<tr {$row_grid_0} >
+										
+
+{BEGIN cellblock_grid_c3}
+<td
+	{$cell_grid_c3}
+	class=" r-ori-vert"
+	
+				data-fullwidth
+		
+			data-cellId="grid_c3" data-pageid="{$pageid}"
+		data-v-cell="4"
+		
+>
+	<div edit-form-cell class="clearfix">
+				
+{BEGIN USR_UID_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_UID}  r-vertical-field" 
+	data-signal-error-for="USR_UID{$id}" {$required_attr_USR_UID}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field" {$item_integrated_edit_field} data-pageid="{$pageid}" data-field="USR_UID" data-fieldname="USR_UID" >
+
+	<label class="r-edit-label control-label {$USR_UID_label_class}" for="{$labelfor_USR_UID}">
+		{BEGIN USR_UID_label}
+			{$USR_UID_forward_control}
+			{$label USERS USR_UID }			{END USR_UID_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_UID_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_UID" {$tooltipAttr USERS USR_UID } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_UID }		</div>
+	</div>
+	</div>
+
+
+{END USR_UID_fieldblock}
+											
+{BEGIN USR_USERNAME_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_USERNAME}  r-vertical-field" 
+	data-signal-error-for="USR_USERNAME{$id}" {$required_attr_USR_USERNAME}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field1" {$item_integrated_edit_field1} data-pageid="{$pageid}" data-field="USR_USERNAME" data-fieldname="USR_USERNAME" >
+
+	<label class="r-edit-label control-label {$USR_USERNAME_label_class}" for="{$labelfor_USR_USERNAME}">
+		{BEGIN USR_USERNAME_label}
+			{$USR_USERNAME_forward_control}
+			{$label USERS USR_USERNAME }			{END USR_USERNAME_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_USERNAME_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_USERNAME" {$tooltipAttr USERS USR_USERNAME } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_USERNAME }		</div>
+	</div>
+	</div>
+
+
+{END USR_USERNAME_fieldblock}
+											
+{BEGIN USR_PASSWORD_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_PASSWORD}  r-vertical-field" 
+	data-signal-error-for="USR_PASSWORD{$id}" {$required_attr_USR_PASSWORD}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field2" {$item_integrated_edit_field2} data-pageid="{$pageid}" data-field="USR_PASSWORD" data-fieldname="USR_PASSWORD" >
+
+	<label class="r-edit-label control-label {$USR_PASSWORD_label_class}" for="{$labelfor_USR_PASSWORD}">
+		{BEGIN USR_PASSWORD_label}
+			{$USR_PASSWORD_forward_control}
+			{$label USERS USR_PASSWORD }			{END USR_PASSWORD_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_PASSWORD_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_PASSWORD" {$tooltipAttr USERS USR_PASSWORD } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_PASSWORD }		</div>
+	</div>
+	</div>
+
+
+{END USR_PASSWORD_fieldblock}
+											
+{BEGIN USR_FIRSTNAME_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_FIRSTNAME}  r-vertical-field" 
+	data-signal-error-for="USR_FIRSTNAME{$id}" {$required_attr_USR_FIRSTNAME}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field3" {$item_integrated_edit_field3} data-pageid="{$pageid}" data-field="USR_FIRSTNAME" data-fieldname="USR_FIRSTNAME" >
+
+	<label class="r-edit-label control-label {$USR_FIRSTNAME_label_class}" for="{$labelfor_USR_FIRSTNAME}">
+		{BEGIN USR_FIRSTNAME_label}
+			{$USR_FIRSTNAME_forward_control}
+			{$label USERS USR_FIRSTNAME }			{END USR_FIRSTNAME_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_FIRSTNAME_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_FIRSTNAME" {$tooltipAttr USERS USR_FIRSTNAME } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_FIRSTNAME }		</div>
+	</div>
+	</div>
+
+
+{END USR_FIRSTNAME_fieldblock}
+											
+{BEGIN USR_LASTNAME_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_LASTNAME}  r-vertical-field" 
+	data-signal-error-for="USR_LASTNAME{$id}" {$required_attr_USR_LASTNAME}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field4" {$item_integrated_edit_field4} data-pageid="{$pageid}" data-field="USR_LASTNAME" data-fieldname="USR_LASTNAME" >
+
+	<label class="r-edit-label control-label {$USR_LASTNAME_label_class}" for="{$labelfor_USR_LASTNAME}">
+		{BEGIN USR_LASTNAME_label}
+			{$USR_LASTNAME_forward_control}
+			{$label USERS USR_LASTNAME }			{END USR_LASTNAME_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_LASTNAME_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_LASTNAME" {$tooltipAttr USERS USR_LASTNAME } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_LASTNAME }		</div>
+	</div>
+	</div>
+
+
+{END USR_LASTNAME_fieldblock}
+											
+{BEGIN USR_EMAIL_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_EMAIL}  r-vertical-field" 
+	data-signal-error-for="USR_EMAIL{$id}" {$required_attr_USR_EMAIL}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field5" {$item_integrated_edit_field5} data-pageid="{$pageid}" data-field="USR_EMAIL" data-fieldname="USR_EMAIL" >
+
+	<label class="r-edit-label control-label {$USR_EMAIL_label_class}" for="{$labelfor_USR_EMAIL}">
+		{BEGIN USR_EMAIL_label}
+			{$USR_EMAIL_forward_control}
+			{$label USERS USR_EMAIL }			{END USR_EMAIL_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_EMAIL_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_EMAIL" {$tooltipAttr USERS USR_EMAIL } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_EMAIL }		</div>
+	</div>
+	</div>
+
+
+{END USR_EMAIL_fieldblock}
+											
+{BEGIN USR_DUE_DATE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_DUE_DATE}  r-vertical-field" 
+	data-signal-error-for="USR_DUE_DATE{$id}" {$required_attr_USR_DUE_DATE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field6" {$item_integrated_edit_field6} data-pageid="{$pageid}" data-field="USR_DUE_DATE" data-fieldname="USR_DUE_DATE" >
+
+	<label class="r-edit-label control-label {$USR_DUE_DATE_label_class}" for="{$labelfor_USR_DUE_DATE}">
+		{BEGIN USR_DUE_DATE_label}
+			{$USR_DUE_DATE_forward_control}
+			{$label USERS USR_DUE_DATE }			{END USR_DUE_DATE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_DUE_DATE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_DUE_DATE" {$tooltipAttr USERS USR_DUE_DATE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_DUE_DATE }		</div>
+	</div>
+	</div>
+
+
+{END USR_DUE_DATE_fieldblock}
+											
+{BEGIN USR_CREATE_DATE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_CREATE_DATE}  r-vertical-field" 
+	data-signal-error-for="USR_CREATE_DATE{$id}" {$required_attr_USR_CREATE_DATE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field7" {$item_integrated_edit_field7} data-pageid="{$pageid}" data-field="USR_CREATE_DATE" data-fieldname="USR_CREATE_DATE" >
+
+	<label class="r-edit-label control-label {$USR_CREATE_DATE_label_class}" for="{$labelfor_USR_CREATE_DATE}">
+		{BEGIN USR_CREATE_DATE_label}
+			{$USR_CREATE_DATE_forward_control}
+			{$label USERS USR_CREATE_DATE }			{END USR_CREATE_DATE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_CREATE_DATE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_CREATE_DATE" {$tooltipAttr USERS USR_CREATE_DATE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_CREATE_DATE }		</div>
+	</div>
+	</div>
+
+
+{END USR_CREATE_DATE_fieldblock}
+											
+{BEGIN USR_UPDATE_DATE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_UPDATE_DATE}  r-vertical-field" 
+	data-signal-error-for="USR_UPDATE_DATE{$id}" {$required_attr_USR_UPDATE_DATE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field8" {$item_integrated_edit_field8} data-pageid="{$pageid}" data-field="USR_UPDATE_DATE" data-fieldname="USR_UPDATE_DATE" >
+
+	<label class="r-edit-label control-label {$USR_UPDATE_DATE_label_class}" for="{$labelfor_USR_UPDATE_DATE}">
+		{BEGIN USR_UPDATE_DATE_label}
+			{$USR_UPDATE_DATE_forward_control}
+			{$label USERS USR_UPDATE_DATE }			{END USR_UPDATE_DATE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_UPDATE_DATE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_UPDATE_DATE" {$tooltipAttr USERS USR_UPDATE_DATE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_UPDATE_DATE }		</div>
+	</div>
+	</div>
+
+
+{END USR_UPDATE_DATE_fieldblock}
+											
+{BEGIN USR_STATUS_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_STATUS}  r-vertical-field" 
+	data-signal-error-for="USR_STATUS{$id}" {$required_attr_USR_STATUS}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field9" {$item_integrated_edit_field9} data-pageid="{$pageid}" data-field="USR_STATUS" data-fieldname="USR_STATUS" >
+
+	<label class="r-edit-label control-label {$USR_STATUS_label_class}" for="{$labelfor_USR_STATUS}">
+		{BEGIN USR_STATUS_label}
+			{$USR_STATUS_forward_control}
+			{$label USERS USR_STATUS }			{END USR_STATUS_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_STATUS_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_STATUS" {$tooltipAttr USERS USR_STATUS } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_STATUS }		</div>
+	</div>
+	</div>
+
+
+{END USR_STATUS_fieldblock}
+											
+{BEGIN USR_COUNTRY_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_COUNTRY}  r-vertical-field" 
+	data-signal-error-for="USR_COUNTRY{$id}" {$required_attr_USR_COUNTRY}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field10" {$item_integrated_edit_field10} data-pageid="{$pageid}" data-field="USR_COUNTRY" data-fieldname="USR_COUNTRY" >
+
+	<label class="r-edit-label control-label {$USR_COUNTRY_label_class}" for="{$labelfor_USR_COUNTRY}">
+		{BEGIN USR_COUNTRY_label}
+			{$USR_COUNTRY_forward_control}
+			{$label USERS USR_COUNTRY }			{END USR_COUNTRY_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_COUNTRY_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_COUNTRY" {$tooltipAttr USERS USR_COUNTRY } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_COUNTRY }		</div>
+	</div>
+	</div>
+
+
+{END USR_COUNTRY_fieldblock}
+											
+{BEGIN USR_CITY_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_CITY}  r-vertical-field" 
+	data-signal-error-for="USR_CITY{$id}" {$required_attr_USR_CITY}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field11" {$item_integrated_edit_field11} data-pageid="{$pageid}" data-field="USR_CITY" data-fieldname="USR_CITY" >
+
+	<label class="r-edit-label control-label {$USR_CITY_label_class}" for="{$labelfor_USR_CITY}">
+		{BEGIN USR_CITY_label}
+			{$USR_CITY_forward_control}
+			{$label USERS USR_CITY }			{END USR_CITY_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_CITY_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_CITY" {$tooltipAttr USERS USR_CITY } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_CITY }		</div>
+	</div>
+	</div>
+
+
+{END USR_CITY_fieldblock}
+											
+{BEGIN USR_LOCATION_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_LOCATION}  r-vertical-field" 
+	data-signal-error-for="USR_LOCATION{$id}" {$required_attr_USR_LOCATION}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field12" {$item_integrated_edit_field12} data-pageid="{$pageid}" data-field="USR_LOCATION" data-fieldname="USR_LOCATION" >
+
+	<label class="r-edit-label control-label {$USR_LOCATION_label_class}" for="{$labelfor_USR_LOCATION}">
+		{BEGIN USR_LOCATION_label}
+			{$USR_LOCATION_forward_control}
+			{$label USERS USR_LOCATION }			{END USR_LOCATION_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_LOCATION_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_LOCATION" {$tooltipAttr USERS USR_LOCATION } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_LOCATION }		</div>
+	</div>
+	</div>
+
+
+{END USR_LOCATION_fieldblock}
+											
+{BEGIN USR_ADDRESS_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_ADDRESS}  r-vertical-field" 
+	data-signal-error-for="USR_ADDRESS{$id}" {$required_attr_USR_ADDRESS}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field13" {$item_integrated_edit_field13} data-pageid="{$pageid}" data-field="USR_ADDRESS" data-fieldname="USR_ADDRESS" >
+
+	<label class="r-edit-label control-label {$USR_ADDRESS_label_class}" for="{$labelfor_USR_ADDRESS}">
+		{BEGIN USR_ADDRESS_label}
+			{$USR_ADDRESS_forward_control}
+			{$label USERS USR_ADDRESS }			{END USR_ADDRESS_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_ADDRESS_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_ADDRESS" {$tooltipAttr USERS USR_ADDRESS } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_ADDRESS }		</div>
+	</div>
+	</div>
+
+
+{END USR_ADDRESS_fieldblock}
+											
+{BEGIN USR_PHONE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_PHONE}  r-vertical-field" 
+	data-signal-error-for="USR_PHONE{$id}" {$required_attr_USR_PHONE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field14" {$item_integrated_edit_field14} data-pageid="{$pageid}" data-field="USR_PHONE" data-fieldname="USR_PHONE" >
+
+	<label class="r-edit-label control-label {$USR_PHONE_label_class}" for="{$labelfor_USR_PHONE}">
+		{BEGIN USR_PHONE_label}
+			{$USR_PHONE_forward_control}
+			{$label USERS USR_PHONE }			{END USR_PHONE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_PHONE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_PHONE" {$tooltipAttr USERS USR_PHONE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_PHONE }		</div>
+	</div>
+	</div>
+
+
+{END USR_PHONE_fieldblock}
+											
+{BEGIN USR_FAX_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_FAX}  r-vertical-field" 
+	data-signal-error-for="USR_FAX{$id}" {$required_attr_USR_FAX}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field15" {$item_integrated_edit_field15} data-pageid="{$pageid}" data-field="USR_FAX" data-fieldname="USR_FAX" >
+
+	<label class="r-edit-label control-label {$USR_FAX_label_class}" for="{$labelfor_USR_FAX}">
+		{BEGIN USR_FAX_label}
+			{$USR_FAX_forward_control}
+			{$label USERS USR_FAX }			{END USR_FAX_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_FAX_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_FAX" {$tooltipAttr USERS USR_FAX } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_FAX }		</div>
+	</div>
+	</div>
+
+
+{END USR_FAX_fieldblock}
+											
+{BEGIN USR_CELLULAR_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_CELLULAR}  r-vertical-field" 
+	data-signal-error-for="USR_CELLULAR{$id}" {$required_attr_USR_CELLULAR}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field16" {$item_integrated_edit_field16} data-pageid="{$pageid}" data-field="USR_CELLULAR" data-fieldname="USR_CELLULAR" >
+
+	<label class="r-edit-label control-label {$USR_CELLULAR_label_class}" for="{$labelfor_USR_CELLULAR}">
+		{BEGIN USR_CELLULAR_label}
+			{$USR_CELLULAR_forward_control}
+			{$label USERS USR_CELLULAR }			{END USR_CELLULAR_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_CELLULAR_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_CELLULAR" {$tooltipAttr USERS USR_CELLULAR } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_CELLULAR }		</div>
+	</div>
+	</div>
+
+
+{END USR_CELLULAR_fieldblock}
+											
+{BEGIN USR_ZIP_CODE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_ZIP_CODE}  r-vertical-field" 
+	data-signal-error-for="USR_ZIP_CODE{$id}" {$required_attr_USR_ZIP_CODE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field17" {$item_integrated_edit_field17} data-pageid="{$pageid}" data-field="USR_ZIP_CODE" data-fieldname="USR_ZIP_CODE" >
+
+	<label class="r-edit-label control-label {$USR_ZIP_CODE_label_class}" for="{$labelfor_USR_ZIP_CODE}">
+		{BEGIN USR_ZIP_CODE_label}
+			{$USR_ZIP_CODE_forward_control}
+			{$label USERS USR_ZIP_CODE }			{END USR_ZIP_CODE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_ZIP_CODE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_ZIP_CODE" {$tooltipAttr USERS USR_ZIP_CODE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_ZIP_CODE }		</div>
+	</div>
+	</div>
+
+
+{END USR_ZIP_CODE_fieldblock}
+											
+{BEGIN DEP_UID_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_DEP_UID}  r-vertical-field" 
+	data-signal-error-for="DEP_UID{$id}" {$required_attr_DEP_UID}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field18" {$item_integrated_edit_field18} data-pageid="{$pageid}" data-field="DEP_UID" data-fieldname="DEP_UID" >
+
+	<label class="r-edit-label control-label {$DEP_UID_label_class}" for="{$labelfor_DEP_UID}">
+		{BEGIN DEP_UID_label}
+			{$DEP_UID_forward_control}
+			{$label USERS DEP_UID }			{END DEP_UID_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$DEP_UID_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="DEP_UID" {$tooltipAttr USERS DEP_UID } >
+		<div class="text-muted" >
+		{$tooltip USERS DEP_UID }		</div>
+	</div>
+	</div>
+
+
+{END DEP_UID_fieldblock}
+											
+{BEGIN USR_POSITION_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_POSITION}  r-vertical-field" 
+	data-signal-error-for="USR_POSITION{$id}" {$required_attr_USR_POSITION}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field19" {$item_integrated_edit_field19} data-pageid="{$pageid}" data-field="USR_POSITION" data-fieldname="USR_POSITION" >
+
+	<label class="r-edit-label control-label {$USR_POSITION_label_class}" for="{$labelfor_USR_POSITION}">
+		{BEGIN USR_POSITION_label}
+			{$USR_POSITION_forward_control}
+			{$label USERS USR_POSITION }			{END USR_POSITION_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_POSITION_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_POSITION" {$tooltipAttr USERS USR_POSITION } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_POSITION }		</div>
+	</div>
+	</div>
+
+
+{END USR_POSITION_fieldblock}
+											
+{BEGIN USR_RESUME_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_RESUME}  r-vertical-field" 
+	data-signal-error-for="USR_RESUME{$id}" {$required_attr_USR_RESUME}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field20" {$item_integrated_edit_field20} data-pageid="{$pageid}" data-field="USR_RESUME" data-fieldname="USR_RESUME" >
+
+	<label class="r-edit-label control-label {$USR_RESUME_label_class}" for="{$labelfor_USR_RESUME}">
+		{BEGIN USR_RESUME_label}
+			{$USR_RESUME_forward_control}
+			{$label USERS USR_RESUME }			{END USR_RESUME_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_RESUME_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_RESUME" {$tooltipAttr USERS USR_RESUME } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_RESUME }		</div>
+	</div>
+	</div>
+
+
+{END USR_RESUME_fieldblock}
+											
+{BEGIN USR_BIRTHDAY_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_BIRTHDAY}  r-vertical-field" 
+	data-signal-error-for="USR_BIRTHDAY{$id}" {$required_attr_USR_BIRTHDAY}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field21" {$item_integrated_edit_field21} data-pageid="{$pageid}" data-field="USR_BIRTHDAY" data-fieldname="USR_BIRTHDAY" >
+
+	<label class="r-edit-label control-label {$USR_BIRTHDAY_label_class}" for="{$labelfor_USR_BIRTHDAY}">
+		{BEGIN USR_BIRTHDAY_label}
+			{$USR_BIRTHDAY_forward_control}
+			{$label USERS USR_BIRTHDAY }			{END USR_BIRTHDAY_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_BIRTHDAY_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_BIRTHDAY" {$tooltipAttr USERS USR_BIRTHDAY } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_BIRTHDAY }		</div>
+	</div>
+	</div>
+
+
+{END USR_BIRTHDAY_fieldblock}
+											
+{BEGIN USR_ROLE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_ROLE}  r-vertical-field" 
+	data-signal-error-for="USR_ROLE{$id}" {$required_attr_USR_ROLE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field22" {$item_integrated_edit_field22} data-pageid="{$pageid}" data-field="USR_ROLE" data-fieldname="USR_ROLE" >
+
+	<label class="r-edit-label control-label {$USR_ROLE_label_class}" for="{$labelfor_USR_ROLE}">
+		{BEGIN USR_ROLE_label}
+			{$USR_ROLE_forward_control}
+			{$label USERS USR_ROLE }			{END USR_ROLE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_ROLE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_ROLE" {$tooltipAttr USERS USR_ROLE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_ROLE }		</div>
+	</div>
+	</div>
+
+
+{END USR_ROLE_fieldblock}
+											
+{BEGIN USR_REPORTS_TO_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_REPORTS_TO}  r-vertical-field" 
+	data-signal-error-for="USR_REPORTS_TO{$id}" {$required_attr_USR_REPORTS_TO}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field23" {$item_integrated_edit_field23} data-pageid="{$pageid}" data-field="USR_REPORTS_TO" data-fieldname="USR_REPORTS_TO" >
+
+	<label class="r-edit-label control-label {$USR_REPORTS_TO_label_class}" for="{$labelfor_USR_REPORTS_TO}">
+		{BEGIN USR_REPORTS_TO_label}
+			{$USR_REPORTS_TO_forward_control}
+			{$label USERS USR_REPORTS_TO }			{END USR_REPORTS_TO_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_REPORTS_TO_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_REPORTS_TO" {$tooltipAttr USERS USR_REPORTS_TO } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_REPORTS_TO }		</div>
+	</div>
+	</div>
+
+
+{END USR_REPORTS_TO_fieldblock}
+											
+{BEGIN USR_REPLACED_BY_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_REPLACED_BY}  r-vertical-field" 
+	data-signal-error-for="USR_REPLACED_BY{$id}" {$required_attr_USR_REPLACED_BY}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field24" {$item_integrated_edit_field24} data-pageid="{$pageid}" data-field="USR_REPLACED_BY" data-fieldname="USR_REPLACED_BY" >
+
+	<label class="r-edit-label control-label {$USR_REPLACED_BY_label_class}" for="{$labelfor_USR_REPLACED_BY}">
+		{BEGIN USR_REPLACED_BY_label}
+			{$USR_REPLACED_BY_forward_control}
+			{$label USERS USR_REPLACED_BY }			{END USR_REPLACED_BY_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_REPLACED_BY_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_REPLACED_BY" {$tooltipAttr USERS USR_REPLACED_BY } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_REPLACED_BY }		</div>
+	</div>
+	</div>
+
+
+{END USR_REPLACED_BY_fieldblock}
+											
+{BEGIN USR_UX_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_UX}  r-vertical-field" 
+	data-signal-error-for="USR_UX{$id}" {$required_attr_USR_UX}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field25" {$item_integrated_edit_field25} data-pageid="{$pageid}" data-field="USR_UX" data-fieldname="USR_UX" >
+
+	<label class="r-edit-label control-label {$USR_UX_label_class}" for="{$labelfor_USR_UX}">
+		{BEGIN USR_UX_label}
+			{$USR_UX_forward_control}
+			{$label USERS USR_UX }			{END USR_UX_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_UX_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_UX" {$tooltipAttr USERS USR_UX } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_UX }		</div>
+	</div>
+	</div>
+
+
+{END USR_UX_fieldblock}
+											
+{BEGIN USR_COST_BY_HOUR_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_COST_BY_HOUR}  r-vertical-field" 
+	data-signal-error-for="USR_COST_BY_HOUR{$id}" {$required_attr_USR_COST_BY_HOUR}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field26" {$item_integrated_edit_field26} data-pageid="{$pageid}" data-field="USR_COST_BY_HOUR" data-fieldname="USR_COST_BY_HOUR" >
+
+	<label class="r-edit-label control-label {$USR_COST_BY_HOUR_label_class}" for="{$labelfor_USR_COST_BY_HOUR}">
+		{BEGIN USR_COST_BY_HOUR_label}
+			{$USR_COST_BY_HOUR_forward_control}
+			{$label USERS USR_COST_BY_HOUR }			{END USR_COST_BY_HOUR_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_COST_BY_HOUR_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_COST_BY_HOUR" {$tooltipAttr USERS USR_COST_BY_HOUR } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_COST_BY_HOUR }		</div>
+	</div>
+	</div>
+
+
+{END USR_COST_BY_HOUR_fieldblock}
+											
+{BEGIN USR_UNIT_COST_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_UNIT_COST}  r-vertical-field" 
+	data-signal-error-for="USR_UNIT_COST{$id}" {$required_attr_USR_UNIT_COST}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field27" {$item_integrated_edit_field27} data-pageid="{$pageid}" data-field="USR_UNIT_COST" data-fieldname="USR_UNIT_COST" >
+
+	<label class="r-edit-label control-label {$USR_UNIT_COST_label_class}" for="{$labelfor_USR_UNIT_COST}">
+		{BEGIN USR_UNIT_COST_label}
+			{$USR_UNIT_COST_forward_control}
+			{$label USERS USR_UNIT_COST }			{END USR_UNIT_COST_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_UNIT_COST_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_UNIT_COST" {$tooltipAttr USERS USR_UNIT_COST } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_UNIT_COST }		</div>
+	</div>
+	</div>
+
+
+{END USR_UNIT_COST_fieldblock}
+											
+{BEGIN USR_PMDRIVE_FOLDER_UID_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_PMDRIVE_FOLDER_UID}  r-vertical-field" 
+	data-signal-error-for="USR_PMDRIVE_FOLDER_UID{$id}" {$required_attr_USR_PMDRIVE_FOLDER_UID}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field28" {$item_integrated_edit_field28} data-pageid="{$pageid}" data-field="USR_PMDRIVE_FOLDER_UID" data-fieldname="USR_PMDRIVE_FOLDER_UID" >
+
+	<label class="r-edit-label control-label {$USR_PMDRIVE_FOLDER_UID_label_class}" for="{$labelfor_USR_PMDRIVE_FOLDER_UID}">
+		{BEGIN USR_PMDRIVE_FOLDER_UID_label}
+			{$USR_PMDRIVE_FOLDER_UID_forward_control}
+			{$label USERS USR_PMDRIVE_FOLDER_UID }			{END USR_PMDRIVE_FOLDER_UID_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_PMDRIVE_FOLDER_UID_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_PMDRIVE_FOLDER_UID" {$tooltipAttr USERS USR_PMDRIVE_FOLDER_UID } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_PMDRIVE_FOLDER_UID }		</div>
+	</div>
+	</div>
+
+
+{END USR_PMDRIVE_FOLDER_UID_fieldblock}
+											
+{BEGIN USR_BOOKMARK_START_CASES_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_BOOKMARK_START_CASES}  r-vertical-field" 
+	data-signal-error-for="USR_BOOKMARK_START_CASES{$id}" {$required_attr_USR_BOOKMARK_START_CASES}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field29" {$item_integrated_edit_field29} data-pageid="{$pageid}" data-field="USR_BOOKMARK_START_CASES" data-fieldname="USR_BOOKMARK_START_CASES" >
+
+	<label class="r-edit-label control-label {$USR_BOOKMARK_START_CASES_label_class}" for="{$labelfor_USR_BOOKMARK_START_CASES}">
+		{BEGIN USR_BOOKMARK_START_CASES_label}
+			{$USR_BOOKMARK_START_CASES_forward_control}
+			{$label USERS USR_BOOKMARK_START_CASES }			{END USR_BOOKMARK_START_CASES_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_BOOKMARK_START_CASES_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_BOOKMARK_START_CASES" {$tooltipAttr USERS USR_BOOKMARK_START_CASES } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_BOOKMARK_START_CASES }		</div>
+	</div>
+	</div>
+
+
+{END USR_BOOKMARK_START_CASES_fieldblock}
+											
+{BEGIN USR_TIME_ZONE_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_TIME_ZONE}  r-vertical-field" 
+	data-signal-error-for="USR_TIME_ZONE{$id}" {$required_attr_USR_TIME_ZONE}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field30" {$item_integrated_edit_field30} data-pageid="{$pageid}" data-field="USR_TIME_ZONE" data-fieldname="USR_TIME_ZONE" >
+
+	<label class="r-edit-label control-label {$USR_TIME_ZONE_label_class}" for="{$labelfor_USR_TIME_ZONE}">
+		{BEGIN USR_TIME_ZONE_label}
+			{$USR_TIME_ZONE_forward_control}
+			{$label USERS USR_TIME_ZONE }			{END USR_TIME_ZONE_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_TIME_ZONE_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_TIME_ZONE" {$tooltipAttr USERS USR_TIME_ZONE } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_TIME_ZONE }		</div>
+	</div>
+	</div>
+
+
+{END USR_TIME_ZONE_fieldblock}
+											
+{BEGIN USR_DEFAULT_LANG_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_DEFAULT_LANG}  r-vertical-field" 
+	data-signal-error-for="USR_DEFAULT_LANG{$id}" {$required_attr_USR_DEFAULT_LANG}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field31" {$item_integrated_edit_field31} data-pageid="{$pageid}" data-field="USR_DEFAULT_LANG" data-fieldname="USR_DEFAULT_LANG" >
+
+	<label class="r-edit-label control-label {$USR_DEFAULT_LANG_label_class}" for="{$labelfor_USR_DEFAULT_LANG}">
+		{BEGIN USR_DEFAULT_LANG_label}
+			{$USR_DEFAULT_LANG_forward_control}
+			{$label USERS USR_DEFAULT_LANG }			{END USR_DEFAULT_LANG_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_DEFAULT_LANG_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_DEFAULT_LANG" {$tooltipAttr USERS USR_DEFAULT_LANG } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_DEFAULT_LANG }		</div>
+	</div>
+	</div>
+
+
+{END USR_DEFAULT_LANG_fieldblock}
+											
+{BEGIN USR_LAST_LOGIN_fieldblock}
+
+
+<div class="r-integrated-field form-group clearfix {$fielddispclass_USR_LAST_LOGIN}  r-vertical-field" 
+	data-signal-error-for="USR_LAST_LOGIN{$id}" {$required_attr_USR_LAST_LOGIN}
+	data-itemtype="integrated_edit_field" data-itemid="integrated_edit_field32" {$item_integrated_edit_field32} data-pageid="{$pageid}" data-field="USR_LAST_LOGIN" data-fieldname="USR_LAST_LOGIN" >
+
+	<label class="r-edit-label control-label {$USR_LAST_LOGIN_label_class}" for="{$labelfor_USR_LAST_LOGIN}">
+		{BEGIN USR_LAST_LOGIN_label}
+			{$USR_LAST_LOGIN_forward_control}
+			{$label USERS USR_LAST_LOGIN }			{END USR_LAST_LOGIN_label}
+		<span class="icon-required"></span>
+	</label>
+	<div class="r-edit-field">
+		{$USR_LAST_LOGIN_editcontrol}	</div>
+		<div class="r-edit-tooltip" data-helpfor="USR_LAST_LOGIN" {$tooltipAttr USERS USR_LAST_LOGIN } >
+		<div class="text-muted" >
+		{$tooltip USERS USR_LAST_LOGIN }		</div>
+	</div>
+	</div>
+
+
+{END USR_LAST_LOGIN_fieldblock}
+	
+								</td>
+			{END cellblock_grid_c3}
+								</tr>
+			</tbody></table>
+{END grid_block}
+									{BEGIN below-grid_block}
+<div class="r-form" data-location="below-grid" id="form_below-grid_{$pageid}" data-makeup="small" {$form_below-grid} data-pageid="{$pageid}"
+		data-v-width="4"
+	data-v-margin="1"
+	
+>		
+	 
+		<div class="row">
+			 
+				<div 
+	data-cellId="below-grid_c1" data-pageid="{$pageid}"	{$cell_below-grid_c1}
+	class="			col-md-12
+	">
+	 
+		<span data-itemtype="add_save" data-itemid="add_save" {$item_add_save} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-primary   
+	" {$savebutton_attrs} >
+							{mlang_message SAVE}			</a>
+</span>
+	 
+		{BEGIN reset_button}
+<span data-itemtype="add_reset" data-itemid="add_reset" {$item_add_reset} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="resetButton{$id}" >
+							{mlang_message RESET}			</a>
+</span>
+{END reset_button}
+	 
+		{BEGIN back_button}
+<span data-itemtype="add_back_list" data-itemid="add_back_list" {$item_add_back_list} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="backButton{$id}" >
+							{mlang_message BACK_TO_LIST}			</a>
+</span>
+{END back_button}
+	 
+		{BEGIN cancel_button}
+<span data-itemtype="add_cancel" data-itemid="add_cancel" {$item_add_cancel} data-pageid="{$pageid}" data-small data-button-item>
+	<a type="button" title="" class="btn btn-default   
+	" id="cancelButton{$id}" >
+							{mlang_message CANCEL}			</a>
+</span>
+{END cancel_button}
+	</div>					</div>
+	</div>		
+{END below-grid_block}
+			</div>
+		{$footer}
+	{END body}
+	</body>
+</html>

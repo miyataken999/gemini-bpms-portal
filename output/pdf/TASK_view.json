@@ -1,0 +1,459 @@
+
+pdfDocument = {
+{BEGIN backgroundImage}
+	background: {
+		image: {$backgroundImage},
+		{BEGIN bgWidth}
+		imgWidth: {$bgWidth},
+		imgHeight: {$bgHeight},
+		{END bgWidth}
+	},
+{END backgroundImage}
+	styles: {
+				bodycell: {
+			fontSize:12,
+		},
+		headcell: {
+			fontSize:12,
+			bold: true
+		},
+
+	
+	},
+	defaultStyle: {
+		fontSize: 14,
+	},
+	"content": [
+								
+{
+	table: {
+	
+				
+		location: 'top',
+		
+		
+		widths: [
+								"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"{$jspagetitlelabel TASK view}","hidden":"{$item_hide_view_header}","fontSize":30},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'above-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+					colSpan: 2,
+		
+			
+			
+	
+			"text": [
+		
+				'',
+	  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																		{ 
+				cellId: 'c1',
+				row:  0,
+				col:  1,
+				text: '',
+				compensateColspan: true
+			},
+							],
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				tableForm: true,
+				
+		location: 'grid',
+		
+		
+		widths: [
+									{BEGIN col_grid_0}
+						"*", 
+							{END col_grid_0}
+					 ],	
+		
+			heights: [
+								{BEGIN row_grid_0}
+						
+			"%",
+						{END row_grid_0}
+			 
+				],
+	
+		body: [
+				
+				{BEGIN row_grid_0}
+				[
+																{BEGIN cellblock_grid_c3}
+{
+	cellId: 'c3',
+	col:0,
+	row:0,
+			
+		
+	//	dynamic colspan/rowspan
+
+		
+		
+	
+			
+	
+			"stack": [
+		
+				
+			{"hidden":"{$item_hide_integrated_edit_field}","stack":[{"text":"{$jslabel TASK PRO_UID }","bold":true},{"text":{$PRO_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field1}","stack":[{"text":"{$jslabel TASK TAS_UID }","bold":true},{"text":{$TAS_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field2}","stack":[{"text":"{$jslabel TASK TAS_ID }","bold":true},{"text":{$TAS_ID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field3}","stack":[{"text":"{$jslabel TASK TAS_TITLE }","bold":true},{"text":{$TAS_TITLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field4}","stack":[{"text":"{$jslabel TASK TAS_DESCRIPTION }","bold":true},{"text":{$TAS_DESCRIPTION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field5}","stack":[{"text":"{$jslabel TASK TAS_DEF_TITLE }","bold":true},{"text":{$TAS_DEF_TITLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field6}","stack":[{"text":"{$jslabel TASK TAS_DEF_SUBJECT_MESSAGE }","bold":true},{"text":{$TAS_DEF_SUBJECT_MESSAGE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field7}","stack":[{"text":"{$jslabel TASK TAS_DEF_PROC_CODE }","bold":true},{"text":{$TAS_DEF_PROC_CODE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field8}","stack":[{"text":"{$jslabel TASK TAS_DEF_MESSAGE }","bold":true},{"text":{$TAS_DEF_MESSAGE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field9}","stack":[{"text":"{$jslabel TASK TAS_DEF_DESCRIPTION }","bold":true},{"text":{$TAS_DEF_DESCRIPTION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field10}","stack":[{"text":"{$jslabel TASK TAS_TYPE }","bold":true},{"text":{$TAS_TYPE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field11}","stack":[{"text":"{$jslabel TASK TAS_DURATION }","bold":true},{"text":{$TAS_DURATION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field12}","stack":[{"text":"{$jslabel TASK TAS_DELAY_TYPE }","bold":true},{"text":{$TAS_DELAY_TYPE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field13}","stack":[{"text":"{$jslabel TASK TAS_TEMPORIZER }","bold":true},{"text":{$TAS_TEMPORIZER_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field14}","stack":[{"text":"{$jslabel TASK TAS_TYPE_DAY }","bold":true},{"text":{$TAS_TYPE_DAY_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field15}","stack":[{"text":"{$jslabel TASK TAS_TIMEUNIT }","bold":true},{"text":{$TAS_TIMEUNIT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field16}","stack":[{"text":"{$jslabel TASK TAS_ALERT }","bold":true},{"text":{$TAS_ALERT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field17}","stack":[{"text":"{$jslabel TASK TAS_PRIORITY_VARIABLE }","bold":true},{"text":{$TAS_PRIORITY_VARIABLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field18}","stack":[{"text":"{$jslabel TASK TAS_ASSIGN_TYPE }","bold":true},{"text":{$TAS_ASSIGN_TYPE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field19}","stack":[{"text":"{$jslabel TASK TAS_ASSIGN_VARIABLE }","bold":true},{"text":{$TAS_ASSIGN_VARIABLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field20}","stack":[{"text":"{$jslabel TASK TAS_GROUP_VARIABLE }","bold":true},{"text":{$TAS_GROUP_VARIABLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field21}","stack":[{"text":"{$jslabel TASK TAS_MI_INSTANCE_VARIABLE }","bold":true},{"text":{$TAS_MI_INSTANCE_VARIABLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field22}","stack":[{"text":"{$jslabel TASK TAS_MI_COMPLETE_VARIABLE }","bold":true},{"text":{$TAS_MI_COMPLETE_VARIABLE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field23}","stack":[{"text":"{$jslabel TASK TAS_ASSIGN_LOCATION }","bold":true},{"text":{$TAS_ASSIGN_LOCATION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field24}","stack":[{"text":"{$jslabel TASK TAS_ASSIGN_LOCATION_ADHOC }","bold":true},{"text":{$TAS_ASSIGN_LOCATION_ADHOC_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field25}","stack":[{"text":"{$jslabel TASK TAS_TRANSFER_FLY }","bold":true},{"text":{$TAS_TRANSFER_FLY_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field26}","stack":[{"text":"{$jslabel TASK TAS_LAST_ASSIGNED }","bold":true},{"text":{$TAS_LAST_ASSIGNED_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field27}","stack":[{"text":"{$jslabel TASK TAS_USER }","bold":true},{"text":{$TAS_USER_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field28}","stack":[{"text":"{$jslabel TASK TAS_CAN_UPLOAD }","bold":true},{"text":{$TAS_CAN_UPLOAD_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field29}","stack":[{"text":"{$jslabel TASK TAS_VIEW_UPLOAD }","bold":true},{"text":{$TAS_VIEW_UPLOAD_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field30}","stack":[{"text":"{$jslabel TASK TAS_VIEW_ADDITIONAL_DOCUMENTATION }","bold":true},{"text":{$TAS_VIEW_ADDITIONAL_DOCUMENTATION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field31}","stack":[{"text":"{$jslabel TASK TAS_CAN_CANCEL }","bold":true},{"text":{$TAS_CAN_CANCEL_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field32}","stack":[{"text":"{$jslabel TASK TAS_OWNER_APP }","bold":true},{"text":{$TAS_OWNER_APP_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field33}","stack":[{"text":"{$jslabel TASK STG_UID }","bold":true},{"text":{$STG_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field34}","stack":[{"text":"{$jslabel TASK TAS_CAN_PAUSE }","bold":true},{"text":{$TAS_CAN_PAUSE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field35}","stack":[{"text":"{$jslabel TASK TAS_CAN_SEND_MESSAGE }","bold":true},{"text":{$TAS_CAN_SEND_MESSAGE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field36}","stack":[{"text":"{$jslabel TASK TAS_CAN_DELETE_DOCS }","bold":true},{"text":{$TAS_CAN_DELETE_DOCS_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field37}","stack":[{"text":"{$jslabel TASK TAS_SELF_SERVICE }","bold":true},{"text":{$TAS_SELF_SERVICE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field38}","stack":[{"text":"{$jslabel TASK TAS_START }","bold":true},{"text":{$TAS_START_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field39}","stack":[{"text":"{$jslabel TASK TAS_TO_LAST_USER }","bold":true},{"text":{$TAS_TO_LAST_USER_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field40}","stack":[{"text":"{$jslabel TASK TAS_SEND_LAST_EMAIL }","bold":true},{"text":{$TAS_SEND_LAST_EMAIL_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field41}","stack":[{"text":"{$jslabel TASK TAS_DERIVATION }","bold":true},{"text":{$TAS_DERIVATION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field42}","stack":[{"text":"{$jslabel TASK TAS_POSX }","bold":true},{"text":{$TAS_POSX_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field43}","stack":[{"text":"{$jslabel TASK TAS_POSY }","bold":true},{"text":{$TAS_POSY_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field44}","stack":[{"text":"{$jslabel TASK TAS_WIDTH }","bold":true},{"text":{$TAS_WIDTH_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field45}","stack":[{"text":"{$jslabel TASK TAS_HEIGHT }","bold":true},{"text":{$TAS_HEIGHT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field46}","stack":[{"text":"{$jslabel TASK TAS_COLOR }","bold":true},{"text":{$TAS_COLOR_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field47}","stack":[{"text":"{$jslabel TASK TAS_EVN_UID }","bold":true},{"text":{$TAS_EVN_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field48}","stack":[{"text":"{$jslabel TASK TAS_BOUNDARY }","bold":true},{"text":{$TAS_BOUNDARY_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field49}","stack":[{"text":"{$jslabel TASK TAS_DERIVATION_SCREEN_TPL }","bold":true},{"text":{$TAS_DERIVATION_SCREEN_TPL_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field50}","stack":[{"text":"{$jslabel TASK TAS_SELFSERVICE_TIMEOUT }","bold":true},{"text":{$TAS_SELFSERVICE_TIMEOUT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field51}","stack":[{"text":"{$jslabel TASK TAS_SELFSERVICE_TIME }","bold":true},{"text":{$TAS_SELFSERVICE_TIME_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field52}","stack":[{"text":"{$jslabel TASK TAS_SELFSERVICE_TIME_UNIT }","bold":true},{"text":{$TAS_SELFSERVICE_TIME_UNIT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field53}","stack":[{"text":"{$jslabel TASK TAS_SELFSERVICE_TRIGGER_UID }","bold":true},{"text":{$TAS_SELFSERVICE_TRIGGER_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field54}","stack":[{"text":"{$jslabel TASK TAS_SELFSERVICE_EXECUTION }","bold":true},{"text":{$TAS_SELFSERVICE_EXECUTION_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field55}","stack":[{"text":"{$jslabel TASK TAS_NOT_EMAIL_FROM_FORMAT }","bold":true},{"text":{$TAS_NOT_EMAIL_FROM_FORMAT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field56}","stack":[{"text":"{$jslabel TASK TAS_OFFLINE }","bold":true},{"text":{$TAS_OFFLINE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field57}","stack":[{"text":"{$jslabel TASK TAS_EMAIL_SERVER_UID }","bold":true},{"text":{$TAS_EMAIL_SERVER_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field58}","stack":[{"text":"{$jslabel TASK TAS_AUTO_ROOT }","bold":true},{"text":{$TAS_AUTO_ROOT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field59}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_SERVER_UID }","bold":true},{"text":{$TAS_RECEIVE_SERVER_UID_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field60}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_LAST_EMAIL }","bold":true},{"text":{$TAS_RECEIVE_LAST_EMAIL_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field61}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_EMAIL_FROM_FORMAT }","bold":true},{"text":{$TAS_RECEIVE_EMAIL_FROM_FORMAT_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field62}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_MESSAGE_TYPE }","bold":true},{"text":{$TAS_RECEIVE_MESSAGE_TYPE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field63}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_MESSAGE_TEMPLATE }","bold":true},{"text":{$TAS_RECEIVE_MESSAGE_TEMPLATE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field64}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_SUBJECT_MESSAGE }","bold":true},{"text":{$TAS_RECEIVE_SUBJECT_MESSAGE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+				
+			{"hidden":"{$item_hide_integrated_edit_field65}","stack":[{"text":"{$jslabel TASK TAS_RECEIVE_MESSAGE }","bold":true},{"text":{$TAS_RECEIVE_MESSAGE_pdfvalue}}],"margin":[0,0,0,15]},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+{END cellblock_grid_c3}
+											],
+				{END row_grid_0}
+		
+		]
+	}
+}
+,
+		
+								
+{
+	table: {
+	
+				
+		location: 'below-grid',
+		
+		
+		widths: [
+								"*", 
+											"*", 
+					 ],	
+		
+	
+		body: [
+				
+				[
+																{
+	cellId: 'c1',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":"","hidden":"{$item_hide_view_back_list}"},
+				
+				
+			{"text":"","hidden":"{$item_hide_view_close}"},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'left',
+     
+      
+      },
+
+																							{
+	cellId: 'c2',
+	col:0,
+	row:0,
+			
+		
+	//	static colspan/rowspan
+		
+			
+			
+	
+			"text": [
+		
+				
+			{"text":""},
+				
+		  ],
+  "border": [ false, false, false, false ],
+              "alignment": 'right',
+     
+      
+      },
+
+											],
+		
+		]
+	}
+}
+,
+			]
+};
+
+pdfFonts = {$pdfFonts};
+  
