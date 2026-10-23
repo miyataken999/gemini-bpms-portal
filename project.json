@@ -1,0 +1,684 @@
+{
+	"programVersion": 2,
+	"versionName": "11.1",
+	"name": "Project3",
+	"mainDiagram": {
+		"tables": [
+			{
+				"gid": 3202930622,
+				"y": 10,
+				"x": 20,
+				"width": 273.515625,
+				"height": 400
+			},
+			{
+				"gid": 1406880489,
+				"y": 10,
+				"x": 320,
+				"width": 181.828125,
+				"height": 320
+			},
+			{
+				"gid": 3483622014,
+				"y": 10,
+				"x": 530,
+				"width": 191.9375,
+				"height": 236
+			},
+			{
+				"gid": 3442617953,
+				"y": 345,
+				"x": 320,
+				"width": 300,
+				"height": 96
+			},
+			{
+				"gid": 3016893643,
+				"y": 425,
+				"x": 20,
+				"width": 226.171875,
+				"height": 400
+			},
+			{
+				"gid": 656873103,
+				"y": 425,
+				"x": 1035,
+				"width": 251.734375,
+				"height": 400
+			},
+			{
+				"gid": 50649678,
+				"y": 10,
+				"x": 750,
+				"width": 217.328125,
+				"height": 264
+			},
+			{
+				"gid": 1797286424,
+				"y": 10,
+				"x": 995,
+				"width": 149.125,
+				"height": 320
+			},
+			{
+				"gid": 1693136529,
+				"y": 290,
+				"x": 710,
+				"width": 297.484375,
+				"height": 400
+			},
+			{
+				"gid": 2065920985,
+				"y": 265,
+				"x": 530,
+				"width": 151.21875,
+				"height": 152
+			},
+			{
+				"gid": 3822544729,
+				"y": 10,
+				"x": 1170,
+				"width": 241.953125,
+				"height": 400
+			}
+		]
+	},
+	"securitySettings": {
+		"sessionControl": {
+			"lifeTime": 15,
+			"sessionName": "df5VNYDHaZ8XhSLRD6RU",
+			"JWTSecret": "AVqZd4tobGst7JD9QHC8"
+		},
+		"registration": {
+			"remindMethod": 0,
+			"hashAlgorithm": 0,
+			"passwordValidation": {
+				"strong": false,
+				"minimumLength": 8,
+				"uniqueCharacters": 4,
+				"digitsAndSymbols": 2,
+				"upperAndLowerCase": false
+			}
+		},
+		"captchaSettings": {
+			"captchaType": 0,
+			"siteKey": "",
+			"secretKey": "",
+			"passesCount": 5
+		},
+		"emailSettings": {
+			"fromEmail": "",
+			"usePHPDefinedSMTP": false,
+			"useBuiltInMailer": false,
+			"SMTPServer": "localhost",
+			"SMTPPort": 25,
+			"SMTPUser": "",
+			"SMTPPassword": "",
+			"securityProtocol": 0
+		},
+		"advancedSecurity": {
+			"allowGuestLogin": false
+		},
+		"auditAndLocking": {
+			"loggingMode": 0,
+			"loggingTable": {
+				"connId": "",
+				"table": ""
+			},
+			"loggingFile": "audit.log",
+			"logSecurityActions": false,
+			"lockAfterUnsuccessfulLogin": false,
+			"enableLocking": false,
+			"lockingTable": {
+				"connId": "",
+				"table": ""
+			},
+			"tables": {}
+		},
+		"twoFactorSettings": {
+			"available": false,
+			"required": false,
+			"enable": true,
+			"remember": true,
+			"types": {},
+			"twoFactorField": "",
+			"emailField": "",
+			"phoneField": "",
+			"codeField": "",
+			"projectName": ""
+		},
+		"staticPermissions": {
+			"groups": {}
+		}
+	},
+	"dbConnections": [
+		{
+			"id": "conn",
+			"name": "wf_workflow at localhost",
+			"connString": "mysql;localhost;root;PM-DBPassw0rd;3306;wf_workflow;https://kenken999-processmaker-runner.hf.space/phprunner.php;0",
+			"buildParams": {
+				"customConnections": [
+					{
+						"name": "New connection",
+						"code": "$host = '127.0.0.1';\n$user = 'root';\n$pwd = '';\n$port = 3306;\n$sys_dbname = 'wf_workflow';"
+					}
+				]
+			}
+		}
+	],
+	"defaultConnID": "conn",
+	"menus": [
+		{
+			"id": "main",
+			"root": {
+				"children": [
+					{
+						"id": "1",
+						"data": {
+							"name": {
+								"table": "ABE_CONFIGURATION",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-earphone",
+							"showIconType": 2,
+							"table": 3202930622,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "2",
+						"data": {
+							"name": {
+								"table": "ABE_REQUESTS",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-earphone",
+							"showIconType": 2,
+							"table": 1406880489,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "3",
+						"data": {
+							"name": {
+								"table": "ABE_RESPONSES",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-earphone",
+							"showIconType": 2,
+							"table": 3483622014,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "4",
+						"data": {
+							"name": {
+								"table": "DIM_TIME_DELEGATE",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-calendar",
+							"showIconType": 2,
+							"table": 50649678,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "5",
+						"data": {
+							"name": {
+								"table": "DYNAFORM",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-star",
+							"showIconType": 2,
+							"table": 1797286424,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "6",
+						"data": {
+							"name": {
+								"table": "USERS",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-leaf",
+							"showIconType": 2,
+							"table": 3822544729,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "7",
+						"data": {
+							"name": {
+								"table": "TASK_USER",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-camera",
+							"showIconType": 2,
+							"table": 2065920985,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "8",
+						"data": {
+							"name": {
+								"table": "TASK",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-send",
+							"showIconType": 2,
+							"table": 1693136529,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "9",
+						"data": {
+							"name": {
+								"table": "APP_ASSIGN_SELF_SERVICE_VALUE_GROUP",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"iconType": 2,
+							"iconName": "glyphicon-fire",
+							"showIconType": 2,
+							"table": 3442617953,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "10",
+						"data": {
+							"name": {
+								"table": "APP_CACHE_VIEW",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"table": 3016893643,
+							"pageType": "list"
+						}
+					},
+					{
+						"id": "11",
+						"data": {
+							"name": {
+								"table": "APP_DELAY",
+								"type": 6
+							},
+							"pageId": "list",
+							"itemType": 2,
+							"linkType": 0,
+							"table": 656873103,
+							"pageType": "list"
+						}
+					}
+				]
+			}
+		}
+	],
+	"globalPages": [
+		{
+			"id": "menu",
+			"type": "menu",
+			"layoutId": "topbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "empty-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "menu-topbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"logo",
+								"menu"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "welcome",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"welcome_item",
+								"welcome_item1",
+								"welcome_item2",
+								"welcome_item3",
+								"welcome_item4",
+								"welcome_item5",
+								"welcome_item6",
+								"welcome_item7",
+								"welcome_item8",
+								"welcome_item9",
+								"welcome_item10"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"welcome_item": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "ABE_CONFIGURATION",
+					"linkPage": "list",
+					"linkText": {
+						"table": "ABE_CONFIGURATION",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "earphone"
+					},
+					"linkComments": {
+						"text": "ABE CONFIGURATION description",
+						"type": 0
+					},
+					"background": "#00c2c5",
+					"linkType": 0
+				},
+				"welcome_item1": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "ABE_REQUESTS",
+					"linkPage": "list",
+					"linkText": {
+						"table": "ABE_REQUESTS",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "earphone"
+					},
+					"linkComments": {
+						"text": "ABE REQUESTS description",
+						"type": 0
+					},
+					"background": "#e07878",
+					"linkType": 0
+				},
+				"welcome_item2": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "ABE_RESPONSES",
+					"linkPage": "list",
+					"linkText": {
+						"table": "ABE_RESPONSES",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "earphone"
+					},
+					"linkComments": {
+						"text": "ABE RESPONSES description",
+						"type": 0
+					},
+					"background": "#00c2c5",
+					"linkType": 0
+				},
+				"welcome_item3": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "DIM_TIME_DELEGATE",
+					"linkPage": "list",
+					"linkText": {
+						"table": "DIM_TIME_DELEGATE",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "calendar"
+					},
+					"linkComments": {
+						"text": "DIM TIME DELEGATE description",
+						"type": 0
+					},
+					"background": "#00c2c5",
+					"linkType": 0
+				},
+				"welcome_item4": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "DYNAFORM",
+					"linkPage": "list",
+					"linkText": {
+						"table": "DYNAFORM",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "star"
+					},
+					"linkComments": {
+						"text": "DYNAFORM description",
+						"type": 0
+					},
+					"background": "#6b8e23",
+					"linkType": 0
+				},
+				"welcome_item5": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "USERS",
+					"linkPage": "list",
+					"linkText": {
+						"table": "USERS",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "leaf"
+					},
+					"background": "#edca00",
+					"linkType": 0
+				},
+				"welcome_item6": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "TASK_USER",
+					"linkPage": "list",
+					"linkText": {
+						"table": "TASK_USER",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "camera"
+					},
+					"background": "#6b8e23",
+					"linkType": 0
+				},
+				"welcome_item7": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "TASK",
+					"linkPage": "list",
+					"linkText": {
+						"table": "TASK",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "send"
+					},
+					"background": "#4169e1",
+					"linkType": 0
+				},
+				"welcome_item8": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "APP_ASSIGN_SELF_SERVICE_VALUE_GROUP",
+					"linkPage": "list",
+					"linkText": {
+						"table": "APP_ASSIGN_SELF_SERVICE_VALUE_GROUP",
+						"type": 6
+					},
+					"linkIcon": {
+						"glyph": "fire"
+					},
+					"background": "#2f4f4f",
+					"linkType": 0
+				},
+				"welcome_item9": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "APP_CACHE_VIEW",
+					"linkPage": "list",
+					"linkText": {
+						"table": "APP_CACHE_VIEW",
+						"type": 6
+					},
+					"background": "#5f9ea0",
+					"linkType": 0
+				},
+				"welcome_item10": {
+					"type": "welcome_item",
+					"linkUrl": "",
+					"linkTable": "APP_DELAY",
+					"linkPage": "list",
+					"linkText": {
+						"table": "APP_DELAY",
+						"type": 6
+					},
+					"background": "#7b68ee",
+					"linkType": 0
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"welcomePageStay": true,
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"projectStyle": {
+		"theme": "cerulean",
+		"size": "small",
+		"sidebarColor": "light",
+		"sidebarTheme": "legacy",
+		"sidebarCompact": true,
+		"topbarTheme": "legacy",
+		"logoTheme": "cyan",
+		"fixedTopbar": true,
+		"topbarLegacy": true,
+		"sidebarCustomThemeColor": "legacy",
+		"topbarCustomThemeColor": "#2FA4E7",
+		"logoCustomThemeColor": "legacy",
+		"condensedGrid": true,
+		"gpHeaderBg": "legacy",
+		"gpHeaderColor": "legacy",
+		"gpFooterBg": "legacy",
+		"gpPanelBorder": "legacy",
+		"gpBorderColor": "legacy",
+		"gpInnerBorder": "legacy",
+		"gpInnerBorderColor": "legacy",
+		"gcOddBg": "legacy",
+		"gcOddColor": "legacy",
+		"gcEvenBg": "legacy",
+		"gcEvenColor": "legacy",
+		"gcRolloverHighlightBg": "legacy",
+		"gcRolloverHighlightColor": "legacy"
+	},
+	"messages": {},
+	"projectLogo": {},
+	"cookieBannerText": {}
+}

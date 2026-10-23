@@ -1,0 +1,2367 @@
+{
+	"sql": "SELECT\r\n\tAPP_DELAY_UID,\r\n\tPRO_UID,\r\n\tAPP_UID,\r\n\tAPP_NUMBER,\r\n\tAPP_THREAD_INDEX,\r\n\tAPP_DEL_INDEX,\r\n\tAPP_TYPE,\r\n\tAPP_STATUS,\r\n\tAPP_NEXT_TASK,\r\n\tAPP_DELEGATION_USER,\r\n\tAPP_ENABLE_ACTION_USER,\r\n\tAPP_ENABLE_ACTION_DATE,\r\n\tAPP_DISABLE_ACTION_USER,\r\n\tAPP_DISABLE_ACTION_DATE,\r\n\tAPP_AUTOMATIC_DISABLED_DATE,\r\n\tAPP_DELEGATION_USER_ID,\r\n\tPRO_ID\r\nFROM\r\n\tAPP_DELAY",
+	"connId": "conn",
+	"originalTable": "APP_DELAY",
+	"name": "APP_DELAY",
+	"shortTableName": "APP_DELAY",
+	"dbType": 0,
+	"keyFields": [
+		"APP_DELAY_UID"
+	],
+	"detailsBadgeColor": "7b68ee",
+	"fields": [
+		{
+			"name": "APP_DELAY_UID",
+			"sqlExpression": "APP_DELAY_UID",
+			"index": 1,
+			"strField": "APP_DELAY_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP DELAY UID"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "PRO_UID",
+			"sqlExpression": "PRO_UID",
+			"index": 2,
+			"strField": "PRO_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "PRO UID"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_UID",
+			"sqlExpression": "APP_UID",
+			"index": 3,
+			"strField": "APP_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP UID"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_NUMBER",
+			"sqlExpression": "APP_NUMBER",
+			"index": 4,
+			"strField": "APP_NUMBER",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP NUMBER"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_THREAD_INDEX",
+			"sqlExpression": "APP_THREAD_INDEX",
+			"index": 5,
+			"strField": "APP_THREAD_INDEX",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP THREAD INDEX"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_DEL_INDEX",
+			"sqlExpression": "APP_DEL_INDEX",
+			"index": 6,
+			"strField": "APP_DEL_INDEX",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP DEL INDEX"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_TYPE",
+			"sqlExpression": "APP_TYPE",
+			"index": 7,
+			"strField": "APP_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP TYPE"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_STATUS",
+			"sqlExpression": "APP_STATUS",
+			"index": 8,
+			"strField": "APP_STATUS",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP STATUS"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_NEXT_TASK",
+			"sqlExpression": "APP_NEXT_TASK",
+			"index": 9,
+			"strField": "APP_NEXT_TASK",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP NEXT TASK"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_DELEGATION_USER",
+			"sqlExpression": "APP_DELEGATION_USER",
+			"index": 10,
+			"strField": "APP_DELEGATION_USER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP DELEGATION USER"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_ENABLE_ACTION_USER",
+			"sqlExpression": "APP_ENABLE_ACTION_USER",
+			"index": 11,
+			"strField": "APP_ENABLE_ACTION_USER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP ENABLE ACTION USER"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_ENABLE_ACTION_DATE",
+			"sqlExpression": "APP_ENABLE_ACTION_DATE",
+			"index": 12,
+			"strField": "APP_ENABLE_ACTION_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "APP ENABLE ACTION DATE"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_DISABLE_ACTION_USER",
+			"sqlExpression": "APP_DISABLE_ACTION_USER",
+			"index": 13,
+			"strField": "APP_DISABLE_ACTION_USER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP DISABLE ACTION USER"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_DISABLE_ACTION_DATE",
+			"sqlExpression": "APP_DISABLE_ACTION_DATE",
+			"index": 14,
+			"strField": "APP_DISABLE_ACTION_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "APP DISABLE ACTION DATE"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_AUTOMATIC_DISABLED_DATE",
+			"sqlExpression": "APP_AUTOMATIC_DISABLED_DATE",
+			"index": 15,
+			"strField": "APP_AUTOMATIC_DISABLED_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "APP AUTOMATIC DISABLED DATE"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "APP_DELEGATION_USER_ID",
+			"sqlExpression": "APP_DELEGATION_USER_ID",
+			"index": 16,
+			"strField": "APP_DELEGATION_USER_ID",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "APP DELEGATION USER ID"
+			},
+			"tableName": "APP_DELAY"
+		},
+		{
+			"name": "PRO_ID",
+			"sqlExpression": "PRO_ID",
+			"index": 17,
+			"strField": "PRO_ID",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "PRO ID"
+			},
+			"tableName": "APP_DELAY"
+		}
+	],
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "APP_DELAY_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "PRO_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_NUMBER",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_THREAD_INDEX",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_DEL_INDEX",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_TYPE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_STATUS",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_NEXT_TASK",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_DELEGATION_USER",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_ENABLE_ACTION_USER",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_ENABLE_ACTION_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "APP_DISABLE_ACTION_USER",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "APP_DISABLE_ACTION_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "APP_AUTOMATIC_DISABLED_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "APP_DELEGATION_USER_ID",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "PRO_ID",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			}
+		],
+		"primaryKeys": [
+			"APP_DELAY_UID"
+		],
+		"uniqueFields": [],
+		"name": "APP_DELAY"
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "APP_DELAY_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "APP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "APP_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "APP_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "APP_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "PRO_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "APP_DELAY_UID",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "PRO_UID",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "APP_UID",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "APP_NUMBER",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "APP_TYPE",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "APP_STATUS",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "PRO_ID",
+					"type": "export_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "APP_DELAY_UID",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "PRO_UID",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "APP_UID",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "APP_NUMBER",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "APP_TYPE",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "APP_STATUS",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "PRO_ID",
+					"type": "import_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "APP_DELAY_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field2": {
+					"field": "APP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field3": {
+					"field": "APP_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field6": {
+					"field": "APP_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field7": {
+					"field": "APP_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"integrated_edit_field16": {
+					"field": "PRO_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0,
+					"updateOnEdit": false
+				},
+				"edit_view": {
+					"type": "edit_view"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"integrated_edit_field": {
+					"field": "APP_DELAY_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "APP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "APP_NUMBER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "APP_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "APP_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "PRO_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit",
+						"grid_view"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field": {
+					"field": "APP_DELAY_UID",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field1": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field2": {
+					"field": "APP_UID",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field3": {
+					"field": "APP_NUMBER",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field6": {
+					"field": "APP_TYPE",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field7": {
+					"field": "APP_STATUS",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"simple_grid_field16": {
+					"field": "PRO_ID",
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field16",
+						"search_panel_field15",
+						"search_panel_field14",
+						"search_panel_field13",
+						"search_panel_field12",
+						"search_panel_field11",
+						"search_panel_field10",
+						"search_panel_field9",
+						"search_panel_field8",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-1",
+						"show_search_panel",
+						"hide_search_panel",
+						"-",
+						"export",
+						"-2",
+						"import"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "APP_DELAY_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "PRO_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
+					"field": "APP_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "APP_NUMBER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "search_panel_field"
+				},
+				"search_panel_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "search_panel_field"
+				},
+				"search_panel_field6": {
+					"field": "APP_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field7": {
+					"field": "APP_STATUS",
+					"type": "search_panel_field"
+				},
+				"search_panel_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "search_panel_field"
+				},
+				"search_panel_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field16": {
+					"field": "PRO_ID",
+					"type": "search_panel_field"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"import": {
+					"type": "import"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"grid_edit": {
+					"type": "grid_edit"
+				},
+				"grid_view": {
+					"type": "grid_view"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "APP_DELAY_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "APP_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "APP_NUMBER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "APP_THREAD_INDEX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "APP_DEL_INDEX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "APP_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "APP_STATUS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "APP_NEXT_TASK",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "APP_DELEGATION_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "APP_ENABLE_ACTION_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "APP_ENABLE_ACTION_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "APP_DISABLE_ACTION_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "APP_DISABLE_ACTION_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "APP_AUTOMATIC_DISABLED_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "APP_DELEGATION_USER_ID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "PRO_ID",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"English": "APP DELAY"
+	}
+}

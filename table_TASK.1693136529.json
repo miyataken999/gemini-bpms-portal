@@ -1,0 +1,5791 @@
+{
+	"sql": "SELECT\r\n\tPRO_UID,\r\n\tTAS_UID,\r\n\tTAS_ID,\r\n\tTAS_TITLE,\r\n\tTAS_DESCRIPTION,\r\n\tTAS_DEF_TITLE,\r\n\tTAS_DEF_SUBJECT_MESSAGE,\r\n\tTAS_DEF_PROC_CODE,\r\n\tTAS_DEF_MESSAGE,\r\n\tTAS_DEF_DESCRIPTION,\r\n\tTAS_TYPE,\r\n\tTAS_DURATION,\r\n\tTAS_DELAY_TYPE,\r\n\tTAS_TEMPORIZER,\r\n\tTAS_TYPE_DAY,\r\n\tTAS_TIMEUNIT,\r\n\tTAS_ALERT,\r\n\tTAS_PRIORITY_VARIABLE,\r\n\tTAS_ASSIGN_TYPE,\r\n\tTAS_ASSIGN_VARIABLE,\r\n\tTAS_GROUP_VARIABLE,\r\n\tTAS_MI_INSTANCE_VARIABLE,\r\n\tTAS_MI_COMPLETE_VARIABLE,\r\n\tTAS_ASSIGN_LOCATION,\r\n\tTAS_ASSIGN_LOCATION_ADHOC,\r\n\tTAS_TRANSFER_FLY,\r\n\tTAS_LAST_ASSIGNED,\r\n\tTAS_USER,\r\n\tTAS_CAN_UPLOAD,\r\n\tTAS_VIEW_UPLOAD,\r\n\tTAS_VIEW_ADDITIONAL_DOCUMENTATION,\r\n\tTAS_CAN_CANCEL,\r\n\tTAS_OWNER_APP,\r\n\tSTG_UID,\r\n\tTAS_CAN_PAUSE,\r\n\tTAS_CAN_SEND_MESSAGE,\r\n\tTAS_CAN_DELETE_DOCS,\r\n\tTAS_SELF_SERVICE,\r\n\tTAS_START,\r\n\tTAS_TO_LAST_USER,\r\n\tTAS_SEND_LAST_EMAIL,\r\n\tTAS_DERIVATION,\r\n\tTAS_POSX,\r\n\tTAS_POSY,\r\n\tTAS_WIDTH,\r\n\tTAS_HEIGHT,\r\n\tTAS_COLOR,\r\n\tTAS_EVN_UID,\r\n\tTAS_BOUNDARY,\r\n\tTAS_DERIVATION_SCREEN_TPL,\r\n\tTAS_SELFSERVICE_TIMEOUT,\r\n\tTAS_SELFSERVICE_TIME,\r\n\tTAS_SELFSERVICE_TIME_UNIT,\r\n\tTAS_SELFSERVICE_TRIGGER_UID,\r\n\tTAS_SELFSERVICE_EXECUTION,\r\n\tTAS_NOT_EMAIL_FROM_FORMAT,\r\n\tTAS_OFFLINE,\r\n\tTAS_EMAIL_SERVER_UID,\r\n\tTAS_AUTO_ROOT,\r\n\tTAS_RECEIVE_SERVER_UID,\r\n\tTAS_RECEIVE_LAST_EMAIL,\r\n\tTAS_RECEIVE_EMAIL_FROM_FORMAT,\r\n\tTAS_RECEIVE_MESSAGE_TYPE,\r\n\tTAS_RECEIVE_MESSAGE_TEMPLATE,\r\n\tTAS_RECEIVE_SUBJECT_MESSAGE,\r\n\tTAS_RECEIVE_MESSAGE\r\nFROM\r\n\tTASK",
+	"connId": "conn",
+	"originalTable": "TASK",
+	"name": "TASK",
+	"shortTableName": "TASK",
+	"dbType": 0,
+	"keyFields": [
+		"TAS_UID"
+	],
+	"detailsBadgeColor": "4169e1",
+	"fields": [
+		{
+			"name": "PRO_UID",
+			"sqlExpression": "PRO_UID",
+			"index": 1,
+			"strField": "PRO_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "PRO UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_UID",
+			"sqlExpression": "TAS_UID",
+			"index": 2,
+			"strField": "TAS_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ID",
+			"sqlExpression": "TAS_ID",
+			"index": 3,
+			"strField": "TAS_ID",
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TITLE",
+			"sqlExpression": "TAS_TITLE",
+			"index": 4,
+			"strField": "TAS_TITLE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS TITLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DESCRIPTION",
+			"sqlExpression": "TAS_DESCRIPTION",
+			"index": 5,
+			"strField": "TAS_DESCRIPTION",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DESCRIPTION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DEF_TITLE",
+			"sqlExpression": "TAS_DEF_TITLE",
+			"index": 6,
+			"strField": "TAS_DEF_TITLE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DEF TITLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DEF_SUBJECT_MESSAGE",
+			"sqlExpression": "TAS_DEF_SUBJECT_MESSAGE",
+			"index": 7,
+			"strField": "TAS_DEF_SUBJECT_MESSAGE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DEF SUBJECT MESSAGE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DEF_PROC_CODE",
+			"sqlExpression": "TAS_DEF_PROC_CODE",
+			"index": 8,
+			"strField": "TAS_DEF_PROC_CODE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DEF PROC CODE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DEF_MESSAGE",
+			"sqlExpression": "TAS_DEF_MESSAGE",
+			"index": 9,
+			"strField": "TAS_DEF_MESSAGE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DEF MESSAGE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DEF_DESCRIPTION",
+			"sqlExpression": "TAS_DEF_DESCRIPTION",
+			"index": 10,
+			"strField": "TAS_DEF_DESCRIPTION",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS DEF DESCRIPTION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TYPE",
+			"sqlExpression": "TAS_TYPE",
+			"index": 11,
+			"strField": "TAS_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TYPE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DURATION",
+			"sqlExpression": "TAS_DURATION",
+			"index": 12,
+			"strField": "TAS_DURATION",
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number"
+				}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS DURATION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DELAY_TYPE",
+			"sqlExpression": "TAS_DELAY_TYPE",
+			"index": 13,
+			"strField": "TAS_DELAY_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS DELAY TYPE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TEMPORIZER",
+			"sqlExpression": "TAS_TEMPORIZER",
+			"index": 14,
+			"strField": "TAS_TEMPORIZER",
+			"type": 5,
+			"viewFormats": [
+				{
+					"format": "Number"
+				}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TEMPORIZER"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TYPE_DAY",
+			"sqlExpression": "TAS_TYPE_DAY",
+			"index": 15,
+			"strField": "TAS_TYPE_DAY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TYPE DAY"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TIMEUNIT",
+			"sqlExpression": "TAS_TIMEUNIT",
+			"index": 16,
+			"strField": "TAS_TIMEUNIT",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TIMEUNIT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ALERT",
+			"sqlExpression": "TAS_ALERT",
+			"index": 17,
+			"strField": "TAS_ALERT",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ALERT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_PRIORITY_VARIABLE",
+			"sqlExpression": "TAS_PRIORITY_VARIABLE",
+			"index": 18,
+			"strField": "TAS_PRIORITY_VARIABLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS PRIORITY VARIABLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ASSIGN_TYPE",
+			"sqlExpression": "TAS_ASSIGN_TYPE",
+			"index": 19,
+			"strField": "TAS_ASSIGN_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ASSIGN TYPE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ASSIGN_VARIABLE",
+			"sqlExpression": "TAS_ASSIGN_VARIABLE",
+			"index": 20,
+			"strField": "TAS_ASSIGN_VARIABLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ASSIGN VARIABLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_GROUP_VARIABLE",
+			"sqlExpression": "TAS_GROUP_VARIABLE",
+			"index": 21,
+			"strField": "TAS_GROUP_VARIABLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS GROUP VARIABLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_MI_INSTANCE_VARIABLE",
+			"sqlExpression": "TAS_MI_INSTANCE_VARIABLE",
+			"index": 22,
+			"strField": "TAS_MI_INSTANCE_VARIABLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS MI INSTANCE VARIABLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_MI_COMPLETE_VARIABLE",
+			"sqlExpression": "TAS_MI_COMPLETE_VARIABLE",
+			"index": 23,
+			"strField": "TAS_MI_COMPLETE_VARIABLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS MI COMPLETE VARIABLE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ASSIGN_LOCATION",
+			"sqlExpression": "TAS_ASSIGN_LOCATION",
+			"index": 24,
+			"strField": "TAS_ASSIGN_LOCATION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ASSIGN LOCATION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_ASSIGN_LOCATION_ADHOC",
+			"sqlExpression": "TAS_ASSIGN_LOCATION_ADHOC",
+			"index": 25,
+			"strField": "TAS_ASSIGN_LOCATION_ADHOC",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS ASSIGN LOCATION ADHOC"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TRANSFER_FLY",
+			"sqlExpression": "TAS_TRANSFER_FLY",
+			"index": 26,
+			"strField": "TAS_TRANSFER_FLY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TRANSFER FLY"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_LAST_ASSIGNED",
+			"sqlExpression": "TAS_LAST_ASSIGNED",
+			"index": 27,
+			"strField": "TAS_LAST_ASSIGNED",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS LAST ASSIGNED"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_USER",
+			"sqlExpression": "TAS_USER",
+			"index": 28,
+			"strField": "TAS_USER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS USER"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_CAN_UPLOAD",
+			"sqlExpression": "TAS_CAN_UPLOAD",
+			"index": 29,
+			"strField": "TAS_CAN_UPLOAD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS CAN UPLOAD"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_VIEW_UPLOAD",
+			"sqlExpression": "TAS_VIEW_UPLOAD",
+			"index": 30,
+			"strField": "TAS_VIEW_UPLOAD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS VIEW UPLOAD"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+			"sqlExpression": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+			"index": 31,
+			"strField": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS VIEW ADDITIONAL DOCUMENTATION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_CAN_CANCEL",
+			"sqlExpression": "TAS_CAN_CANCEL",
+			"index": 32,
+			"strField": "TAS_CAN_CANCEL",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS CAN CANCEL"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_OWNER_APP",
+			"sqlExpression": "TAS_OWNER_APP",
+			"index": 33,
+			"strField": "TAS_OWNER_APP",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS OWNER APP"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "STG_UID",
+			"sqlExpression": "STG_UID",
+			"index": 34,
+			"strField": "STG_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "STG UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_CAN_PAUSE",
+			"sqlExpression": "TAS_CAN_PAUSE",
+			"index": 35,
+			"strField": "TAS_CAN_PAUSE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS CAN PAUSE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_CAN_SEND_MESSAGE",
+			"sqlExpression": "TAS_CAN_SEND_MESSAGE",
+			"index": 36,
+			"strField": "TAS_CAN_SEND_MESSAGE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS CAN SEND MESSAGE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_CAN_DELETE_DOCS",
+			"sqlExpression": "TAS_CAN_DELETE_DOCS",
+			"index": 37,
+			"strField": "TAS_CAN_DELETE_DOCS",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS CAN DELETE DOCS"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELF_SERVICE",
+			"sqlExpression": "TAS_SELF_SERVICE",
+			"index": 38,
+			"strField": "TAS_SELF_SERVICE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELF SERVICE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_START",
+			"sqlExpression": "TAS_START",
+			"index": 39,
+			"strField": "TAS_START",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS START"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_TO_LAST_USER",
+			"sqlExpression": "TAS_TO_LAST_USER",
+			"index": 40,
+			"strField": "TAS_TO_LAST_USER",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS TO LAST USER"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SEND_LAST_EMAIL",
+			"sqlExpression": "TAS_SEND_LAST_EMAIL",
+			"index": 41,
+			"strField": "TAS_SEND_LAST_EMAIL",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SEND LAST EMAIL"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DERIVATION",
+			"sqlExpression": "TAS_DERIVATION",
+			"index": 42,
+			"strField": "TAS_DERIVATION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS DERIVATION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_POSX",
+			"sqlExpression": "TAS_POSX",
+			"index": 43,
+			"strField": "TAS_POSX",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS POSX"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_POSY",
+			"sqlExpression": "TAS_POSY",
+			"index": 44,
+			"strField": "TAS_POSY",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS POSY"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_WIDTH",
+			"sqlExpression": "TAS_WIDTH",
+			"index": 45,
+			"strField": "TAS_WIDTH",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS WIDTH"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_HEIGHT",
+			"sqlExpression": "TAS_HEIGHT",
+			"index": 46,
+			"strField": "TAS_HEIGHT",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS HEIGHT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_COLOR",
+			"sqlExpression": "TAS_COLOR",
+			"index": 47,
+			"strField": "TAS_COLOR",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS COLOR"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_EVN_UID",
+			"sqlExpression": "TAS_EVN_UID",
+			"index": 48,
+			"strField": "TAS_EVN_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS EVN UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_BOUNDARY",
+			"sqlExpression": "TAS_BOUNDARY",
+			"index": 49,
+			"strField": "TAS_BOUNDARY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS BOUNDARY"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_DERIVATION_SCREEN_TPL",
+			"sqlExpression": "TAS_DERIVATION_SCREEN_TPL",
+			"index": 50,
+			"strField": "TAS_DERIVATION_SCREEN_TPL",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS DERIVATION SCREEN TPL"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELFSERVICE_TIMEOUT",
+			"sqlExpression": "TAS_SELFSERVICE_TIMEOUT",
+			"index": 51,
+			"strField": "TAS_SELFSERVICE_TIMEOUT",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELFSERVICE TIMEOUT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELFSERVICE_TIME",
+			"sqlExpression": "TAS_SELFSERVICE_TIME",
+			"index": 52,
+			"strField": "TAS_SELFSERVICE_TIME",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELFSERVICE TIME"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELFSERVICE_TIME_UNIT",
+			"sqlExpression": "TAS_SELFSERVICE_TIME_UNIT",
+			"index": 53,
+			"strField": "TAS_SELFSERVICE_TIME_UNIT",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELFSERVICE TIME UNIT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELFSERVICE_TRIGGER_UID",
+			"sqlExpression": "TAS_SELFSERVICE_TRIGGER_UID",
+			"index": 54,
+			"strField": "TAS_SELFSERVICE_TRIGGER_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELFSERVICE TRIGGER UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_SELFSERVICE_EXECUTION",
+			"sqlExpression": "TAS_SELFSERVICE_EXECUTION",
+			"index": 55,
+			"strField": "TAS_SELFSERVICE_EXECUTION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS SELFSERVICE EXECUTION"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_NOT_EMAIL_FROM_FORMAT",
+			"sqlExpression": "TAS_NOT_EMAIL_FROM_FORMAT",
+			"index": 56,
+			"strField": "TAS_NOT_EMAIL_FROM_FORMAT",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS NOT EMAIL FROM FORMAT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_OFFLINE",
+			"sqlExpression": "TAS_OFFLINE",
+			"index": 57,
+			"strField": "TAS_OFFLINE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS OFFLINE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_EMAIL_SERVER_UID",
+			"sqlExpression": "TAS_EMAIL_SERVER_UID",
+			"index": 58,
+			"strField": "TAS_EMAIL_SERVER_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS EMAIL SERVER UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_AUTO_ROOT",
+			"sqlExpression": "TAS_AUTO_ROOT",
+			"index": 59,
+			"strField": "TAS_AUTO_ROOT",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS AUTO ROOT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_SERVER_UID",
+			"sqlExpression": "TAS_RECEIVE_SERVER_UID",
+			"index": 60,
+			"strField": "TAS_RECEIVE_SERVER_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS RECEIVE SERVER UID"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_LAST_EMAIL",
+			"sqlExpression": "TAS_RECEIVE_LAST_EMAIL",
+			"index": 61,
+			"strField": "TAS_RECEIVE_LAST_EMAIL",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS RECEIVE LAST EMAIL"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+			"sqlExpression": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+			"index": 62,
+			"strField": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS RECEIVE EMAIL FROM FORMAT"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_MESSAGE_TYPE",
+			"sqlExpression": "TAS_RECEIVE_MESSAGE_TYPE",
+			"index": 63,
+			"strField": "TAS_RECEIVE_MESSAGE_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS RECEIVE MESSAGE TYPE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+			"sqlExpression": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+			"index": 64,
+			"strField": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS RECEIVE MESSAGE TEMPLATE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_SUBJECT_MESSAGE",
+			"sqlExpression": "TAS_RECEIVE_SUBJECT_MESSAGE",
+			"index": 65,
+			"strField": "TAS_RECEIVE_SUBJECT_MESSAGE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS RECEIVE SUBJECT MESSAGE"
+			},
+			"tableName": "TASK"
+		},
+		{
+			"name": "TAS_RECEIVE_MESSAGE",
+			"sqlExpression": "TAS_RECEIVE_MESSAGE",
+			"index": 66,
+			"strField": "TAS_RECEIVE_MESSAGE",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "TAS RECEIVE MESSAGE"
+			},
+			"tableName": "TASK"
+		}
+	],
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "PRO_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_ID",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": true,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_TITLE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DESCRIPTION",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DEF_TITLE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DEF_SUBJECT_MESSAGE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DEF_PROC_CODE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DEF_MESSAGE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DEF_DESCRIPTION",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_TYPE",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'NORMAL'",
+				"defaultValue": "NORMAL"
+			},
+			{
+				"name": "TAS_DURATION",
+				"type": 5,
+				"size": 0,
+				"scale": 0,
+				"typeName": "double",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_DELAY_TYPE",
+				"type": 200,
+				"size": 30,
+				"scale": 0,
+				"typeName": "varchar(30)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_TEMPORIZER",
+				"type": 5,
+				"size": 0,
+				"scale": 0,
+				"typeName": "double",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_TYPE_DAY",
+				"type": 200,
+				"size": 1,
+				"scale": 0,
+				"typeName": "char(1)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'1'",
+				"defaultValue": "1"
+			},
+			{
+				"name": "TAS_TIMEUNIT",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'DAYS'",
+				"defaultValue": "DAYS"
+			},
+			{
+				"name": "TAS_ALERT",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_PRIORITY_VARIABLE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_ASSIGN_TYPE",
+				"type": 200,
+				"size": 30,
+				"scale": 0,
+				"typeName": "varchar(30)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'BALANCED'",
+				"defaultValue": "BALANCED"
+			},
+			{
+				"name": "TAS_ASSIGN_VARIABLE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'@@SYS_NEXT_USER_TO_BE_ASSIGNED'",
+				"defaultValue": "@@SYS_NEXT_USER_TO_BE_ASSIGNED"
+			},
+			{
+				"name": "TAS_GROUP_VARIABLE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_MI_INSTANCE_VARIABLE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'@@SYS_VAR_TOTAL_INSTANCE'",
+				"defaultValue": "@@SYS_VAR_TOTAL_INSTANCE"
+			},
+			{
+				"name": "TAS_MI_COMPLETE_VARIABLE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'@@SYS_VAR_TOTAL_INSTANCES_COMPLETE'",
+				"defaultValue": "@@SYS_VAR_TOTAL_INSTANCES_COMPLETE"
+			},
+			{
+				"name": "TAS_ASSIGN_LOCATION",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_ASSIGN_LOCATION_ADHOC",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_TRANSFER_FLY",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_LAST_ASSIGNED",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_USER",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'0'",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_CAN_UPLOAD",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_VIEW_UPLOAD",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_CAN_CANCEL",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_OWNER_APP",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "STG_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_CAN_PAUSE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_CAN_SEND_MESSAGE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'TRUE'",
+				"defaultValue": "TRUE"
+			},
+			{
+				"name": "TAS_CAN_DELETE_DOCS",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_SELF_SERVICE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_START",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_TO_LAST_USER",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_SEND_LAST_EMAIL",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'TRUE'",
+				"defaultValue": "TRUE"
+			},
+			{
+				"name": "TAS_DERIVATION",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'NORMAL'",
+				"defaultValue": "NORMAL"
+			},
+			{
+				"name": "TAS_POSX",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_POSY",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_WIDTH",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "110",
+				"defaultValue": "110"
+			},
+			{
+				"name": "TAS_HEIGHT",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "60",
+				"defaultValue": "60"
+			},
+			{
+				"name": "TAS_COLOR",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_EVN_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_BOUNDARY",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_DERIVATION_SCREEN_TPL",
+				"type": 200,
+				"size": 128,
+				"scale": 0,
+				"typeName": "varchar(128)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_SELFSERVICE_TIMEOUT",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_SELFSERVICE_TIME",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_SELFSERVICE_TIME_UNIT",
+				"type": 200,
+				"size": 15,
+				"scale": 0,
+				"typeName": "varchar(15)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_SELFSERVICE_TRIGGER_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_SELFSERVICE_EXECUTION",
+				"type": 200,
+				"size": 15,
+				"scale": 0,
+				"typeName": "varchar(15)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'EVERY_TIME'",
+				"defaultValue": "EVERY_TIME"
+			},
+			{
+				"name": "TAS_NOT_EMAIL_FROM_FORMAT",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_OFFLINE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_EMAIL_SERVER_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_AUTO_ROOT",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_RECEIVE_SERVER_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_RECEIVE_LAST_EMAIL",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'FALSE'",
+				"defaultValue": "FALSE"
+			},
+			{
+				"name": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "TAS_RECEIVE_MESSAGE_TYPE",
+				"type": 200,
+				"size": 20,
+				"scale": 0,
+				"typeName": "varchar(20)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'text'",
+				"defaultValue": "text"
+			},
+			{
+				"name": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'alert_message.html'",
+				"defaultValue": "alert_message.html"
+			},
+			{
+				"name": "TAS_RECEIVE_SUBJECT_MESSAGE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_RECEIVE_MESSAGE",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			}
+		],
+		"primaryKeys": [
+			"TAS_UID"
+		],
+		"uniqueFields": [],
+		"name": "TASK"
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53",
+								"integrated_edit_field54",
+								"integrated_edit_field55",
+								"integrated_edit_field56",
+								"integrated_edit_field57",
+								"integrated_edit_field58",
+								"integrated_edit_field59",
+								"integrated_edit_field60",
+								"integrated_edit_field61",
+								"integrated_edit_field62",
+								"integrated_edit_field63",
+								"integrated_edit_field64"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "TAS_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "TAS_DEF_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "TAS_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "TAS_DURATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "TAS_TEMPORIZER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "TAS_TYPE_DAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "TAS_TIMEUNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "TAS_ALERT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "TAS_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "TAS_OWNER_APP",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "STG_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "TAS_START",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "TAS_DERIVATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "TAS_POSX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "TAS_POSY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "TAS_WIDTH",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "TAS_HEIGHT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "TAS_COLOR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "TAS_EVN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "TAS_BOUNDARY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field54": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field55": {
+					"field": "TAS_OFFLINE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field56": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field57": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field58": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field59": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field60": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field61": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field63": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field64": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field23",
+								"export_field24",
+								"export_field25",
+								"export_field26",
+								"export_field27",
+								"export_field28",
+								"export_field29",
+								"export_field30",
+								"export_field31",
+								"export_field32",
+								"export_field33",
+								"export_field34",
+								"export_field35",
+								"export_field36",
+								"export_field37",
+								"export_field38",
+								"export_field39",
+								"export_field40",
+								"export_field41",
+								"export_field42",
+								"export_field43",
+								"export_field44",
+								"export_field45",
+								"export_field46",
+								"export_field47",
+								"export_field48",
+								"export_field49",
+								"export_field50",
+								"export_field51",
+								"export_field52",
+								"export_field53",
+								"export_field54",
+								"export_field55",
+								"export_field56",
+								"export_field57",
+								"export_field58",
+								"export_field59",
+								"export_field60",
+								"export_field61",
+								"export_field62",
+								"export_field63",
+								"export_field64",
+								"export_field65"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "PRO_UID",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "TAS_UID",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "TAS_ID",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "TAS_TITLE",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "TAS_TYPE",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "TAS_DURATION",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "TAS_ALERT",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "export_field"
+				},
+				"export_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "export_field"
+				},
+				"export_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "export_field"
+				},
+				"export_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "export_field"
+				},
+				"export_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "export_field"
+				},
+				"export_field27": {
+					"field": "TAS_USER",
+					"type": "export_field"
+				},
+				"export_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "export_field"
+				},
+				"export_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "export_field"
+				},
+				"export_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "export_field"
+				},
+				"export_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "export_field"
+				},
+				"export_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "export_field"
+				},
+				"export_field33": {
+					"field": "STG_UID",
+					"type": "export_field"
+				},
+				"export_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "export_field"
+				},
+				"export_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "export_field"
+				},
+				"export_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "export_field"
+				},
+				"export_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "export_field"
+				},
+				"export_field38": {
+					"field": "TAS_START",
+					"type": "export_field"
+				},
+				"export_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "export_field"
+				},
+				"export_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "export_field"
+				},
+				"export_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "export_field"
+				},
+				"export_field42": {
+					"field": "TAS_POSX",
+					"type": "export_field"
+				},
+				"export_field43": {
+					"field": "TAS_POSY",
+					"type": "export_field"
+				},
+				"export_field44": {
+					"field": "TAS_WIDTH",
+					"type": "export_field"
+				},
+				"export_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "export_field"
+				},
+				"export_field46": {
+					"field": "TAS_COLOR",
+					"type": "export_field"
+				},
+				"export_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "export_field"
+				},
+				"export_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "export_field"
+				},
+				"export_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "export_field"
+				},
+				"export_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "export_field"
+				},
+				"export_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "export_field"
+				},
+				"export_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "export_field"
+				},
+				"export_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "export_field"
+				},
+				"export_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "export_field"
+				},
+				"export_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "export_field"
+				},
+				"export_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "export_field"
+				},
+				"export_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "export_field"
+				},
+				"export_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "export_field"
+				},
+				"export_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "export_field"
+				},
+				"export_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "export_field"
+				},
+				"export_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "export_field"
+				},
+				"export_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "export_field"
+				},
+				"export_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "export_field"
+				},
+				"export_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "export_field"
+				},
+				"export_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "export_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19",
+								"import_field20",
+								"import_field21",
+								"import_field22",
+								"import_field23",
+								"import_field24",
+								"import_field25",
+								"import_field26",
+								"import_field27",
+								"import_field28",
+								"import_field29",
+								"import_field30",
+								"import_field31",
+								"import_field32",
+								"import_field33",
+								"import_field34",
+								"import_field35",
+								"import_field36",
+								"import_field37",
+								"import_field38",
+								"import_field39",
+								"import_field40",
+								"import_field41",
+								"import_field42",
+								"import_field43",
+								"import_field44",
+								"import_field45",
+								"import_field46",
+								"import_field47",
+								"import_field48",
+								"import_field49",
+								"import_field50",
+								"import_field51",
+								"import_field52",
+								"import_field53",
+								"import_field54",
+								"import_field55",
+								"import_field56",
+								"import_field57",
+								"import_field58",
+								"import_field59",
+								"import_field60",
+								"import_field61",
+								"import_field62",
+								"import_field63",
+								"import_field64",
+								"import_field65"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "PRO_UID",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "TAS_UID",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "TAS_ID",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "TAS_TITLE",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "TAS_TYPE",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "TAS_DURATION",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "TAS_ALERT",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "import_field"
+				},
+				"import_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "import_field"
+				},
+				"import_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "import_field"
+				},
+				"import_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "import_field"
+				},
+				"import_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "import_field"
+				},
+				"import_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "import_field"
+				},
+				"import_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "import_field"
+				},
+				"import_field27": {
+					"field": "TAS_USER",
+					"type": "import_field"
+				},
+				"import_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "import_field"
+				},
+				"import_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "import_field"
+				},
+				"import_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "import_field"
+				},
+				"import_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "import_field"
+				},
+				"import_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "import_field"
+				},
+				"import_field33": {
+					"field": "STG_UID",
+					"type": "import_field"
+				},
+				"import_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "import_field"
+				},
+				"import_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "import_field"
+				},
+				"import_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "import_field"
+				},
+				"import_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "import_field"
+				},
+				"import_field38": {
+					"field": "TAS_START",
+					"type": "import_field"
+				},
+				"import_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "import_field"
+				},
+				"import_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "import_field"
+				},
+				"import_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "import_field"
+				},
+				"import_field42": {
+					"field": "TAS_POSX",
+					"type": "import_field"
+				},
+				"import_field43": {
+					"field": "TAS_POSY",
+					"type": "import_field"
+				},
+				"import_field44": {
+					"field": "TAS_WIDTH",
+					"type": "import_field"
+				},
+				"import_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "import_field"
+				},
+				"import_field46": {
+					"field": "TAS_COLOR",
+					"type": "import_field"
+				},
+				"import_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "import_field"
+				},
+				"import_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "import_field"
+				},
+				"import_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "import_field"
+				},
+				"import_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "import_field"
+				},
+				"import_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "import_field"
+				},
+				"import_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "import_field"
+				},
+				"import_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "import_field"
+				},
+				"import_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "import_field"
+				},
+				"import_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "import_field"
+				},
+				"import_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "import_field"
+				},
+				"import_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "import_field"
+				},
+				"import_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "import_field"
+				},
+				"import_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "import_field"
+				},
+				"import_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "import_field"
+				},
+				"import_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "import_field"
+				},
+				"import_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "import_field"
+				},
+				"import_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "import_field"
+				},
+				"import_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "import_field"
+				},
+				"import_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "import_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53",
+								"integrated_edit_field54",
+								"integrated_edit_field55",
+								"integrated_edit_field56",
+								"integrated_edit_field57",
+								"integrated_edit_field58",
+								"integrated_edit_field59",
+								"integrated_edit_field60",
+								"integrated_edit_field61",
+								"integrated_edit_field62",
+								"integrated_edit_field63",
+								"integrated_edit_field64"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "TAS_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "TAS_DEF_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "TAS_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "TAS_DURATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "TAS_TEMPORIZER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "TAS_TYPE_DAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "TAS_TIMEUNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "TAS_ALERT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "TAS_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "TAS_OWNER_APP",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "STG_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "TAS_START",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "TAS_DERIVATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "TAS_POSX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "TAS_POSY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "TAS_WIDTH",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "TAS_HEIGHT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "TAS_COLOR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "TAS_EVN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "TAS_BOUNDARY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field54": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field55": {
+					"field": "TAS_OFFLINE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field56": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field57": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field58": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field59": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field60": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field61": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field63": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field64": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"edit_view": {
+					"type": "edit_view"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33",
+								"integrated_edit_field34",
+								"integrated_edit_field35",
+								"integrated_edit_field36",
+								"integrated_edit_field37",
+								"integrated_edit_field38",
+								"integrated_edit_field39",
+								"integrated_edit_field40",
+								"integrated_edit_field41",
+								"integrated_edit_field42",
+								"integrated_edit_field43",
+								"integrated_edit_field44",
+								"integrated_edit_field45",
+								"integrated_edit_field46",
+								"integrated_edit_field47",
+								"integrated_edit_field48",
+								"integrated_edit_field49",
+								"integrated_edit_field50",
+								"integrated_edit_field51",
+								"integrated_edit_field52",
+								"integrated_edit_field53",
+								"integrated_edit_field54",
+								"integrated_edit_field55",
+								"integrated_edit_field56",
+								"integrated_edit_field57",
+								"integrated_edit_field58",
+								"integrated_edit_field59",
+								"integrated_edit_field60",
+								"integrated_edit_field61",
+								"integrated_edit_field62",
+								"integrated_edit_field63",
+								"integrated_edit_field64",
+								"integrated_edit_field65"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"integrated_edit_field": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "TAS_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "TAS_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "TAS_DURATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "TAS_ALERT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "TAS_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "STG_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field38": {
+					"field": "TAS_START",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field42": {
+					"field": "TAS_POSX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field43": {
+					"field": "TAS_POSY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field44": {
+					"field": "TAS_WIDTH",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field46": {
+					"field": "TAS_COLOR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33",
+								"simple_grid_field34",
+								"simple_grid_field35",
+								"simple_grid_field36",
+								"simple_grid_field37",
+								"simple_grid_field38",
+								"simple_grid_field39",
+								"simple_grid_field40",
+								"simple_grid_field41",
+								"simple_grid_field42",
+								"simple_grid_field43",
+								"simple_grid_field44",
+								"simple_grid_field45",
+								"simple_grid_field46",
+								"simple_grid_field47",
+								"simple_grid_field48",
+								"simple_grid_field49",
+								"simple_grid_field50",
+								"simple_grid_field51",
+								"simple_grid_field52",
+								"simple_grid_field53",
+								"simple_grid_field54",
+								"simple_grid_field55",
+								"simple_grid_field56",
+								"simple_grid_field57",
+								"simple_grid_field58",
+								"simple_grid_field59",
+								"simple_grid_field60",
+								"simple_grid_field61",
+								"simple_grid_field62",
+								"simple_grid_field63",
+								"simple_grid_field64",
+								"simple_grid_field65"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit",
+						"grid_view"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "TAS_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "TAS_ID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "TAS_TITLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "TAS_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "TAS_DURATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "TAS_ALERT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "TAS_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "STG_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field38": {
+					"field": "TAS_START",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field42": {
+					"field": "TAS_POSX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field43": {
+					"field": "TAS_POSY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field44": {
+					"field": "TAS_WIDTH",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field46": {
+					"field": "TAS_COLOR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field65",
+						"search_panel_field64",
+						"search_panel_field63",
+						"search_panel_field62",
+						"search_panel_field61",
+						"search_panel_field60",
+						"search_panel_field59",
+						"search_panel_field58",
+						"search_panel_field57",
+						"search_panel_field56",
+						"search_panel_field55",
+						"search_panel_field54",
+						"search_panel_field53",
+						"search_panel_field52",
+						"search_panel_field51",
+						"search_panel_field50",
+						"search_panel_field49",
+						"search_panel_field48",
+						"search_panel_field47",
+						"search_panel_field46",
+						"search_panel_field45",
+						"search_panel_field44",
+						"search_panel_field43",
+						"search_panel_field42",
+						"search_panel_field41",
+						"search_panel_field40",
+						"search_panel_field39",
+						"search_panel_field38",
+						"search_panel_field37",
+						"search_panel_field36",
+						"search_panel_field35",
+						"search_panel_field34",
+						"search_panel_field33",
+						"search_panel_field32",
+						"search_panel_field31",
+						"search_panel_field30",
+						"search_panel_field29",
+						"search_panel_field28",
+						"search_panel_field27",
+						"search_panel_field26",
+						"search_panel_field25",
+						"search_panel_field24",
+						"search_panel_field23",
+						"search_panel_field22",
+						"search_panel_field21",
+						"search_panel_field20",
+						"search_panel_field19",
+						"search_panel_field18",
+						"search_panel_field17",
+						"search_panel_field16",
+						"search_panel_field15",
+						"search_panel_field14",
+						"search_panel_field13",
+						"search_panel_field12",
+						"search_panel_field11",
+						"search_panel_field10",
+						"search_panel_field9",
+						"search_panel_field8",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-1",
+						"show_search_panel",
+						"hide_search_panel",
+						"-",
+						"export",
+						"-2",
+						"import"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "PRO_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "TAS_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
+					"field": "TAS_ID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "TAS_TITLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field10": {
+					"field": "TAS_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field11": {
+					"field": "TAS_DURATION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field16": {
+					"field": "TAS_ALERT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "search_panel_field"
+				},
+				"search_panel_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "search_panel_field"
+				},
+				"search_panel_field27": {
+					"field": "TAS_USER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "search_panel_field"
+				},
+				"search_panel_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "search_panel_field"
+				},
+				"search_panel_field33": {
+					"field": "STG_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "search_panel_field"
+				},
+				"search_panel_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field38": {
+					"field": "TAS_START",
+					"type": "search_panel_field"
+				},
+				"search_panel_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "search_panel_field"
+				},
+				"search_panel_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "search_panel_field"
+				},
+				"search_panel_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field42": {
+					"field": "TAS_POSX",
+					"type": "search_panel_field"
+				},
+				"search_panel_field43": {
+					"field": "TAS_POSY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field44": {
+					"field": "TAS_WIDTH",
+					"type": "search_panel_field"
+				},
+				"search_panel_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field46": {
+					"field": "TAS_COLOR",
+					"type": "search_panel_field"
+				},
+				"search_panel_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "search_panel_field"
+				},
+				"search_panel_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "search_panel_field"
+				},
+				"search_panel_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "search_panel_field"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"import": {
+					"type": "import"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"grid_edit": {
+					"type": "grid_edit"
+				},
+				"grid_view": {
+					"type": "grid_view"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33",
+								"simple_grid_field34",
+								"simple_grid_field35",
+								"simple_grid_field36",
+								"simple_grid_field37",
+								"simple_grid_field38",
+								"simple_grid_field39",
+								"simple_grid_field40",
+								"simple_grid_field41",
+								"simple_grid_field42",
+								"simple_grid_field43",
+								"simple_grid_field44",
+								"simple_grid_field45",
+								"simple_grid_field46",
+								"simple_grid_field47",
+								"simple_grid_field48",
+								"simple_grid_field49",
+								"simple_grid_field50",
+								"simple_grid_field51",
+								"simple_grid_field52",
+								"simple_grid_field53",
+								"simple_grid_field54",
+								"simple_grid_field55",
+								"simple_grid_field56",
+								"simple_grid_field57",
+								"simple_grid_field58",
+								"simple_grid_field59",
+								"simple_grid_field60",
+								"simple_grid_field61",
+								"simple_grid_field62",
+								"simple_grid_field63",
+								"simple_grid_field64",
+								"simple_grid_field65"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "TAS_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "TAS_ID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "TAS_TITLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "TAS_DESCRIPTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "TAS_DEF_TITLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "TAS_DEF_SUBJECT_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "TAS_DEF_PROC_CODE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "TAS_DEF_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "TAS_DEF_DESCRIPTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "TAS_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "TAS_DURATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "TAS_DELAY_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "TAS_TEMPORIZER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "TAS_TYPE_DAY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "TAS_TIMEUNIT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "TAS_ALERT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "TAS_PRIORITY_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "TAS_ASSIGN_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "TAS_ASSIGN_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "TAS_GROUP_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "TAS_MI_INSTANCE_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "TAS_MI_COMPLETE_VARIABLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "TAS_ASSIGN_LOCATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "TAS_ASSIGN_LOCATION_ADHOC",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "TAS_TRANSFER_FLY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "TAS_LAST_ASSIGNED",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "TAS_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "TAS_CAN_UPLOAD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "TAS_VIEW_UPLOAD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "TAS_VIEW_ADDITIONAL_DOCUMENTATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "TAS_CAN_CANCEL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "TAS_OWNER_APP",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "STG_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field34": {
+					"field": "TAS_CAN_PAUSE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field35": {
+					"field": "TAS_CAN_SEND_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field36": {
+					"field": "TAS_CAN_DELETE_DOCS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field37": {
+					"field": "TAS_SELF_SERVICE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field38": {
+					"field": "TAS_START",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field39": {
+					"field": "TAS_TO_LAST_USER",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field40": {
+					"field": "TAS_SEND_LAST_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field41": {
+					"field": "TAS_DERIVATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field42": {
+					"field": "TAS_POSX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field43": {
+					"field": "TAS_POSY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field44": {
+					"field": "TAS_WIDTH",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field45": {
+					"field": "TAS_HEIGHT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field46": {
+					"field": "TAS_COLOR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field47": {
+					"field": "TAS_EVN_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field48": {
+					"field": "TAS_BOUNDARY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field49": {
+					"field": "TAS_DERIVATION_SCREEN_TPL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field50": {
+					"field": "TAS_SELFSERVICE_TIMEOUT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field51": {
+					"field": "TAS_SELFSERVICE_TIME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field52": {
+					"field": "TAS_SELFSERVICE_TIME_UNIT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field53": {
+					"field": "TAS_SELFSERVICE_TRIGGER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field54": {
+					"field": "TAS_SELFSERVICE_EXECUTION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field55": {
+					"field": "TAS_NOT_EMAIL_FROM_FORMAT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field56": {
+					"field": "TAS_OFFLINE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field57": {
+					"field": "TAS_EMAIL_SERVER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field58": {
+					"field": "TAS_AUTO_ROOT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field59": {
+					"field": "TAS_RECEIVE_SERVER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field60": {
+					"field": "TAS_RECEIVE_LAST_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field61": {
+					"field": "TAS_RECEIVE_EMAIL_FROM_FORMAT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field62": {
+					"field": "TAS_RECEIVE_MESSAGE_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field63": {
+					"field": "TAS_RECEIVE_MESSAGE_TEMPLATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field64": {
+					"field": "TAS_RECEIVE_SUBJECT_MESSAGE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field65": {
+					"field": "TAS_RECEIVE_MESSAGE",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"English": "TASK"
+	}
+}

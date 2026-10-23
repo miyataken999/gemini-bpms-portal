@@ -1,0 +1,2296 @@
+{
+	"sql": "SELECT\r\n\tABE_UID,\r\n\tPRO_UID,\r\n\tTAS_UID,\r\n\tABE_TYPE,\r\n\tABE_TEMPLATE,\r\n\tABE_DYN_TYPE,\r\n\tDYN_UID,\r\n\tABE_EMAIL_FIELD,\r\n\tABE_ACTION_FIELD,\r\n\tABE_CASE_NOTE_IN_RESPONSE,\r\n\tABE_FORCE_LOGIN,\r\n\tABE_CREATE_DATE,\r\n\tABE_UPDATE_DATE,\r\n\tABE_SUBJECT_FIELD,\r\n\tABE_MAILSERVER_OR_MAILCURRENT,\r\n\tABE_CUSTOM_GRID,\r\n\tABE_EMAIL_SERVER_UID\r\nFROM\r\n\tABE_CONFIGURATION",
+	"connId": "conn",
+	"originalTable": "ABE_CONFIGURATION",
+	"name": "ABE_CONFIGURATION",
+	"shortTableName": "ABE_CONFIGURATION",
+	"dbType": 0,
+	"keyFields": [
+		"ABE_UID"
+	],
+	"detailsBadgeColor": "00c2c5",
+	"fields": [
+		{
+			"name": "ABE_UID",
+			"sqlExpression": "ABE_UID",
+			"strField": "ABE_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE UID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "PRO_UID",
+			"sqlExpression": "PRO_UID",
+			"strField": "PRO_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "PRO UID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "TAS_UID",
+			"sqlExpression": "TAS_UID",
+			"strField": "TAS_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "TAS UID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_TYPE",
+			"sqlExpression": "ABE_TYPE",
+			"strField": "ABE_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE TYPE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_TEMPLATE",
+			"sqlExpression": "ABE_TEMPLATE",
+			"strField": "ABE_TEMPLATE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE TEMPLATE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_DYN_TYPE",
+			"sqlExpression": "ABE_DYN_TYPE",
+			"strField": "ABE_DYN_TYPE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE DYN TYPE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "DYN_UID",
+			"sqlExpression": "DYN_UID",
+			"strField": "DYN_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "DYN UID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_EMAIL_FIELD",
+			"sqlExpression": "ABE_EMAIL_FIELD",
+			"strField": "ABE_EMAIL_FIELD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE EMAIL FIELD"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_ACTION_FIELD",
+			"sqlExpression": "ABE_ACTION_FIELD",
+			"strField": "ABE_ACTION_FIELD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE ACTION FIELD"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_CASE_NOTE_IN_RESPONSE",
+			"sqlExpression": "ABE_CASE_NOTE_IN_RESPONSE",
+			"strField": "ABE_CASE_NOTE_IN_RESPONSE",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE CASE NOTE IN RESPONSE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_FORCE_LOGIN",
+			"sqlExpression": "ABE_FORCE_LOGIN",
+			"strField": "ABE_FORCE_LOGIN",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE FORCE LOGIN"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_CREATE_DATE",
+			"sqlExpression": "ABE_CREATE_DATE",
+			"strField": "ABE_CREATE_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "ABE CREATE DATE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_UPDATE_DATE",
+			"sqlExpression": "ABE_UPDATE_DATE",
+			"strField": "ABE_UPDATE_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "ABE UPDATE DATE"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_SUBJECT_FIELD",
+			"sqlExpression": "ABE_SUBJECT_FIELD",
+			"strField": "ABE_SUBJECT_FIELD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE SUBJECT FIELD"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_MAILSERVER_OR_MAILCURRENT",
+			"sqlExpression": "ABE_MAILSERVER_OR_MAILCURRENT",
+			"strField": "ABE_MAILSERVER_OR_MAILCURRENT",
+			"type": 3,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE MAILSERVER OR MAILCURRENT"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_CUSTOM_GRID",
+			"sqlExpression": "ABE_CUSTOM_GRID",
+			"strField": "ABE_CUSTOM_GRID",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "ABE CUSTOM GRID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		},
+		{
+			"name": "ABE_EMAIL_SERVER_UID",
+			"sqlExpression": "ABE_EMAIL_SERVER_UID",
+			"strField": "ABE_EMAIL_SERVER_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "ABE EMAIL SERVER UID"
+			},
+			"tableName": "ABE_CONFIGURATION"
+		}
+	],
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "ABE_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "PRO_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "TAS_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_TYPE",
+				"type": 200,
+				"size": 10,
+				"scale": 0,
+				"typeName": "varchar(10)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_TEMPLATE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_DYN_TYPE",
+				"type": 200,
+				"size": 10,
+				"scale": 0,
+				"typeName": "varchar(10)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'NORMAL'",
+				"defaultValue": "NORMAL"
+			},
+			{
+				"name": "DYN_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_EMAIL_FIELD",
+				"type": 200,
+				"size": 255,
+				"scale": 0,
+				"typeName": "varchar(255)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_ACTION_FIELD",
+				"type": 200,
+				"size": 255,
+				"scale": 0,
+				"typeName": "varchar(255)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_CASE_NOTE_IN_RESPONSE",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "ABE_FORCE_LOGIN",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "ABE_CREATE_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_UPDATE_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_SUBJECT_FIELD",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_MAILSERVER_OR_MAILCURRENT",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0",
+				"defaultValue": "0"
+			},
+			{
+				"name": "ABE_CUSTOM_GRID",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "ABE_EMAIL_SERVER_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			}
+		],
+		"primaryKeys": [
+			"ABE_UID"
+		],
+		"uniqueFields": [],
+		"name": "ABE_CONFIGURATION"
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "ABE_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "ABE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "DYN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "ABE_UID",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "PRO_UID",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "TAS_UID",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "ABE_TYPE",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "DYN_UID",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "export_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "ABE_UID",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "PRO_UID",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "TAS_UID",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "ABE_TYPE",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "DYN_UID",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "import_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "ABE_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "ABE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "DYN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"edit_view": {
+					"type": "edit_view"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"integrated_edit_field": {
+					"field": "ABE_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "PRO_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "TAS_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "ABE_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "DYN_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit",
+						"grid_view"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field": {
+					"field": "ABE_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "TAS_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "ABE_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "DYN_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "simple_grid_field"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field16",
+						"search_panel_field15",
+						"search_panel_field14",
+						"search_panel_field13",
+						"search_panel_field12",
+						"search_panel_field11",
+						"search_panel_field10",
+						"search_panel_field9",
+						"search_panel_field8",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-1",
+						"show_search_panel",
+						"hide_search_panel",
+						"-",
+						"export",
+						"-2",
+						"import"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "ABE_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "PRO_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
+					"field": "TAS_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "ABE_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field6": {
+					"field": "DYN_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "search_panel_field"
+				},
+				"search_panel_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "search_panel_field"
+				},
+				"search_panel_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "search_panel_field"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"import": {
+					"type": "import"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"grid_edit": {
+					"type": "grid_edit"
+				},
+				"grid_view": {
+					"type": "grid_view"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "ABE_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "PRO_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "TAS_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "ABE_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "ABE_TEMPLATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "ABE_DYN_TYPE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "DYN_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "ABE_EMAIL_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "ABE_ACTION_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "ABE_CASE_NOTE_IN_RESPONSE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "ABE_FORCE_LOGIN",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "ABE_CREATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "ABE_UPDATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "ABE_SUBJECT_FIELD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "ABE_CUSTOM_GRID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "ABE_EMAIL_SERVER_UID",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"English": "ABE CONFIGURATION"
+	}
+}

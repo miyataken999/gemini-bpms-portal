@@ -1,0 +1,3492 @@
+{
+	"sql": "SELECT\r\n\tUSR_UID,\r\n\tUSR_ID,\r\n\tUSR_USERNAME,\r\n\tUSR_PASSWORD,\r\n\tUSR_FIRSTNAME,\r\n\tUSR_LASTNAME,\r\n\tUSR_EMAIL,\r\n\tUSR_DUE_DATE,\r\n\tUSR_CREATE_DATE,\r\n\tUSR_UPDATE_DATE,\r\n\tUSR_STATUS,\r\n\tUSR_COUNTRY,\r\n\tUSR_CITY,\r\n\tUSR_LOCATION,\r\n\tUSR_ADDRESS,\r\n\tUSR_PHONE,\r\n\tUSR_FAX,\r\n\tUSR_CELLULAR,\r\n\tUSR_ZIP_CODE,\r\n\tDEP_UID,\r\n\tUSR_POSITION,\r\n\tUSR_RESUME,\r\n\tUSR_BIRTHDAY,\r\n\tUSR_ROLE,\r\n\tUSR_REPORTS_TO,\r\n\tUSR_REPLACED_BY,\r\n\tUSR_UX,\r\n\tUSR_COST_BY_HOUR,\r\n\tUSR_UNIT_COST,\r\n\tUSR_PMDRIVE_FOLDER_UID,\r\n\tUSR_BOOKMARK_START_CASES,\r\n\tUSR_TIME_ZONE,\r\n\tUSR_DEFAULT_LANG,\r\n\tUSR_LAST_LOGIN\r\nFROM\r\n\tUSERS",
+	"connId": "conn",
+	"originalTable": "USERS",
+	"name": "USERS",
+	"shortTableName": "USERS",
+	"dbType": 0,
+	"keyFields": [
+		"USR_UID"
+	],
+	"detailsBadgeColor": "edca00",
+	"fields": [
+		{
+			"name": "USR_UID",
+			"sqlExpression": "USR_UID",
+			"strField": "USR_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR UID"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_ID",
+			"sqlExpression": "USR_ID",
+			"strField": "USR_ID",
+			"type": 3,
+			"autoinc": true,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR ID"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_USERNAME",
+			"sqlExpression": "USR_USERNAME",
+			"strField": "USR_USERNAME",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR USERNAME"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_PASSWORD",
+			"sqlExpression": "USR_PASSWORD",
+			"strField": "USR_PASSWORD",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR PASSWORD"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_FIRSTNAME",
+			"sqlExpression": "USR_FIRSTNAME",
+			"strField": "USR_FIRSTNAME",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR FIRSTNAME"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_LASTNAME",
+			"sqlExpression": "USR_LASTNAME",
+			"strField": "USR_LASTNAME",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR LASTNAME"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_EMAIL",
+			"sqlExpression": "USR_EMAIL",
+			"strField": "USR_EMAIL",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR EMAIL"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_DUE_DATE",
+			"sqlExpression": "USR_DUE_DATE",
+			"strField": "USR_DUE_DATE",
+			"type": 7,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "USR DUE DATE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_CREATE_DATE",
+			"sqlExpression": "USR_CREATE_DATE",
+			"strField": "USR_CREATE_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "USR CREATE DATE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_UPDATE_DATE",
+			"sqlExpression": "USR_UPDATE_DATE",
+			"strField": "USR_UPDATE_DATE",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "USR UPDATE DATE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_STATUS",
+			"sqlExpression": "USR_STATUS",
+			"strField": "USR_STATUS",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR STATUS"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_COUNTRY",
+			"sqlExpression": "USR_COUNTRY",
+			"strField": "USR_COUNTRY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR COUNTRY"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_CITY",
+			"sqlExpression": "USR_CITY",
+			"strField": "USR_CITY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR CITY"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_LOCATION",
+			"sqlExpression": "USR_LOCATION",
+			"strField": "USR_LOCATION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR LOCATION"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_ADDRESS",
+			"sqlExpression": "USR_ADDRESS",
+			"strField": "USR_ADDRESS",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR ADDRESS"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_PHONE",
+			"sqlExpression": "USR_PHONE",
+			"strField": "USR_PHONE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR PHONE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_FAX",
+			"sqlExpression": "USR_FAX",
+			"strField": "USR_FAX",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR FAX"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_CELLULAR",
+			"sqlExpression": "USR_CELLULAR",
+			"strField": "USR_CELLULAR",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR CELLULAR"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_ZIP_CODE",
+			"sqlExpression": "USR_ZIP_CODE",
+			"strField": "USR_ZIP_CODE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR ZIP CODE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "DEP_UID",
+			"sqlExpression": "DEP_UID",
+			"strField": "DEP_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "DEP UID"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_POSITION",
+			"sqlExpression": "USR_POSITION",
+			"strField": "USR_POSITION",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR POSITION"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_RESUME",
+			"sqlExpression": "USR_RESUME",
+			"strField": "USR_RESUME",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR RESUME"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_BIRTHDAY",
+			"sqlExpression": "USR_BIRTHDAY",
+			"strField": "USR_BIRTHDAY",
+			"type": 7,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "USR BIRTHDAY"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_ROLE",
+			"sqlExpression": "USR_ROLE",
+			"strField": "USR_ROLE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR ROLE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_REPORTS_TO",
+			"sqlExpression": "USR_REPORTS_TO",
+			"strField": "USR_REPORTS_TO",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR REPORTS TO"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_REPLACED_BY",
+			"sqlExpression": "USR_REPLACED_BY",
+			"strField": "USR_REPLACED_BY",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR REPLACED BY"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_UX",
+			"sqlExpression": "USR_UX",
+			"strField": "USR_UX",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR UX"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_COST_BY_HOUR",
+			"sqlExpression": "USR_COST_BY_HOUR",
+			"strField": "USR_COST_BY_HOUR",
+			"type": 14,
+			"viewFormats": [
+				{
+					"format": "Number"
+				}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR COST BY HOUR"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_UNIT_COST",
+			"sqlExpression": "USR_UNIT_COST",
+			"strField": "USR_UNIT_COST",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR UNIT COST"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_PMDRIVE_FOLDER_UID",
+			"sqlExpression": "USR_PMDRIVE_FOLDER_UID",
+			"strField": "USR_PMDRIVE_FOLDER_UID",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR PMDRIVE FOLDER UID"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_BOOKMARK_START_CASES",
+			"sqlExpression": "USR_BOOKMARK_START_CASES",
+			"strField": "USR_BOOKMARK_START_CASES",
+			"type": 201,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{
+					"format": "Text area"
+				}
+			],
+			"label": {
+				"English": "USR BOOKMARK START CASES"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_TIME_ZONE",
+			"sqlExpression": "USR_TIME_ZONE",
+			"strField": "USR_TIME_ZONE",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR TIME ZONE"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_DEFAULT_LANG",
+			"sqlExpression": "USR_DEFAULT_LANG",
+			"strField": "USR_DEFAULT_LANG",
+			"type": 200,
+			"viewFormats": [
+				{}
+			],
+			"editFormats": [
+				{}
+			],
+			"label": {
+				"English": "USR DEFAULT LANG"
+			},
+			"tableName": "USERS"
+		},
+		{
+			"name": "USR_LAST_LOGIN",
+			"sqlExpression": "USR_LAST_LOGIN",
+			"strField": "USR_LAST_LOGIN",
+			"type": 135,
+			"viewFormats": [
+				{
+					"format": "Short Date"
+				}
+			],
+			"editFormats": [
+				{
+					"format": "Date",
+					"dateEditType": 11
+				}
+			],
+			"label": {
+				"English": "USR LAST LOGIN"
+			},
+			"tableName": "USERS"
+		}
+	],
+	"dbTableInfo": {
+		"type": 0,
+		"foreignKeys": [],
+		"fields": [
+			{
+				"name": "USR_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_ID",
+				"type": 3,
+				"size": 11,
+				"scale": 0,
+				"typeName": "int(11)",
+				"nullable": false,
+				"autoinc": true,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_USERNAME",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_PASSWORD",
+				"type": 200,
+				"size": 128,
+				"scale": 0,
+				"typeName": "varchar(128)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_FIRSTNAME",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_LASTNAME",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_EMAIL",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_DUE_DATE",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_CREATE_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_UPDATE_DATE",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_STATUS",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "'ACTIVE'",
+				"defaultValue": "ACTIVE"
+			},
+			{
+				"name": "USR_COUNTRY",
+				"type": 200,
+				"size": 3,
+				"scale": 0,
+				"typeName": "varchar(3)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_CITY",
+				"type": 200,
+				"size": 3,
+				"scale": 0,
+				"typeName": "varchar(3)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_LOCATION",
+				"type": 200,
+				"size": 3,
+				"scale": 0,
+				"typeName": "varchar(3)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_ADDRESS",
+				"type": 200,
+				"size": 255,
+				"scale": 0,
+				"typeName": "varchar(255)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_PHONE",
+				"type": 200,
+				"size": 24,
+				"scale": 0,
+				"typeName": "varchar(24)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_FAX",
+				"type": 200,
+				"size": 24,
+				"scale": 0,
+				"typeName": "varchar(24)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_CELLULAR",
+				"type": 200,
+				"size": 24,
+				"scale": 0,
+				"typeName": "varchar(24)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_ZIP_CODE",
+				"type": 200,
+				"size": 16,
+				"scale": 0,
+				"typeName": "varchar(16)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "DEP_UID",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_POSITION",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_RESUME",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": false,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_BIRTHDAY",
+				"type": 7,
+				"size": 0,
+				"scale": 0,
+				"typeName": "date",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_ROLE",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'PROCESSMAKER_ADMIN'",
+				"defaultValue": "PROCESSMAKER_ADMIN"
+			},
+			{
+				"name": "USR_REPORTS_TO",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_REPLACED_BY",
+				"type": 200,
+				"size": 32,
+				"scale": 0,
+				"typeName": "varchar(32)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_UX",
+				"type": 200,
+				"size": 128,
+				"scale": 0,
+				"typeName": "varchar(128)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "'NORMAL'",
+				"defaultValue": "NORMAL"
+			},
+			{
+				"name": "USR_COST_BY_HOUR",
+				"type": 14,
+				"size": 7,
+				"scale": 2,
+				"typeName": "decimal(7,2)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "0.00",
+				"defaultValue": "0.00"
+			},
+			{
+				"name": "USR_UNIT_COST",
+				"type": 200,
+				"size": 50,
+				"scale": 0,
+				"typeName": "varchar(50)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_PMDRIVE_FOLDER_UID",
+				"type": 200,
+				"size": 128,
+				"scale": 0,
+				"typeName": "varchar(128)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_BOOKMARK_START_CASES",
+				"type": 201,
+				"size": 0,
+				"scale": 0,
+				"typeName": "mediumtext",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_TIME_ZONE",
+				"type": 200,
+				"size": 100,
+				"scale": 0,
+				"typeName": "varchar(100)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_DEFAULT_LANG",
+				"type": 200,
+				"size": 10,
+				"scale": 0,
+				"typeName": "varchar(10)",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": "''",
+				"defaultValue": ""
+			},
+			{
+				"name": "USR_LAST_LOGIN",
+				"type": 135,
+				"size": 0,
+				"scale": 0,
+				"typeName": "datetime",
+				"nullable": true,
+				"autoinc": false,
+				"defaultValueSQL": null,
+				"defaultValue": ""
+			}
+		],
+		"primaryKeys": [
+			"USR_UID"
+		],
+		"uniqueFields": [],
+		"name": "USERS"
+	},
+	"pages": [
+		{
+			"id": "add",
+			"type": "add",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "add-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "add-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_save",
+								"add_reset",
+								"add_back_list",
+								"add_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "add-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"add_header": {
+					"type": "add_header"
+				},
+				"add_back_list": {
+					"type": "add_back_list"
+				},
+				"add_cancel": {
+					"type": "add_cancel"
+				},
+				"add_message": {
+					"type": "add_message"
+				},
+				"add_save": {
+					"type": "add_save"
+				},
+				"add_reset": {
+					"type": "add_reset"
+				},
+				"integrated_edit_field": {
+					"field": "USR_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "USR_USERNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "USR_PASSWORD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "USR_FIRSTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "USR_LASTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "USR_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "USR_DUE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "USR_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "USR_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "USR_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "USR_COUNTRY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "USR_CITY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "USR_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "USR_ADDRESS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "USR_PHONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "USR_FAX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "USR_CELLULAR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "USR_ZIP_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "DEP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "USR_POSITION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "USR_RESUME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "USR_BIRTHDAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "USR_ROLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "USR_REPORTS_TO",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "USR_REPLACED_BY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "USR_UX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "USR_UNIT_COST",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "USR_TIME_ZONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "USR_LAST_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "export",
+			"type": "export",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "export-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "export-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"export_field",
+								"export_field1",
+								"export_field2",
+								"export_field3",
+								"export_field4",
+								"export_field5",
+								"export_field6",
+								"export_field7",
+								"export_field8",
+								"export_field9",
+								"export_field10",
+								"export_field11",
+								"export_field12",
+								"export_field13",
+								"export_field14",
+								"export_field15",
+								"export_field16",
+								"export_field17",
+								"export_field18",
+								"export_field19",
+								"export_field20",
+								"export_field21",
+								"export_field22",
+								"export_field23",
+								"export_field24",
+								"export_field25",
+								"export_field26",
+								"export_field27",
+								"export_field28",
+								"export_field29",
+								"export_field30",
+								"export_field31",
+								"export_field32",
+								"export_field33"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"footer": {
+					"modelId": "export-footer",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"export_export",
+								"export_cancel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"export_header": {
+					"type": "export_header"
+				},
+				"export_export": {
+					"type": "export_export"
+				},
+				"export_cancel": {
+					"type": "export_cancel"
+				},
+				"export_field": {
+					"field": "USR_UID",
+					"type": "export_field"
+				},
+				"export_field1": {
+					"field": "USR_ID",
+					"type": "export_field"
+				},
+				"export_field2": {
+					"field": "USR_USERNAME",
+					"type": "export_field"
+				},
+				"export_field3": {
+					"field": "USR_PASSWORD",
+					"type": "export_field"
+				},
+				"export_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "export_field"
+				},
+				"export_field5": {
+					"field": "USR_LASTNAME",
+					"type": "export_field"
+				},
+				"export_field6": {
+					"field": "USR_EMAIL",
+					"type": "export_field"
+				},
+				"export_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "export_field"
+				},
+				"export_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "export_field"
+				},
+				"export_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "export_field"
+				},
+				"export_field10": {
+					"field": "USR_STATUS",
+					"type": "export_field"
+				},
+				"export_field11": {
+					"field": "USR_COUNTRY",
+					"type": "export_field"
+				},
+				"export_field12": {
+					"field": "USR_CITY",
+					"type": "export_field"
+				},
+				"export_field13": {
+					"field": "USR_LOCATION",
+					"type": "export_field"
+				},
+				"export_field14": {
+					"field": "USR_ADDRESS",
+					"type": "export_field"
+				},
+				"export_field15": {
+					"field": "USR_PHONE",
+					"type": "export_field"
+				},
+				"export_field16": {
+					"field": "USR_FAX",
+					"type": "export_field"
+				},
+				"export_field17": {
+					"field": "USR_CELLULAR",
+					"type": "export_field"
+				},
+				"export_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "export_field"
+				},
+				"export_field19": {
+					"field": "DEP_UID",
+					"type": "export_field"
+				},
+				"export_field20": {
+					"field": "USR_POSITION",
+					"type": "export_field"
+				},
+				"export_field21": {
+					"field": "USR_RESUME",
+					"type": "export_field"
+				},
+				"export_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "export_field"
+				},
+				"export_field23": {
+					"field": "USR_ROLE",
+					"type": "export_field"
+				},
+				"export_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "export_field"
+				},
+				"export_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "export_field"
+				},
+				"export_field26": {
+					"field": "USR_UX",
+					"type": "export_field"
+				},
+				"export_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "export_field"
+				},
+				"export_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "export_field"
+				},
+				"export_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "export_field"
+				},
+				"export_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "export_field"
+				},
+				"export_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "export_field"
+				},
+				"export_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "export_field"
+				},
+				"export_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "export_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {},
+			"exportFormat": 2,
+			"exportDelimiter": ",",
+			"exportSelectDelimiter": false,
+			"exportSelectFields": false
+		},
+		{
+			"id": "import",
+			"type": "import",
+			"layoutId": "first",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"supertop": {
+					"modelId": "panel-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "import-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "import-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"import_field",
+								"import_field1",
+								"import_field2",
+								"import_field3",
+								"import_field4",
+								"import_field5",
+								"import_field6",
+								"import_field7",
+								"import_field8",
+								"import_field9",
+								"import_field10",
+								"import_field11",
+								"import_field12",
+								"import_field13",
+								"import_field14",
+								"import_field15",
+								"import_field16",
+								"import_field17",
+								"import_field18",
+								"import_field19",
+								"import_field20",
+								"import_field21",
+								"import_field22",
+								"import_field23",
+								"import_field24",
+								"import_field25",
+								"import_field26",
+								"import_field27",
+								"import_field28",
+								"import_field29",
+								"import_field30",
+								"import_field31",
+								"import_field32",
+								"import_field33"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"import_header": {
+					"type": "import_header"
+				},
+				"import_field": {
+					"field": "USR_UID",
+					"type": "import_field"
+				},
+				"import_field1": {
+					"field": "USR_ID",
+					"type": "import_field"
+				},
+				"import_field2": {
+					"field": "USR_USERNAME",
+					"type": "import_field"
+				},
+				"import_field3": {
+					"field": "USR_PASSWORD",
+					"type": "import_field"
+				},
+				"import_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "import_field"
+				},
+				"import_field5": {
+					"field": "USR_LASTNAME",
+					"type": "import_field"
+				},
+				"import_field6": {
+					"field": "USR_EMAIL",
+					"type": "import_field"
+				},
+				"import_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "import_field"
+				},
+				"import_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "import_field"
+				},
+				"import_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "import_field"
+				},
+				"import_field10": {
+					"field": "USR_STATUS",
+					"type": "import_field"
+				},
+				"import_field11": {
+					"field": "USR_COUNTRY",
+					"type": "import_field"
+				},
+				"import_field12": {
+					"field": "USR_CITY",
+					"type": "import_field"
+				},
+				"import_field13": {
+					"field": "USR_LOCATION",
+					"type": "import_field"
+				},
+				"import_field14": {
+					"field": "USR_ADDRESS",
+					"type": "import_field"
+				},
+				"import_field15": {
+					"field": "USR_PHONE",
+					"type": "import_field"
+				},
+				"import_field16": {
+					"field": "USR_FAX",
+					"type": "import_field"
+				},
+				"import_field17": {
+					"field": "USR_CELLULAR",
+					"type": "import_field"
+				},
+				"import_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "import_field"
+				},
+				"import_field19": {
+					"field": "DEP_UID",
+					"type": "import_field"
+				},
+				"import_field20": {
+					"field": "USR_POSITION",
+					"type": "import_field"
+				},
+				"import_field21": {
+					"field": "USR_RESUME",
+					"type": "import_field"
+				},
+				"import_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "import_field"
+				},
+				"import_field23": {
+					"field": "USR_ROLE",
+					"type": "import_field"
+				},
+				"import_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "import_field"
+				},
+				"import_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "import_field"
+				},
+				"import_field26": {
+					"field": "USR_UX",
+					"type": "import_field"
+				},
+				"import_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "import_field"
+				},
+				"import_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "import_field"
+				},
+				"import_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "import_field"
+				},
+				"import_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "import_field"
+				},
+				"import_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "import_field"
+				},
+				"import_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "import_field"
+				},
+				"import_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "import_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "edit",
+			"type": "edit",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "edit-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_message"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "edit-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_save",
+								"edit_back_list",
+								"edit_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "edit-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"edit_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"edit_header": {
+					"type": "edit_header"
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"edit_reset",
+						"edit_view"
+					]
+				},
+				"edit_reset": {
+					"type": "edit_reset"
+				},
+				"edit_message": {
+					"type": "edit_message"
+				},
+				"edit_save": {
+					"type": "edit_save"
+				},
+				"edit_back_list": {
+					"type": "edit_back_list"
+				},
+				"edit_close": {
+					"type": "edit_close"
+				},
+				"integrated_edit_field": {
+					"field": "USR_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "USR_USERNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "USR_PASSWORD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "USR_FIRSTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "USR_LASTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "USR_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "USR_DUE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "USR_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "USR_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "USR_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "USR_COUNTRY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "USR_CITY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "USR_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "USR_ADDRESS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "USR_PHONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "USR_FAX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "USR_CELLULAR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "USR_ZIP_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "DEP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "USR_POSITION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "USR_RESUME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "USR_BIRTHDAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "USR_ROLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "USR_REPORTS_TO",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "USR_REPLACED_BY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "USR_UX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "USR_UNIT_COST",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "USR_TIME_ZONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "USR_LAST_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"edit_view": {
+					"type": "edit_view"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "view",
+			"type": "view",
+			"layoutId": "nomenu",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "view-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1",
+									"colspan": 2
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "view-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_back_list",
+								"view_close"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"hamburger"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "view-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"view_header"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-edit",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c3"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c3": {
+							"model": "c3",
+							"items": [
+								"integrated_edit_field",
+								"integrated_edit_field1",
+								"integrated_edit_field2",
+								"integrated_edit_field3",
+								"integrated_edit_field4",
+								"integrated_edit_field5",
+								"integrated_edit_field6",
+								"integrated_edit_field7",
+								"integrated_edit_field8",
+								"integrated_edit_field9",
+								"integrated_edit_field10",
+								"integrated_edit_field11",
+								"integrated_edit_field12",
+								"integrated_edit_field13",
+								"integrated_edit_field14",
+								"integrated_edit_field15",
+								"integrated_edit_field16",
+								"integrated_edit_field17",
+								"integrated_edit_field18",
+								"integrated_edit_field19",
+								"integrated_edit_field20",
+								"integrated_edit_field21",
+								"integrated_edit_field22",
+								"integrated_edit_field23",
+								"integrated_edit_field24",
+								"integrated_edit_field25",
+								"integrated_edit_field26",
+								"integrated_edit_field27",
+								"integrated_edit_field28",
+								"integrated_edit_field29",
+								"integrated_edit_field30",
+								"integrated_edit_field31",
+								"integrated_edit_field32",
+								"integrated_edit_field33"
+							]
+						}
+					},
+					"deferredItems": [],
+					"columnCount": 1,
+					"inlineLabels": false,
+					"separateLabels": false
+				}
+			},
+			"items": {
+				"view_header": {
+					"type": "view_header"
+				},
+				"view_back_list": {
+					"type": "view_back_list"
+				},
+				"view_close": {
+					"type": "view_close"
+				},
+				"integrated_edit_field": {
+					"field": "USR_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field1": {
+					"field": "USR_ID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field2": {
+					"field": "USR_USERNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field3": {
+					"field": "USR_PASSWORD",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field5": {
+					"field": "USR_LASTNAME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field6": {
+					"field": "USR_EMAIL",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field10": {
+					"field": "USR_STATUS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field11": {
+					"field": "USR_COUNTRY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field12": {
+					"field": "USR_CITY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field13": {
+					"field": "USR_LOCATION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field14": {
+					"field": "USR_ADDRESS",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field15": {
+					"field": "USR_PHONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field16": {
+					"field": "USR_FAX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field17": {
+					"field": "USR_CELLULAR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field19": {
+					"field": "DEP_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field20": {
+					"field": "USR_POSITION",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field21": {
+					"field": "USR_RESUME",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field23": {
+					"field": "USR_ROLE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field26": {
+					"field": "USR_UX",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"integrated_edit_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "integrated_edit_field",
+					"orientation": 0
+				},
+				"hamburger": {
+					"type": "hamburger",
+					"items": [
+						"view_edit"
+					]
+				},
+				"view_edit": {
+					"type": "view_edit"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "list",
+			"type": "list",
+			"layoutId": "leftbar",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "list-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"add",
+								"delete"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"details_found",
+								"page_size",
+								"print_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "list-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"pagination"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"left": {
+					"modelId": "leftbar-menu",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c0"
+								}
+							],
+							"section": ""
+						},
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c0": {
+							"model": "c0",
+							"items": [
+								"logo"
+							]
+						},
+						"c1": {
+							"model": "c1",
+							"items": [
+								"menu",
+								"search_panel"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"supertop": {
+					"modelId": "leftbar-top",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								},
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"expand_menu_button",
+								"collapse_button",
+								"breadcrumb"
+							]
+						},
+						"c2": {
+							"model": "c2",
+							"items": [
+								"simple_search",
+								"list_options"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33"
+							]
+						}
+					},
+					"deferredItems": [
+						"grid_checkbox",
+						"grid_checkbox_head",
+						"grid_edit",
+						"grid_view"
+					],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "list-sidebar-top",
+					"grid": [],
+					"cells": {},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"page_size": {
+					"type": "page_size"
+				},
+				"breadcrumb": {
+					"type": "breadcrumb"
+				},
+				"logo": {
+					"type": "logo"
+				},
+				"menu": {
+					"type": "menu"
+				},
+				"simple_search": {
+					"type": "simple_search"
+				},
+				"pagination": {
+					"type": "pagination"
+				},
+				"grid_checkbox": {
+					"type": "grid_checkbox"
+				},
+				"grid_checkbox_head": {
+					"type": "grid_checkbox_head"
+				},
+				"details_found": {
+					"type": "details_found"
+				},
+				"simple_grid_field": {
+					"field": "USR_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "USR_ID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "USR_USERNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "USR_PASSWORD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "USR_LASTNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "USR_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "USR_STATUS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "USR_COUNTRY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "USR_CITY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "USR_LOCATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "USR_ADDRESS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "USR_PHONE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "USR_FAX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "USR_CELLULAR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "DEP_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "USR_POSITION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "USR_RESUME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "USR_ROLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "USR_UX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "simple_grid_field"
+				},
+				"search_panel": {
+					"type": "search_panel",
+					"items": [
+						"search_panel_field",
+						"search_panel_field33",
+						"search_panel_field32",
+						"search_panel_field31",
+						"search_panel_field30",
+						"search_panel_field29",
+						"search_panel_field28",
+						"search_panel_field27",
+						"search_panel_field26",
+						"search_panel_field25",
+						"search_panel_field24",
+						"search_panel_field23",
+						"search_panel_field22",
+						"search_panel_field21",
+						"search_panel_field20",
+						"search_panel_field19",
+						"search_panel_field18",
+						"search_panel_field17",
+						"search_panel_field16",
+						"search_panel_field15",
+						"search_panel_field14",
+						"search_panel_field13",
+						"search_panel_field12",
+						"search_panel_field11",
+						"search_panel_field10",
+						"search_panel_field9",
+						"search_panel_field8",
+						"search_panel_field7",
+						"search_panel_field6",
+						"search_panel_field5",
+						"search_panel_field4",
+						"search_panel_field3",
+						"search_panel_field2",
+						"search_panel_field1"
+					],
+					"_flexiblePanel": true
+				},
+				"list_options": {
+					"type": "list_options",
+					"items": [
+						"export_selected",
+						"delete_selected",
+						"-1",
+						"show_search_panel",
+						"hide_search_panel",
+						"-",
+						"export",
+						"-2",
+						"import"
+					]
+				},
+				"show_search_panel": {
+					"type": "show_search_panel"
+				},
+				"hide_search_panel": {
+					"type": "hide_search_panel"
+				},
+				"search_panel_field": {
+					"field": "USR_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field1": {
+					"field": "USR_ID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field2": {
+					"field": "USR_USERNAME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field3": {
+					"field": "USR_PASSWORD",
+					"type": "search_panel_field"
+				},
+				"search_panel_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field5": {
+					"field": "USR_LASTNAME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field6": {
+					"field": "USR_EMAIL",
+					"type": "search_panel_field"
+				},
+				"search_panel_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field10": {
+					"field": "USR_STATUS",
+					"type": "search_panel_field"
+				},
+				"search_panel_field11": {
+					"field": "USR_COUNTRY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field12": {
+					"field": "USR_CITY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field13": {
+					"field": "USR_LOCATION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field14": {
+					"field": "USR_ADDRESS",
+					"type": "search_panel_field"
+				},
+				"search_panel_field15": {
+					"field": "USR_PHONE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field16": {
+					"field": "USR_FAX",
+					"type": "search_panel_field"
+				},
+				"search_panel_field17": {
+					"field": "USR_CELLULAR",
+					"type": "search_panel_field"
+				},
+				"search_panel_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field19": {
+					"field": "DEP_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field20": {
+					"field": "USR_POSITION",
+					"type": "search_panel_field"
+				},
+				"search_panel_field21": {
+					"field": "USR_RESUME",
+					"type": "search_panel_field"
+				},
+				"search_panel_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field23": {
+					"field": "USR_ROLE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "search_panel_field"
+				},
+				"search_panel_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "search_panel_field"
+				},
+				"search_panel_field26": {
+					"field": "USR_UX",
+					"type": "search_panel_field"
+				},
+				"search_panel_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "search_panel_field"
+				},
+				"search_panel_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "search_panel_field"
+				},
+				"search_panel_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "search_panel_field"
+				},
+				"search_panel_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "search_panel_field"
+				},
+				"search_panel_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "search_panel_field"
+				},
+				"search_panel_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "search_panel_field"
+				},
+				"search_panel_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "search_panel_field"
+				},
+				"expand_menu_button": {
+					"type": "expand_menu_button"
+				},
+				"collapse_button": {
+					"type": "collapse_button"
+				},
+				"add": {
+					"type": "add"
+				},
+				"export": {
+					"type": "export"
+				},
+				"-": {
+					"type": "-"
+				},
+				"export_selected": {
+					"type": "export_selected"
+				},
+				"-1": {
+					"type": "-"
+				},
+				"import": {
+					"type": "import"
+				},
+				"-2": {
+					"type": "-"
+				},
+				"grid_edit": {
+					"type": "grid_edit"
+				},
+				"grid_view": {
+					"type": "grid_view"
+				},
+				"print_panel": {
+					"type": "print_panel",
+					"items": [
+						"print_scope",
+						"print_records",
+						"print_button"
+					]
+				},
+				"print_scope": {
+					"type": "print_scope"
+				},
+				"print_button": {
+					"type": "print_button"
+				},
+				"print_records": {
+					"type": "print_records"
+				},
+				"delete": {
+					"type": "delete"
+				},
+				"delete_selected": {
+					"type": "delete_selected"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		},
+		{
+			"id": "print",
+			"type": "print",
+			"layoutId": "basic",
+			"disabled": false,
+			"default": 0,
+			"forms": {
+				"above-grid": {
+					"modelId": "print-above-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"print_pages"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"below-grid": {
+					"modelId": "print-below-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": []
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"top": {
+					"modelId": "print-header",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c2"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c2": {
+							"model": "c2",
+							"items": [
+								"print_header",
+								"print_subheader"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				},
+				"grid": {
+					"modelId": "simple-grid",
+					"grid": [
+						{
+							"cells": [
+								{
+									"cell": "c1"
+								}
+							],
+							"section": ""
+						}
+					],
+					"cells": {
+						"c1": {
+							"model": "c1",
+							"items": [
+								"simple_grid_field",
+								"simple_grid_field1",
+								"simple_grid_field2",
+								"simple_grid_field3",
+								"simple_grid_field4",
+								"simple_grid_field5",
+								"simple_grid_field6",
+								"simple_grid_field7",
+								"simple_grid_field8",
+								"simple_grid_field9",
+								"simple_grid_field10",
+								"simple_grid_field11",
+								"simple_grid_field12",
+								"simple_grid_field13",
+								"simple_grid_field14",
+								"simple_grid_field15",
+								"simple_grid_field16",
+								"simple_grid_field17",
+								"simple_grid_field18",
+								"simple_grid_field19",
+								"simple_grid_field20",
+								"simple_grid_field21",
+								"simple_grid_field22",
+								"simple_grid_field23",
+								"simple_grid_field24",
+								"simple_grid_field25",
+								"simple_grid_field26",
+								"simple_grid_field27",
+								"simple_grid_field28",
+								"simple_grid_field29",
+								"simple_grid_field30",
+								"simple_grid_field31",
+								"simple_grid_field32",
+								"simple_grid_field33"
+							]
+						}
+					},
+					"deferredItems": [],
+					"recsPerRow": 1
+				}
+			},
+			"items": {
+				"print_header": {
+					"type": "print_header"
+				},
+				"print_subheader": {
+					"type": "print_subheader"
+				},
+				"print_pages": {
+					"type": "print_pages"
+				},
+				"simple_grid_field": {
+					"field": "USR_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field1": {
+					"field": "USR_ID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field2": {
+					"field": "USR_USERNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field3": {
+					"field": "USR_PASSWORD",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field4": {
+					"field": "USR_FIRSTNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field5": {
+					"field": "USR_LASTNAME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field6": {
+					"field": "USR_EMAIL",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field7": {
+					"field": "USR_DUE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field8": {
+					"field": "USR_CREATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field9": {
+					"field": "USR_UPDATE_DATE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field10": {
+					"field": "USR_STATUS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field11": {
+					"field": "USR_COUNTRY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field12": {
+					"field": "USR_CITY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field13": {
+					"field": "USR_LOCATION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field14": {
+					"field": "USR_ADDRESS",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field15": {
+					"field": "USR_PHONE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field16": {
+					"field": "USR_FAX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field17": {
+					"field": "USR_CELLULAR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field18": {
+					"field": "USR_ZIP_CODE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field19": {
+					"field": "DEP_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field20": {
+					"field": "USR_POSITION",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field21": {
+					"field": "USR_RESUME",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field22": {
+					"field": "USR_BIRTHDAY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field23": {
+					"field": "USR_ROLE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field24": {
+					"field": "USR_REPORTS_TO",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field25": {
+					"field": "USR_REPLACED_BY",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field26": {
+					"field": "USR_UX",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field27": {
+					"field": "USR_COST_BY_HOUR",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field28": {
+					"field": "USR_UNIT_COST",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field29": {
+					"field": "USR_PMDRIVE_FOLDER_UID",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field30": {
+					"field": "USR_BOOKMARK_START_CASES",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field31": {
+					"field": "USR_TIME_ZONE",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field32": {
+					"field": "USR_DEFAULT_LANG",
+					"type": "simple_grid_field"
+				},
+				"simple_grid_field33": {
+					"field": "USR_LAST_LOGIN",
+					"type": "simple_grid_field"
+				}
+			},
+			"version": 13,
+			"imageItem": {
+				"type": "page_image"
+			},
+			"imageBgColor": "#f2f2f2",
+			"controlsBgColor": "white",
+			"imagePosition": "right",
+			"listTotals": 1,
+			"title": {}
+		}
+	],
+	"geoCoding": {
+		"enabled": false,
+		"latField": "",
+		"lonField": "",
+		"addressFields": []
+	},
+	"caption": {
+		"English": "USERS"
+	}
+}
