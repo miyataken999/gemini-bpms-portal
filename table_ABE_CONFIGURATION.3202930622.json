@@ -13,6 +13,7 @@
 		{
 			"name": "ABE_UID",
 			"sqlExpression": "ABE_UID",
+			"index": 1,
 			"strField": "ABE_UID",
 			"type": 200,
 			"viewFormats": [
@@ -29,6 +30,7 @@
 		{
 			"name": "PRO_UID",
 			"sqlExpression": "PRO_UID",
+			"index": 2,
 			"strField": "PRO_UID",
 			"type": 200,
 			"viewFormats": [
@@ -45,6 +47,7 @@
 		{
 			"name": "TAS_UID",
 			"sqlExpression": "TAS_UID",
+			"index": 3,
 			"strField": "TAS_UID",
 			"type": 200,
 			"viewFormats": [
@@ -61,6 +64,7 @@
 		{
 			"name": "ABE_TYPE",
 			"sqlExpression": "ABE_TYPE",
+			"index": 4,
 			"strField": "ABE_TYPE",
 			"type": 200,
 			"viewFormats": [
@@ -77,6 +81,7 @@
 		{
 			"name": "ABE_TEMPLATE",
 			"sqlExpression": "ABE_TEMPLATE",
+			"index": 5,
 			"strField": "ABE_TEMPLATE",
 			"type": 200,
 			"viewFormats": [
@@ -93,6 +98,7 @@
 		{
 			"name": "ABE_DYN_TYPE",
 			"sqlExpression": "ABE_DYN_TYPE",
+			"index": 6,
 			"strField": "ABE_DYN_TYPE",
 			"type": 200,
 			"viewFormats": [
@@ -109,6 +115,7 @@
 		{
 			"name": "DYN_UID",
 			"sqlExpression": "DYN_UID",
+			"index": 7,
 			"strField": "DYN_UID",
 			"type": 200,
 			"viewFormats": [
@@ -125,6 +132,7 @@
 		{
 			"name": "ABE_EMAIL_FIELD",
 			"sqlExpression": "ABE_EMAIL_FIELD",
+			"index": 8,
 			"strField": "ABE_EMAIL_FIELD",
 			"type": 200,
 			"viewFormats": [
@@ -141,6 +149,7 @@
 		{
 			"name": "ABE_ACTION_FIELD",
 			"sqlExpression": "ABE_ACTION_FIELD",
+			"index": 9,
 			"strField": "ABE_ACTION_FIELD",
 			"type": 200,
 			"viewFormats": [
@@ -157,6 +166,7 @@
 		{
 			"name": "ABE_CASE_NOTE_IN_RESPONSE",
 			"sqlExpression": "ABE_CASE_NOTE_IN_RESPONSE",
+			"index": 10,
 			"strField": "ABE_CASE_NOTE_IN_RESPONSE",
 			"type": 3,
 			"viewFormats": [
@@ -173,6 +183,7 @@
 		{
 			"name": "ABE_FORCE_LOGIN",
 			"sqlExpression": "ABE_FORCE_LOGIN",
+			"index": 11,
 			"strField": "ABE_FORCE_LOGIN",
 			"type": 3,
 			"viewFormats": [
@@ -189,6 +200,7 @@
 		{
 			"name": "ABE_CREATE_DATE",
 			"sqlExpression": "ABE_CREATE_DATE",
+			"index": 12,
 			"strField": "ABE_CREATE_DATE",
 			"type": 135,
 			"viewFormats": [
@@ -210,6 +222,7 @@
 		{
 			"name": "ABE_UPDATE_DATE",
 			"sqlExpression": "ABE_UPDATE_DATE",
+			"index": 13,
 			"strField": "ABE_UPDATE_DATE",
 			"type": 135,
 			"viewFormats": [
@@ -231,6 +244,7 @@
 		{
 			"name": "ABE_SUBJECT_FIELD",
 			"sqlExpression": "ABE_SUBJECT_FIELD",
+			"index": 14,
 			"strField": "ABE_SUBJECT_FIELD",
 			"type": 200,
 			"viewFormats": [
@@ -247,6 +261,7 @@
 		{
 			"name": "ABE_MAILSERVER_OR_MAILCURRENT",
 			"sqlExpression": "ABE_MAILSERVER_OR_MAILCURRENT",
+			"index": 15,
 			"strField": "ABE_MAILSERVER_OR_MAILCURRENT",
 			"type": 3,
 			"viewFormats": [
@@ -263,6 +278,7 @@
 		{
 			"name": "ABE_CUSTOM_GRID",
 			"sqlExpression": "ABE_CUSTOM_GRID",
+			"index": 16,
 			"strField": "ABE_CUSTOM_GRID",
 			"type": 201,
 			"viewFormats": [
@@ -281,6 +297,7 @@
 		{
 			"name": "ABE_EMAIL_SERVER_UID",
 			"sqlExpression": "ABE_EMAIL_SERVER_UID",
+			"index": 17,
 			"strField": "ABE_EMAIL_SERVER_UID",
 			"type": 200,
 			"viewFormats": [
@@ -1277,87 +1294,104 @@
 				"integrated_edit_field": {
 					"field": "ABE_UID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field1": {
 					"field": "PRO_UID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field2": {
 					"field": "TAS_UID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field3": {
 					"field": "ABE_TYPE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field4": {
 					"field": "ABE_TEMPLATE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field5": {
 					"field": "ABE_DYN_TYPE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field6": {
 					"field": "DYN_UID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field7": {
 					"field": "ABE_EMAIL_FIELD",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field8": {
 					"field": "ABE_ACTION_FIELD",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field9": {
 					"field": "ABE_CASE_NOTE_IN_RESPONSE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field10": {
 					"field": "ABE_FORCE_LOGIN",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field11": {
 					"field": "ABE_CREATE_DATE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field12": {
 					"field": "ABE_UPDATE_DATE",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field13": {
 					"field": "ABE_SUBJECT_FIELD",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field14": {
 					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field15": {
 					"field": "ABE_CUSTOM_GRID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"integrated_edit_field16": {
 					"field": "ABE_EMAIL_SERVER_UID",
 					"type": "integrated_edit_field",
-					"orientation": 0
+					"orientation": 0,
+					"updateOnEdit": false
 				},
 				"edit_view": {
 					"type": "edit_view"
@@ -1835,71 +1869,105 @@
 				},
 				"simple_grid_field": {
 					"field": "ABE_UID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field1": {
 					"field": "PRO_UID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field2": {
 					"field": "TAS_UID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field3": {
 					"field": "ABE_TYPE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field4": {
 					"field": "ABE_TEMPLATE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field5": {
 					"field": "ABE_DYN_TYPE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field6": {
 					"field": "DYN_UID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field7": {
 					"field": "ABE_EMAIL_FIELD",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field8": {
 					"field": "ABE_ACTION_FIELD",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field9": {
 					"field": "ABE_CASE_NOTE_IN_RESPONSE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field10": {
 					"field": "ABE_FORCE_LOGIN",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field11": {
 					"field": "ABE_CREATE_DATE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field12": {
 					"field": "ABE_UPDATE_DATE",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field13": {
 					"field": "ABE_SUBJECT_FIELD",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field14": {
 					"field": "ABE_MAILSERVER_OR_MAILCURRENT",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field15": {
 					"field": "ABE_CUSTOM_GRID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"simple_grid_field16": {
 					"field": "ABE_EMAIL_SERVER_UID",
-					"type": "simple_grid_field"
+					"type": "simple_grid_field",
+					"inlineAdd": false,
+					"inlineEdit": false
 				},
 				"search_panel": {
 					"type": "search_panel",
